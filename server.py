@@ -24,10 +24,10 @@ def run():
                     return self.send(200,settings)
                 if path.startswith('/media/'):
                     name=path.removeprefix('/media/')
-                    if not name or '/' in name or '..' in name or Path(name).suffix.lower() not in ('.jpg','.jpeg','.png','.webp'):return self.send(404,{'error':'NOT_FOUND'})
+                    if not name or '/' in name or '..' in name or Path(name).suffix.lower() not in ('.jpg','.jpeg','.png','.webp','.mp4'):return self.send(404,{'error':'NOT_FOUND'})
                     file=ROOT/'static/media'/name
                     if not file.is_file():return self.send(404,{'error':'NOT_FOUND'})
-                    content=file.read_bytes();self.send_response(200);self.send_header('Content-Type','image/'+('jpeg' if file.suffix.lower() in ('.jpg','.jpeg') else file.suffix[1:]));self.send_header('Cache-Control','public, max-age=86400');self.send_header('X-Content-Type-Options','nosniff');self.end_headers();self.wfile.write(content);return
+                    content=file.read_bytes();self.send_response(200);self.send_header('Content-Type','video/mp4' if file.suffix.lower()=='.mp4' else 'image/'+('jpeg' if file.suffix.lower() in ('.jpg','.jpeg') else file.suffix[1:]));self.send_header('Cache-Control','public, max-age=86400');self.send_header('X-Content-Type-Options','nosniff');self.end_headers();self.wfile.write(content);return
                 if path=='/api/catalog': return self.send(200,{'products':[{k:v for k,v in p.items() if k!='cost'} for p in store.catalog()]})
                 if path.startswith('/api/admin/'):
                     self.privileged()
