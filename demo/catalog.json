@@ -3998,18 +3998,18 @@
       },
       "category": "combo",
       "price": 61600,
-      "grams": 1,
+      "grams": 9450,
       "stock": 100,
       "active": 1,
       "details": {
         "demo": true,
         "image": "/media/30cd32762eb0a7ea.jpg",
-        "weight_unknown": true,
+        "weight_unknown": false,
         "source_price_rub": "19500",
         "source_page": "https://shashlik-mashlik.com/menu/shashlik/nabory/assorti_korporativnii",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "Свиная шея (600 г), Куриное бедро (600 г), Баранина на кости (600 г), Люля-кебаб из баранины (600 г), Куриные крылья (600 г), Филе индейки (600 г), Картофель на углях (1250 г), Соус шашлычный (600 г), Овощное ассорти (1500 г), Соленья (1000 г), Хачапури по-мегрельски (3 шт.)",
+          "ru": "Свиная шея (600 г), Куриное бедро (600 г), Баранина на кости (600 г), Люля-кебаб из баранины (600 г), Куриные крылья (600 г), Филе индейки (600 г), Картофель на углях (1250 г), Соус шашлычный (600 г), Овощное ассорти (1500 г), Соленья (1000 г), Хачапури по-мегрельски (3 шт.) (1500 г)",
           "ka": "",
           "hy": "",
           "en": ""
@@ -4137,7 +4137,9 @@
                 "en": "Megrelian khachapuri"
               },
               "quantity": 3,
-              "grams": null
+              "grams": 1500,
+              "grams_per_piece": 500,
+              "weight_confirmation": "owner"
             }
           ],
           "servings": {
@@ -4145,9 +4147,7 @@
             "max": null,
             "basis": "unknown"
           },
-          "notes": [
-            "khachapuri_weight_ambiguous"
-          ],
+          "notes": [],
           "checked_at": "2026-11-15",
           "weight_basis": "complete_set",
           "estimate_full_dish_g_per_adult": null
@@ -4399,18 +4399,18 @@
       },
       "category": "combo",
       "price": 39500,
-      "grams": 1,
+      "grams": 6250,
       "stock": 100,
       "active": 1,
       "details": {
         "demo": true,
         "image": "/media/30cd32762eb0a7ea.jpg",
-        "weight_unknown": true,
+        "weight_unknown": false,
         "source_price_rub": "12500",
         "source_page": "https://shashlik-mashlik.com/menu/shashlik/nabory/assorti_prazdnichnii",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "Свиная шея (400 г), Свиные рёбра (400 г), Люля-кебаб из баранины (400 г), Куриные крылья (400 г), Люля-кебаб из курицы (400 г), Куриное бедро (400 г), Хачапури по-мегрельски (2 шт.), Картофель на углях (750 г), Ассорти «Кавказ» (1000 г), Соленья (700 г), Соус шашлычный (400 г)",
+          "ru": "Свиная шея (400 г), Свиные рёбра (400 г), Люля-кебаб из баранины (400 г), Куриные крылья (400 г), Люля-кебаб из курицы (400 г), Куриное бедро (400 г), Хачапури по-мегрельски (2 шт.) (1000 г), Картофель на углях (750 г), Ассорти «Кавказ» (1000 г), Соленья (700 г), Соус шашлычный (400 г)",
           "ka": "",
           "hy": "",
           "en": ""
@@ -4494,7 +4494,9 @@
                 "en": "Megrelian khachapuri"
               },
               "quantity": 2,
-              "grams": null
+              "grams": 1000,
+              "grams_per_piece": 500,
+              "weight_confirmation": "owner"
             },
             {
               "key": "potato_plain",
@@ -4546,9 +4548,7 @@
             "max": null,
             "basis": "unknown"
           },
-          "notes": [
-            "khachapuri_weight_ambiguous"
-          ],
+          "notes": [],
           "checked_at": "2026-11-15",
           "weight_basis": "complete_set",
           "estimate_full_dish_g_per_adult": null

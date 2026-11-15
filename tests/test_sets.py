@@ -22,7 +22,13 @@ class SetDescriptionsTest(unittest.TestCase):
   p=self.by_name['Ассорти от шефа'];self.assertEqual(p['grams'],1500);self.assertEqual(p['details']['bundle']['servings']['basis'],'estimate')
   self.assertTrue(all(r['quantity'] is None and r['grams'] is None for r in p['details']['bundle']['components']))
   b=self.by_name['Ассорти праздничный']['details']['bundle'];self.assertEqual(b['servings']['basis'],'unknown');self.assertIsNone(b['servings']['min'])
-  self.assertIsNone(next(r for r in b['components'] if r['key']=='khachapuri')['grams']);self.assertIn('khachapuri_weight_ambiguous',b['notes'])
+  self.assertEqual(next(r for r in b['components'] if r['key']=='khachapuri')['grams'],1000);self.assertNotIn('khachapuri_weight_ambiguous',b['notes'])
  def test_catalogue_rebuild_preserves_structured_sets(self):
   copy=json.loads(json.dumps(self.products));apply_sets(copy)
   self.assertEqual([p['details'].get('bundle') for p in copy],[p['details'].get('bundle') for p in self.products])
+
+ def test_owner_confirms_khachapuri_weight_per_piece_and_full_set_totals(self):
+  for name,count,total in [('Ассорти корпоративный',3,9450),('Ассорти праздничный',2,6250)]:
+   p=self.by_name[name];b=p['details']['bundle'];r=next(x for x in b['components'] if x['key']=='khachapuri')
+   self.assertEqual(r['grams_per_piece'],500);self.assertEqual(r['quantity'],count);self.assertEqual(r['grams'],count*500)
+   self.assertEqual(sum(x['grams'] for x in b['components']),total);self.assertEqual(p['grams'],total);self.assertFalse(p['details']['weight_unknown'])

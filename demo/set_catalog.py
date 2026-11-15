@@ -58,8 +58,8 @@ DEFINITIONS={
 'Ассорти люля-кебабов':{'servings':(2,4),'components':rows('lula_lamb','lula_beef','lula_chicken','potato','vegetables')+TAIL+[row('bbq',grams=100),row('garlic',grams=50)]},
 'Рыбное ассорти':{'servings':(2,4),'components':rows('dorado','salmon','trout','seabass','vegetables','lemon','herbs')+[row('narsharab',grams=60),row('Tartar',grams=60)]},
 'Ассорти овощей №1':{'servings':(2,4),'components':rows('courgette','aubergine','pepper','zucchini','mushrooms','potato'),'notes':['side_platter']},
-'Ассорти корпоративный':{'slug':'assorti_korporativnii','components':[row('neck',grams=600),row('thigh',grams=600),row('bonelamb',grams=600),row('lula_lamb',grams=600),row('wings',grams=600),row('turkey',grams=600),row('potato_plain',grams=1250),row('bbq',grams=600),row('vegetable_platter',grams=1500),row('pickles',grams=1000),row('khachapuri',3)],'notes':['khachapuri_weight_ambiguous']},
-'Ассорти праздничный':{'slug':'assorti_prazdnichnii','components':[row('neck',grams=400),row('ribs',grams=400),row('lula_lamb',grams=400),row('wings',grams=400),row('lula_chicken',grams=400),row('thigh',grams=400),row('khachapuri',2),row('potato_plain',grams=750),row('caucasus',grams=1000),row('pickles',grams=700),row('bbq',grams=400)],'notes':['khachapuri_weight_ambiguous']},
+'Ассорти корпоративный':{'slug':'assorti_korporativnii','total_grams':9450,'estimate_servings':False,'components':[row('neck',grams=600),row('thigh',grams=600),row('bonelamb',grams=600),row('lula_lamb',grams=600),row('wings',grams=600),row('turkey',grams=600),row('potato_plain',grams=1250),row('bbq',grams=600),row('vegetable_platter',grams=1500),row('pickles',grams=1000),{**row('khachapuri',3,1500),'grams_per_piece':500,'weight_confirmation':'owner'}]},
+'Ассорти праздничный':{'slug':'assorti_prazdnichnii','total_grams':6250,'estimate_servings':False,'components':[row('neck',grams=400),row('ribs',grams=400),row('lula_lamb',grams=400),row('wings',grams=400),row('lula_chicken',grams=400),row('thigh',grams=400),{**row('khachapuri',2,1000),'grams_per_piece':500,'weight_confirmation':'owner'},row('potato_plain',grams=750),row('caucasus',grams=1000),row('pickles',grams=700),row('bbq',grams=400)]},
 'Ассорти от шефа':{'slug':'assorti_ot_shefa','total_grams':1500,'components':rows('neck','ribs','lula_beef','thigh','wings','lula_chicken','potato_plain')},
 'Ассорти от души':{'slug':'assorti_ot_dushi','total_grams':1500,'components':rows('neck','bonelamb','lula_pork','turkey','lamb','thigh','potato_plain')},
 'Ассорти шашлыков':{'slug':'assorti_shashlikov','total_grams':1300,'components':rows('neck','lamb_ribs','chicken','wings','lula_chicken','potato_plain')},
@@ -73,7 +73,7 @@ def apply_sets(products):
   if grams:p['grams']=grams;d['weight_unknown']=False
   guests=spec.get('servings')
   basis='source' if guests else 'unknown'
-  if not guests and not d['weight_unknown']:
+  if not guests and not d['weight_unknown'] and spec.get('estimate_servings',True):
    # Editorial adult full-platter estimate, not a promise of meat-only grams.
    guests=(max(1,math.floor(p['grams']/500)),max(1,math.floor(p['grams']/350)));basis='estimate'
   d['bundle']={'components':deepcopy(spec['components']),'servings':{'min':guests[0],'max':guests[1],'basis':basis} if guests else {'min':None,'max':None,'basis':basis},'notes':spec.get('notes',[]),'checked_at':'2026-11-15','weight_basis':'complete_set','estimate_full_dish_g_per_adult':[350,500] if basis=='estimate' else None}
