@@ -22,7 +22,7 @@ class Store:
         names=p.get('names',{})
         if not all(isinstance(names.get(k),str) and 1<=len(names[k])<=200 for k in ('ru','ka','hy')): raise BusinessError('TRANSLATIONS_REQUIRED')
         category=p.get('category')
-        if category not in ('pork','lamb','beef','poultry','fish','tandoor','lula','vegetables','salads','pickles','cheese','herbs','sides','bread','sauces','drinks','desserts','supplies','combo','snacks','alcohol'): raise BusinessError('INVALID_CATEGORY')
+        if category not in ('pork','lamb','beef','poultry','fish','tandoor','lula','vegetables','salads','pickles','cheese','herbs','sides','bread','sauces','drinks','desserts','supplies','combo','snacks','alcohol','khinkali','khachapuri','soups'): raise BusinessError('INVALID_CATEGORY')
         details=p.get('details',{})
         if not isinstance(details,dict): raise BusinessError('INVALID_DETAILS')
         # Stock changes have their own journaled operation.
@@ -54,23 +54,15 @@ class Store:
             lines.append({'id':pid,'quantity':q,'price':p['price'],'cost':p['cost'],'grams':p['grams']})
         return {'lines':lines,'total':sum(l['price']*l['quantity'] for l in lines),'grams':sum(l['grams']*l['quantity'] for l in lines)}
     def feast(self,p):
-        adults=integer(p.get('adults'),1,100); children=integer(p.get('children',0),0,100)
-        with self.db() as c:
-            rules={r['key']:int(r['value']) for r in c.execute('SELECT * FROM settings')}
-        required=adults*rules['adult_grams']+children*rules['child_grams']
-        categories=p.get('categories',['pork','lamb','beef','poultry','lula'])
-        if not isinstance(categories,list): raise BusinessError('INVALID_CATEGORY')
-        options=[x for x in self.catalog() if x['category'] in categories and x['stock']>0 and not x['details'].get('weight_unknown')]
-        if not options: raise BusinessError('NO_SUITABLE_PRODUCTS')
-        options.sort(key=lambda x:x['price']/x['grams']); items=[]; remaining=required
-        for x in options:
-            q=min(x['stock'],math.ceil(remaining/x['grams']))
-            if q>0: items.append({'id':x['id'],'quantity':q}); remaining-=q*x['grams']
-        if remaining>0: raise BusinessError('INSUFFICIENT_STOCK')
-        quote=self.quote(items)
-        budget=p.get('budget')
-        if budget is not None and quote['total']>integer(budget,1): raise BusinessError('BUDGET_TOO_LOW')
-        return dict(quote,items=items,required_grams=required,norms=rules)
+        # Share the exact hosted planner, rather than maintaining two divergent rulesets.
+        import subprocess
+        try:
+            completed=subprocess.run(['node',str(Path(__file__).parent/'worker/feast-cli.mjs')],input=json.dumps({'catalog':self.catalog(),'request':dict(p,categories=p.get('categories',['pork','lamb','beef','poultry','lula']),children=p.get('children',0))}),text=True,capture_output=True,timeout=10)
+            result=json.loads(completed.stdout)
+        except (OSError,subprocess.TimeoutExpired,ValueError):
+            raise BusinessError('FEAST_RUNTIME_UNAVAILABLE') from None
+        if 'error' in result: raise BusinessError(result['error'])
+        return result['result']
     def create_order(self,p,key):
         if not isinstance(key,str) or not 8<=len(key)<=100: raise BusinessError('IDEMPOTENCY_REQUIRED')
         phone=p.get('phone',''); address=p.get('address','')

@@ -1,0 +1,1 @@
+import {buildFeast} from './feast.mjs';let input='';for await(const chunk of process.stdin)input+=chunk;try{const {catalog,request}=JSON.parse(input);console.log(JSON.stringify({result:buildFeast(catalog,request)}))}catch(e){console.log(JSON.stringify({error:e.message}));process.exitCode=1}

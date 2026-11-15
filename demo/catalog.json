@@ -34,7 +34,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 330
       }
     },
     {
@@ -63,7 +64,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 500
       }
     },
     {
@@ -92,7 +94,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -121,7 +124,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-17f1f7223fc2ccb4"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/sousi/adzhika"
+        ]
       }
     },
     {
@@ -150,7 +160,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -179,7 +190,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -208,7 +220,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -237,7 +250,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -266,7 +280,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -295,7 +310,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -324,7 +340,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -353,7 +370,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -382,7 +400,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -411,7 +430,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -440,7 +460,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -469,7 +490,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -498,7 +520,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-54e5a82545eddc97"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/shashlik/barani_semechki"
+        ]
       }
     },
     {
@@ -527,7 +556,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -556,7 +586,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-88debe4e9245056b"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/sousi/gorchitsa"
+        ]
       }
     },
     {
@@ -585,7 +622,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -614,7 +652,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -643,7 +682,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -654,7 +694,7 @@
         "hy": "Տապակած խինկալի տավարի մսով",
         "en": "Fried beef khinkali"
       },
-      "category": "beef",
+      "category": "khinkali",
       "price": 1800,
       "grams": 270,
       "stock": 100,
@@ -672,7 +712,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -683,7 +724,7 @@
         "hy": "Տապակած խինկալի գառան մսով",
         "en": "Fried lamb khinkali"
       },
-      "category": "lamb",
+      "category": "khinkali",
       "price": 1900,
       "grams": 270,
       "stock": 100,
@@ -701,7 +742,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -712,7 +754,7 @@
         "hy": "Տապակած խինկալի պանրով",
         "en": "Fried cheese khinkali"
       },
-      "category": "snacks",
+      "category": "khinkali",
       "price": 1600,
       "grams": 240,
       "stock": 100,
@@ -730,7 +772,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -741,7 +784,7 @@
         "hy": "Տապակած խինկալի սնկով",
         "en": "Fried mushroom khinkali"
       },
-      "category": "snacks",
+      "category": "khinkali",
       "price": 1200,
       "grams": 240,
       "stock": 100,
@@ -759,7 +802,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -788,7 +832,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -817,7 +862,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-9ddb8c27ffce4653"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/shashlik/kare_yagnenka"
+        ]
       }
     },
     {
@@ -846,7 +898,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-08431e221995d5a1"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/garniri/kartofel_poderevenski"
+        ]
       }
     },
     {
@@ -875,7 +934,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -904,7 +964,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-498747be872e3a64"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/sousi/ketchup"
+        ]
       }
     },
     {
@@ -933,7 +1000,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 300
       }
     },
     {
@@ -962,7 +1030,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 1000
       }
     },
     {
@@ -991,7 +1060,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1020,7 +1090,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-8297dff9a52dd620"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_iz_baranini"
+        ]
       }
     },
     {
@@ -1049,7 +1126,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1078,7 +1156,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1107,7 +1186,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1136,7 +1216,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1165,7 +1246,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1194,7 +1276,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1223,7 +1306,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 300
       }
     },
     {
@@ -1252,7 +1336,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 1000
       }
     },
     {
@@ -1281,7 +1366,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1310,7 +1396,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-f5d39ce7d75cdeb5"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/sousi/narsharab"
+        ]
       }
     },
     {
@@ -1339,7 +1432,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1368,7 +1462,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1397,7 +1492,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1426,7 +1522,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1455,7 +1552,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1484,7 +1582,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1513,7 +1612,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1542,7 +1642,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1571,7 +1672,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1600,7 +1702,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1629,7 +1732,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1658,7 +1762,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1687,7 +1792,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1716,7 +1822,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1745,7 +1852,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1756,7 +1864,7 @@
         "hy": "Շերտավոր խաչապուրի",
         "en": "Penovani puff pastry khachapuri"
       },
-      "category": "snacks",
+      "category": "khachapuri",
       "price": 2100,
       "grams": 510,
       "stock": 100,
@@ -1774,7 +1882,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1785,7 +1894,7 @@
         "hy": "Աջարական խաչապուրի",
         "en": "Adjarian khachapuri"
       },
-      "category": "snacks",
+      "category": "khachapuri",
       "price": 2100,
       "grams": 350,
       "stock": 100,
@@ -1803,7 +1912,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-f3ffd6277d368ec7"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/goryachie_zakuski/khachapuri_poadzharski"
+        ]
       }
     },
     {
@@ -1814,7 +1930,7 @@
         "hy": "Իմերեթական խաչապուրի",
         "en": "Imeretian khachapuri"
       },
-      "category": "snacks",
+      "category": "khachapuri",
       "price": 2100,
       "grams": 350,
       "stock": 100,
@@ -1832,7 +1948,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1861,7 +1978,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1872,7 +1990,7 @@
         "hy": "Մեգրելական խաչապուրի",
         "en": "Megrelian khachapuri"
       },
-      "category": "snacks",
+      "category": "khachapuri",
       "price": 2100,
       "grams": 350,
       "stock": 100,
@@ -1890,7 +2008,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1901,7 +2020,7 @@
         "hy": "Խինկալի տավարի մսով",
         "en": "Beef khinkali"
       },
-      "category": "beef",
+      "category": "khinkali",
       "price": 1800,
       "grams": 270,
       "stock": 100,
@@ -1919,7 +2038,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -1930,7 +2050,7 @@
         "hy": "Խինկալի գառան մսով",
         "en": "Lamb khinkali"
       },
-      "category": "lamb",
+      "category": "khinkali",
       "price": 1900,
       "grams": 270,
       "stock": 100,
@@ -1948,7 +2068,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-8795cf37479dc070"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/khinkali_s_baraninoi"
+        ]
       }
     },
     {
@@ -1959,7 +2086,7 @@
         "hy": "Խինկալի պանրով",
         "en": "Cheese khinkali"
       },
-      "category": "snacks",
+      "category": "khinkali",
       "price": 1600,
       "grams": 240,
       "stock": 100,
@@ -1977,7 +2104,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-221fb670ba7afa7c"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/khinkali_s_sirom"
+        ]
       }
     },
     {
@@ -1988,7 +2122,7 @@
         "hy": "Խինկալի սնկով",
         "en": "Mushroom khinkali"
       },
-      "category": "snacks",
+      "category": "khinkali",
       "price": 1200,
       "grams": 240,
       "stock": 100,
@@ -2006,7 +2140,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2035,7 +2170,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2064,7 +2200,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-9fbe2f5a35977921"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/salati/tsezar_s_kuritsei"
+        ]
       }
     },
     {
@@ -2093,7 +2236,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2122,7 +2266,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2151,7 +2296,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-67faa19d29c876b0"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/sousi/chesnochnii"
+        ]
       }
     },
     {
@@ -2180,7 +2332,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-c843847c5395d8b0"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/shashlik/shampinoni_na_uglyakh"
+        ]
       }
     },
     {
@@ -2209,7 +2368,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2238,7 +2398,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2267,7 +2428,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2296,7 +2458,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2325,7 +2488,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2354,7 +2518,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2383,7 +2548,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2412,7 +2578,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-e8347e58e73f05aa"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/sousi/shashlichnii"
+        ]
       }
     },
     {
@@ -2441,7 +2614,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 300
       }
     },
     {
@@ -2470,7 +2644,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 1000
       }
     },
     {
@@ -2499,123 +2674,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-17f1f7223fc2ccb4",
-      "names": {
-        "ru": "Аджика",
-        "ka": "აჯიკა",
-        "hy": "Աջիկա",
-        "en": "Adjika"
-      },
-      "category": "sauces",
-      "price": 300,
-      "grams": 30,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/a80d9415af717760.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "95",
-        "source_page": "https://shashlik-mashlik.com/menu/sousi/adzhika",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Жгучая фирменная аджика из печёного перца с ароматными грузинскими специями и зеленью. Отлично сочетается с мясными блюдами.\n\nОсновные ингредиенты:\nкрасный острый перец, чеснок, \nзелень, соль, кориандр, хмели-сунели, \nгрузинские специи\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-88debe4e9245056b",
-      "names": {
-        "ru": "Горчица",
-        "ka": "მდოგვი",
-        "hy": "Մանանեխ",
-        "en": "Mustard"
-      },
-      "category": "sauces",
-      "price": 200,
-      "grams": 30,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/a80d9415af717760.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "50",
-        "source_page": "https://shashlik-mashlik.com/menu/sousi/gorchitsa",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Попробуйте нашу горчицу — идеальный соус, приготовленный из отборной горчицы для тех, кто ценит яркий и насыщенный вкус.\n\nОсновные ингредиенты:\nгорчица, вода, уксус, растительное масло, \nсахар, соль, специи\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-498747be872e3a64",
-      "names": {
-        "ru": "Кетчуп",
-        "ka": "კეტჩუპი",
-        "hy": "Կետչուպ",
-        "en": "Ketchup"
-      },
-      "category": "sauces",
-      "price": 300,
-      "grams": 30,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/a80d9415af717760.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "85",
-        "source_page": "https://shashlik-mashlik.com/menu/sousi/ketchup",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Кетчуп — универсальный соус, который идеально подходит к мясу, рыбе и гарнирам. В составе кетчупа только натуральные ингредиенты: сочные томаты и ароматная зелень.\n\nОсновные ингредиенты:\nтоматы, томатная паста, сахар, \nсоль, уксус, зелень, специи\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-f5d39ce7d75cdeb5",
-      "names": {
-        "ru": "Наршараб",
-        "ka": "ნარშარაბი",
-        "hy": "Նարշարաբ",
-        "en": "Narsharab pomegranate sauce"
-      },
-      "category": "sauces",
-      "price": 300,
-      "grams": 30,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/a80d9415af717760.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "95",
-        "source_page": "https://shashlik-mashlik.com/menu/sousi/narsharab",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Этот густой соус имеет насыщенный тёмный цвет и ярко выраженный фруктово-ореховый вкус. Он идеально подойдёт для того, чтобы придать пикантность и остроту мясным и овощным блюдам. Наршараб — соус, который точно стоит попробовать.\n\nОсновные ингредиенты:\nгранатовый сок, сахар, соль, специи\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2644,7 +2704,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2673,7 +2734,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2702,7 +2764,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2731,65 +2794,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-67faa19d29c876b0",
-      "names": {
-        "ru": "Чесночный",
-        "ka": "ნივრის სოუსი",
-        "hy": "Սխտորային սոուս",
-        "en": "Garlic sauce"
-      },
-      "category": "sauces",
-      "price": 300,
-      "grams": 30,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/a80d9415af717760.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "95",
-        "source_page": "https://shashlik-mashlik.com/menu/sousi/chesnochnii",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Чесночный соус – идеальное дополнение к любому блюду. Этот ароматный соус из категории Соусы приготовлен из чеснока, растительного масла, соли, сметаны и зелени.\n\nОсновные ингредиенты:\nсметана, майонез, чеснок, зелень, \nсоль, черный перец, растительное масло\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-e8347e58e73f05aa",
-      "names": {
-        "ru": "Шашлычный",
-        "ka": "მწვადის სოუსი",
-        "hy": "Խորովածի սոուս",
-        "en": "Shashlik sauce"
-      },
-      "category": "sauces",
-      "price": 300,
-      "grams": 30,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/a80d9415af717760.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "95",
-        "source_page": "https://shashlik-mashlik.com/menu/sousi/shashlichnii",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Идеально сочетается с мясными блюдами. Отлично подходит для любого стола. Соус шашлычный подается охлажденным.\n\nОсновные ингредиенты:\nтоматный соус, репчатый лук, \nчеснок, кинза, укроп, соль, сахар, \nчерный перец, хмели-сунели, специи\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2818,7 +2824,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2847,7 +2854,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2876,7 +2884,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2905,7 +2914,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2934,7 +2944,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2963,7 +2974,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -2992,7 +3004,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3021,7 +3034,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3050,7 +3064,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3079,7 +3094,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3108,36 +3124,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-54e5a82545eddc97",
-      "names": {
-        "ru": "Бараньи семечки",
-        "ka": "ცხვრის წვრილი ნეკნები",
-        "hy": "Գառան մանր կողիկներ",
-        "en": "Small lamb ribs"
-      },
-      "category": "lamb",
-      "price": 2300,
-      "grams": 310,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/03c3611d0268f81a.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "710",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/barani_semechki",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Бараньи семечки — это шашлык из отборных бараньих рёбрышек. Нежный вкус и аромат мяса в сочетании с лёгкой остротой специй не оставят вас равнодушными.\n\nОсновные ингредиенты:\nбараньи ребрышки, соль, черный перец, \nспеции для шашлыка, маринованный лук, \nзелень, армянский лаваш, шашлычный соус\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3166,7 +3154,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3195,7 +3184,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3206,7 +3196,7 @@
         "hy": "Բորշչ",
         "en": "Borscht"
       },
-      "category": "snacks",
+      "category": "soups",
       "price": 1600,
       "grams": 1,
       "stock": 100,
@@ -3224,7 +3214,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3253,7 +3244,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3282,7 +3274,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3311,7 +3304,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3322,7 +3316,7 @@
         "hy": "Սնկով կրեմ-ապուր",
         "en": "Cream of mushroom soup"
       },
-      "category": "snacks",
+      "category": "soups",
       "price": 1600,
       "grams": 1,
       "stock": 100,
@@ -3340,7 +3334,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3369,7 +3364,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3398,7 +3394,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3427,7 +3424,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3456,7 +3454,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3485,7 +3484,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3514,7 +3514,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3543,7 +3544,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3572,7 +3574,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3601,7 +3604,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3630,36 +3634,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-9ddb8c27ffce4653",
-      "names": {
-        "ru": "Каре ягненка",
-        "ka": "ბატკნის კარე",
-        "hy": "Գառան կարե",
-        "en": "Rack of lamb"
-      },
-      "category": "lamb",
-      "price": 3200,
-      "grams": 320,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/dd450e2a4e4c214b.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "990",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/kare_yagnenka",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Каре ягнёнка — изысканное блюдо для настоящих гурманов. Сочное мясо ягнёнка, маринованное в ароматных специях, приготовленное на огне до идеальной степени прожарки. Идеальный выбор для ценителей шашлыка из категории премиум.\n\nОсновные ингредиенты:\nкаре ягненка, соль, черный перец, \nкавказские специи, маринованный лук, \nзелень, армянский лаваш, шашлычный соус",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3688,7 +3664,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3717,65 +3694,14 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-7a6692ba96e7ba89",
-      "names": {
-        "ru": "Картофель на углях",
-        "ka": "კარტოფილი ნახშირზე",
-        "hy": "Կարտոֆիլ ածխի վրա",
-        "en": "Charcoal potatoes"
-      },
-      "category": "vegetables",
-      "price": 1200,
-      "grams": 1,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/d25b8000b47c993b.jpg",
-        "weight_unknown": true,
-        "source_price_rub": "350",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/kartofel_na_uglyakh",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-08431e221995d5a1",
-      "names": {
-        "ru": "Картофель по-деревенски",
-        "ka": "კარტოფილი სოფლისებურად",
-        "hy": "Գյուղական կարտոֆիլ",
-        "en": "Rustic potatoes"
-      },
-      "category": "sides",
-      "price": 900,
-      "grams": 150,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/982828a8dd768838.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "280",
-        "source_page": "https://shashlik-mashlik.com/menu/garniri/kartofel_poderevenski",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Картофель по-деревенски — идеальный гарнир к мясу. Блюдо относится к категории гарниров и готовится из отборной картошки.\n\nОсновные ингредиенты:\nкартофель, растительное масло, \nсоль, специи, зелень\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0,
+        "aliases": [
+          "demo-7a6692ba96e7ba89"
+        ],
+        "duplicate_sources": [
+          "https://shashlik-mashlik.com/menu/shashlik/kartofel_na_uglyakh"
+        ]
       }
     },
     {
@@ -3804,7 +3730,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3833,7 +3760,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3862,7 +3790,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3891,7 +3820,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3920,7 +3850,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3949,7 +3880,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -3978,7 +3910,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4007,7 +3940,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4036,7 +3970,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4065,7 +4000,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4094,7 +4030,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4123,7 +4060,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4152,7 +4090,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4181,7 +4120,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4210,7 +4150,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4239,7 +4180,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4268,7 +4210,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4297,36 +4240,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-8297dff9a52dd620",
-      "names": {
-        "ru": "Люля-кебаб из баранины",
-        "ka": "ცხვრის ხორცის ქაბაბი",
-        "hy": "Գառան լյուլյա քյաբաբ",
-        "en": "Lamb lula kebab"
-      },
-      "category": "lula",
-      "price": 2200,
-      "grams": 320,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/93482e38e5d6add5.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "690",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_iz_baranini",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Люля-кебаб из баранины — сытное и сочное блюдо категории Шашлык. В составе только люля-кебаб из баранины.\n\nОсновные ингредиенты:\nфарш из баранины, репчатый лук, \nзелень, соль, черный перец, \nкавказские специи, армянский лаваш, \nмаринованный лук, шашлычный соус\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4355,7 +4270,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4384,7 +4300,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4413,7 +4330,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4442,7 +4360,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4471,7 +4390,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4500,7 +4420,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4529,7 +4450,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4558,7 +4480,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4587,7 +4510,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4616,7 +4540,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4645,7 +4570,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4674,7 +4600,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4703,7 +4630,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4732,7 +4660,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4761,7 +4690,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4790,7 +4720,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4819,7 +4750,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4848,7 +4780,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4877,7 +4810,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4906,7 +4840,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4935,7 +4870,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4964,7 +4900,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -4993,7 +4930,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5022,7 +4960,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5051,7 +4990,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5080,7 +5020,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5109,7 +5050,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5138,7 +5080,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5167,7 +5110,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5196,7 +5140,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5225,7 +5170,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5236,7 +5182,7 @@
         "hy": "Ֆիննական ձկնապուր",
         "en": "Finnish fish soup"
       },
-      "category": "snacks",
+      "category": "soups",
       "price": 2100,
       "grams": 1,
       "stock": 100,
@@ -5254,7 +5200,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5283,7 +5230,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5312,7 +5260,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5323,7 +5272,7 @@
         "hy": "Խարչո գառան մսով",
         "en": "Lamb kharcho"
       },
-      "category": "lamb",
+      "category": "soups",
       "price": 1600,
       "grams": 1,
       "stock": 100,
@@ -5341,7 +5290,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5352,7 +5302,7 @@
         "hy": "Խարչո տավարի մսով",
         "en": "Beef kharcho"
       },
-      "category": "beef",
+      "category": "soups",
       "price": 1600,
       "grams": 1,
       "stock": 100,
@@ -5370,36 +5320,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-f3ffd6277d368ec7",
-      "names": {
-        "ru": "Хачапури по-аджарски",
-        "ka": "აჭარული ხაჭაპური",
-        "hy": "Աջարական խաչապուրի",
-        "en": "Adjarian khachapuri"
-      },
-      "category": "snacks",
-      "price": 1900,
-      "grams": 350,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/ecd306e4b2baac2f.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "590",
-        "source_page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/khachapuri_poadzharski",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Хачапури по-аджарски - это настоящий сырный шедевр из мягкого теста с начинкой из сыра сулугуни и молодого сыра. В горячее хачапури добавляется яйцо, которое делает вкус блюда ещё более нежным и сливочным. Попробуйте хачапури по-аджарски и убедитесь, что это идеальное блюдо для гурмана.\n\nОсновные ингредиенты:\nпшеничная мука, сыр сулугуни, \nмолодой сыр, куриное яйцо, \nсливочное масло, вода, соль\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5410,7 +5332,7 @@
         "hy": "Մեգրելական խաչապուրի 500 գ",
         "en": "Megrelian khachapuri 500 g"
       },
-      "category": "snacks",
+      "category": "khachapuri",
       "price": 2500,
       "grams": 1,
       "stock": 100,
@@ -5428,7 +5350,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5439,7 +5362,7 @@
         "hy": "Մեգրելական խաչապուրի 750 գ",
         "en": "Megrelian khachapuri 750 g"
       },
-      "category": "snacks",
+      "category": "khachapuri",
       "price": 3200,
       "grams": 1,
       "stock": 100,
@@ -5457,7 +5380,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5468,7 +5392,7 @@
         "hy": "Մեգրելական խաչապուրի 330 գ",
         "en": "Megrelian khachapuri 330 g"
       },
-      "category": "snacks",
+      "category": "khachapuri",
       "price": 1900,
       "grams": 1,
       "stock": 100,
@@ -5486,7 +5410,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5497,7 +5422,7 @@
         "hy": "Խինկալի տավարի և խոզի մսով",
         "en": "Beef and pork khinkali"
       },
-      "category": "beef",
+      "category": "khinkali",
       "price": 1600,
       "grams": 1,
       "stock": 100,
@@ -5515,65 +5440,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-8795cf37479dc070",
-      "names": {
-        "ru": "Хинкали с бараниной",
-        "ka": "ხინკალი ცხვრის ხორცით",
-        "hy": "Խինկալի գառան մսով",
-        "en": "Lamb khinkali"
-      },
-      "category": "lamb",
-      "price": 1700,
-      "grams": 270,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/46b7890dbecf2e3c.png",
-        "weight_unknown": false,
-        "source_price_rub": "510",
-        "source_page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/khinkali_s_baraninoi",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "В категории Хинкали вас ждёт настоящий шедевр грузинской кухни. Сочная баранина в сочетании с говядиной и курдюком, ароматный лук и пряная кинза, а также свежий и чёрный перец, завернутые в тесто для хинкали — всё это создаёт неповторимый вкус, который вы не сможете забыть (3 шт.).\n\nОсновные ингредиенты:\nпшеничная мука, вода, бараний фарш, \nговяжий фарш, курдюк, репчатый лук, \nкинза, свежий перец, чёрный перец, \nсоль, специи\n\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-221fb670ba7afa7c",
-      "names": {
-        "ru": "Хинкали с сыром",
-        "ka": "ხინკალი ყველით",
-        "hy": "Խինկալի պանրով",
-        "en": "Cheese khinkali"
-      },
-      "category": "snacks",
-      "price": 1700,
-      "grams": 240,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/46b7890dbecf2e3c.png",
-        "weight_unknown": false,
-        "source_price_rub": "510",
-        "source_page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/khinkali_s_sirom",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Попробуйте наши хинкали с сыром! Тонкое тесто для хинкали и нежный расплавленный сулугуни — это классический рецепт в современном исполнении (3 шт.).\n\nОсновные ингредиенты:\nпшеничная мука, вода, сыр сулугуни, \nсливочное масло, соль\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5602,36 +5470,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-9fbe2f5a35977921",
-      "names": {
-        "ru": "Цезарь с курицей",
-        "ka": "ცეზარი ქათმით",
-        "hy": "Կեսար հավով",
-        "en": "Chicken Caesar salad"
-      },
-      "category": "salads",
-      "price": 1700,
-      "grams": 280,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/5eebaa4f6cac5ae1.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "530",
-        "source_page": "https://shashlik-mashlik.com/menu/salati/tsezar_s_kuritsei",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Цезарь с курицей — это классический салат, который идеально сочетает в себе хрустящий айсберг, сочную куриную грудку, спелые помидоры черри, пикантный сыр пармезан и ароматные гренки, политые фирменным соусом Цезарь.\n\nОсновные ингредиенты:\nсалат айсберг, куриная грудка, помидоры черри, \nсыр пармезан, хрустящие гренки, фирменный соус «Цезарь»",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5660,7 +5500,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5689,7 +5530,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5718,7 +5560,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5747,7 +5590,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5776,7 +5620,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5805,7 +5650,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     },
     {
@@ -5834,36 +5680,8 @@
           "hy": "",
           "en": ""
         },
-        "translations_pending": false
-      }
-    },
-    {
-      "id": "demo-c843847c5395d8b0",
-      "names": {
-        "ru": "Шампиньоны на углях",
-        "ka": "შამპინიონები ნახშირზე",
-        "hy": "Շամպինիոններ ածխի վրա",
-        "en": "Charcoal mushrooms"
-      },
-      "category": "vegetables",
-      "price": 1700,
-      "grams": 300,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": "/media/6dd24a24c667891d.jpg",
-        "weight_unknown": false,
-        "source_price_rub": "520",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/shampinoni_na_uglyakh",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "Ищете вкусный и полезный перекус? Попробуйте шампиньоны на углях из категории Овощи на мангале! Нежные и ароматные грибы подаются с пикантным чесночным соусом.\n\nОсновные ингредиенты:\nшампиньоны, чесночный соус, \nрастительное масло, соль, специи\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false
+        "translations_pending": false,
+        "volume_ml": 0
       }
     }
   ]

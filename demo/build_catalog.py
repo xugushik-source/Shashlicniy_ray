@@ -10,6 +10,9 @@ def category(name,cat):
  n=name.lower();c=(cat or '').lower()
  if re.search(r'\b(?:вино|водка|пиво|коньяк)\b',n):return 'alcohol'
  if 'ассорти' in n and any(x in c for x in ['набор','sety']):return 'combo'
+ if 'хинкали' in n:return 'khinkali'
+ if 'хачапури' in n:return 'khachapuri'
+ if any(x in n for x in ['суп','борщ','харчо','уха ']):return 'soups'
  if 'люля' in n:return 'lula'
  if any(x in c for x in ['рыба','fish']) or any(x in n for x in ['семга','сёмга','форель','сибас','дорадо','лосось','осетрина']):return 'fish'
  if any(x in c for x in ['овощ','ovoshi']):return 'vegetables'
@@ -39,12 +42,25 @@ def build():
    if not cat:continue
    m=meta.get(name,{});weight=m.get('weight');weight=int(weight) if isinstance(weight,(int,float)) and weight>0 else None
    desc=m.get('description') or ''
-   products.append({'id':'demo-'+hashlib.sha256(str(key).encode()).hexdigest()[:16],'names':{'ru':name,'ka':name,'hy':name},'category':cat,'price':convert(item['price'],rate['rate'],rate['quantity']),'grams':weight or 1,'stock':100,'active':1,'details':{'demo':True,'image':'/media/'+filename,'weight_unknown':weight is None,'source_price_rub':item['price'],'source_page':item['page'],'source_site':row['source_site'],'description':{'ru':desc,'ka':'','hy':''},'translations_pending':True}})
+   products.append({'id':'demo-'+hashlib.sha256(str(key).encode()).hexdigest()[:16],'names':{'ru':name,'ka':name,'hy':name},'category':cat,'price':convert(item['price'],rate['rate'],rate['quantity']),'grams':weight or 1,'stock':100,'active':1,'details':{'demo':True,'image':'/media/'+filename,'weight_unknown':weight is None,'source_price_rub':item['price'],'source_page':item['page'],'source_site':row['source_site'],'description':{'ru':desc,'ka':'','hy':''},'translations_pending':True,'volume_ml':int(m.get('volume') or 0)}})
  translations={}
  for line in (ROOT/'demo/translations.tsv').read_text().splitlines():
   ru,ka,hy,en=line.split('|');translations[ru]={'ru':ru,'ka':ka,'hy':hy,'en':en}
  for p in products:
   p['names']=translations[p['names']['ru']];p['details']['translations_pending']=False;p['details']['description']['en']=''
+ canonical={};duplicates=[]
+ def identity(p):
+  n=p['names']['ru'].lower().replace('ё','е').replace('тар-тар','тартар');n=re.sub(r'\s+',' ',n).strip()
+  # Keep explicit portion sizes and cooking methods; do not collapse fried and boiled.
+  return (n,p['details'].get('volume_ml',0) or 0,0 if p['details']['weight_unknown'] else p['grams'])
+ for p in products:
+  key=identity(p)
+  if key not in canonical:canonical[key]=p;continue
+  kept=canonical[key];duplicates.append({'removed_id':p['id'],'kept_id':kept['id'],'name':p['names']['ru'],'source':p['details']['source_page']})
+  kept['details'].setdefault('aliases',[]).append(p['id'])
+  kept['details'].setdefault('duplicate_sources',[]).append(p['details']['source_page'])
+ products=list(canonical.values())
+ (ROOT/'demo/deduplication.json').write_text(json.dumps(duplicates,ensure_ascii=False,indent=2))
  info={'provider':'National Bank of Georgia','source':'https://nbg.gov.ge/gw/api/ct/monetarypolicy/currencies/en/json/','valid_from':rate['validFromDate'],'rub_quantity':rate['quantity'],'gel_rate':rate['rate'],'rounding':'ceil_to_whole_GEL'}
  (ROOT/'demo/catalog.json').write_text(json.dumps({'exchange':info,'products':products},ensure_ascii=False,indent=2))
  print(json.dumps({'products':len(products),'known_weights':sum(not p['details']['weight_unknown'] for p in products),'rate':info},ensure_ascii=False))

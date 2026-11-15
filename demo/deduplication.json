@@ -1,0 +1,98 @@
+[
+  {
+    "removed_id": "demo-17f1f7223fc2ccb4",
+    "kept_id": "demo-61aedb2c2befba43",
+    "name": "Аджика",
+    "source": "https://shashlik-mashlik.com/menu/sousi/adzhika"
+  },
+  {
+    "removed_id": "demo-88debe4e9245056b",
+    "kept_id": "demo-9b595bf9a7e0f268",
+    "name": "Горчица",
+    "source": "https://shashlik-mashlik.com/menu/sousi/gorchitsa"
+  },
+  {
+    "removed_id": "demo-498747be872e3a64",
+    "kept_id": "demo-d86aa78d8a213a26",
+    "name": "Кетчуп",
+    "source": "https://shashlik-mashlik.com/menu/sousi/ketchup"
+  },
+  {
+    "removed_id": "demo-f5d39ce7d75cdeb5",
+    "kept_id": "demo-6a263ffe94c5dea9",
+    "name": "Наршараб",
+    "source": "https://shashlik-mashlik.com/menu/sousi/narsharab"
+  },
+  {
+    "removed_id": "demo-67faa19d29c876b0",
+    "kept_id": "demo-de9a27f9dd75b0f1",
+    "name": "Чесночный",
+    "source": "https://shashlik-mashlik.com/menu/sousi/chesnochnii"
+  },
+  {
+    "removed_id": "demo-e8347e58e73f05aa",
+    "kept_id": "demo-b2f9d77be7154bdf",
+    "name": "Шашлычный",
+    "source": "https://shashlik-mashlik.com/menu/sousi/shashlichnii"
+  },
+  {
+    "removed_id": "demo-54e5a82545eddc97",
+    "kept_id": "demo-9248be6b1ce39b6c",
+    "name": "Бараньи семечки",
+    "source": "https://shashlik-mashlik.com/menu/shashlik/barani_semechki"
+  },
+  {
+    "removed_id": "demo-9ddb8c27ffce4653",
+    "kept_id": "demo-d07377a548ca0109",
+    "name": "Каре ягненка",
+    "source": "https://shashlik-mashlik.com/menu/shashlik/kare_yagnenka"
+  },
+  {
+    "removed_id": "demo-7a6692ba96e7ba89",
+    "kept_id": "demo-ef3ff7eb6063e99d",
+    "name": "Картофель на углях",
+    "source": "https://shashlik-mashlik.com/menu/shashlik/kartofel_na_uglyakh"
+  },
+  {
+    "removed_id": "demo-08431e221995d5a1",
+    "kept_id": "demo-45e9ed3566ce8daa",
+    "name": "Картофель по-деревенски",
+    "source": "https://shashlik-mashlik.com/menu/garniri/kartofel_poderevenski"
+  },
+  {
+    "removed_id": "demo-8297dff9a52dd620",
+    "kept_id": "demo-cc4c661a2a377dfe",
+    "name": "Люля-кебаб из баранины",
+    "source": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_iz_baranini"
+  },
+  {
+    "removed_id": "demo-f3ffd6277d368ec7",
+    "kept_id": "demo-12b41a6a82b0f427",
+    "name": "Хачапури по-аджарски",
+    "source": "https://shashlik-mashlik.com/menu/goryachie_zakuski/khachapuri_poadzharski"
+  },
+  {
+    "removed_id": "demo-8795cf37479dc070",
+    "kept_id": "demo-36041e2b37374ff6",
+    "name": "Хинкали с бараниной",
+    "source": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/khinkali_s_baraninoi"
+  },
+  {
+    "removed_id": "demo-221fb670ba7afa7c",
+    "kept_id": "demo-ecb1ac314d2d3bdd",
+    "name": "Хинкали с сыром",
+    "source": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/khinkali_s_sirom"
+  },
+  {
+    "removed_id": "demo-9fbe2f5a35977921",
+    "kept_id": "demo-5212e691f702dabe",
+    "name": "Цезарь с курицей",
+    "source": "https://shashlik-mashlik.com/menu/salati/tsezar_s_kuritsei"
+  },
+  {
+    "removed_id": "demo-c843847c5395d8b0",
+    "kept_id": "demo-c51974bc0647ab15",
+    "name": "Шампиньоны на углях",
+    "source": "https://shashlik-mashlik.com/menu/shashlik/shampinoni_na_uglyakh"
+  }
+]

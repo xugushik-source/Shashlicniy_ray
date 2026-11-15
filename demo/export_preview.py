@@ -14,19 +14,16 @@ window.fetch=async function(path,options={}){
  function quote(items){if(!Array.isArray(items)||!items.length)throw Error('EMPTY_CART');const seen=new Set();let total=0,grams=0;const lines=[];for(const l of items){const product=demoData.products.find(x=>x.id===l.id);if(!product||!Number.isInteger(l.quantity)||l.quantity<1||l.quantity>product.stock||seen.has(l.id))throw Error('OUT_OF_STOCK');seen.add(l.id);total+=product.price*l.quantity;grams+=product.grams*l.quantity;lines.push({id:product.id,quantity:l.quantity,price:product.price,grams:product.grams})}return {lines,total,grams}}
  try{
  if(path==='/api/settings')return response(200,demoData.settings);
- if(path==='/api/catalog')return response(200,{products:demoData.products});
+ if(path==='/api/catalog')return response(200,{products:rankCatalog(demoData.products)});
  if(path==='/api/quote')return response(200,quote(p.items));
- if(path==='/api/feast'){
- if(!Number.isInteger(p.adults)||p.adults<1||p.adults>100||!Number.isInteger(p.children)||p.children<0||p.children>100)throw Error('INVALID_NUMBER');
- const required=p.adults*350+p.children*180;let remaining=required;const items=[];
- const opts=demoData.products.filter(x=>(p.categories||[]).includes(x.category)&&!x.details.weight_unknown&&x.stock>0).sort((a,b)=>a.price/a.grams-b.price/b.grams);
- for(const x of opts){const quantity=Math.min(x.stock,Math.ceil(remaining/x.grams));if(quantity>0){items.push({id:x.id,quantity});remaining-=quantity*x.grams}}
- if(remaining>0)throw Error('NO_SUITABLE_PRODUCTS');const q=quote(items);if(p.budget&&q.total>p.budget)throw Error('BUDGET_TOO_LOW');return response(200,{...q,items,required_grams:required})}
+ if(path==='/api/feast')return response(200,buildFeast(demoData.products,p));
+ if(path==='/api/recommendations')return response(200,{recommendations:recommendProducts(demoData.products,p.selected||[],{allowAlcohol:p.allowAlcohol===true})});
  if(path==='/api/orders'){const q=quote(p.items);if(q.total!==p.confirmed_total)throw Error('PRICE_CHANGED');return response(200,{id:'DEMO-'+Math.random().toString(16).slice(2,10).toUpperCase(),total:q.total,demo:true,payment:'not_charged'})}
  return response(403,{error:'DEMO_READ_ONLY'});
  }catch(e){return response(400,{error:e.message})}
 };
 '''.replace('DEMO_DATA',data)
+ adapter=(ROOT/'worker/merchandising.mjs').read_text().replace('export const','const').replace('export function','function')+'\n'+(ROOT/'worker/feast.mjs').read_text().replace('export const','const').replace('export function','function')+'\n'+adapter
  html=(ROOT/'static/index.html').read_text();css=(ROOT/'static/style.css').read_text().replace("url('/media/","url('./media/")
  app=(ROOT/'static/app.js').read_text().replace("return p.details.image;try", "return '.'+p.details.image;try")
  # Owner panel needs a backend and is outside the portable customer demo.
