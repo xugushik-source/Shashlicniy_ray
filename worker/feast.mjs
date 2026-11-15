@@ -59,6 +59,8 @@ export function buildFeast(catalog,p,rules=FEAST_RULES){
  const ranking=(a,b)=>b.variety-a.variety||a.optional.length-b.optional.length||b.animalVariety-a.animalVariety||a.bone-b.bone||(allCostsKnown?b.contribution-a.contribution:0)||Math.abs(a.hotGrams-hotTarget)-Math.abs(b.hotGrams-hotTarget)||a.total-b.total;
  const result=(affordable.length?affordable:plans).sort(affordable.length?ranking:(a,b)=>a.total-b.total)[0];
  const items=result.rows.map(l=>({id:l.id,quantity:l.quantity}));
+ const hotRows=result.rows.filter(l=>l.group==='hot');const meatWeightsConfirmed=hotRows.every(l=>{const x=available.find(p=>p.id===l.id);return Number.isInteger(x.details?.cooked_meat_g)&&x.details.cooked_meat_g>=0&&x.details.cooked_meat_g<=x.grams});
+ const meatGrams=meatWeightsConfirmed?hotRows.reduce((sum,l)=>sum+available.find(p=>p.id===l.id).details.cooked_meat_g*l.quantity,0):null;
  const food=result.rows.filter(l=>!['water','softDrinks','alcohol'].includes(l.group));
- return {items,lines:result.rows,total:result.total,grams:food.reduce((a,l)=>a+(l.grams||0)*l.quantity,0),hot_grams:result.hotGrams,guests,adults,children,budget:p.budget??null,budget_ok:result.total<=budget,remaining:p.budget===undefined?null:p.budget-result.total,required_grams:hotTarget,targets:result.targets,warnings:[...new Set(result.warnings)],optional:result.optional,rules_version:rules.version};
+ return {items,lines:result.rows,total:result.total,grams:food.reduce((a,l)=>a+(l.grams||0)*l.quantity,0),hot_grams:result.hotGrams,meat_grams:meatGrams,weight_basis:'complete_dish',guests,adults,children,budget:p.budget??null,budget_ok:result.total<=budget,remaining:p.budget===undefined?null:p.budget-result.total,required_grams:hotTarget,targets:result.targets,warnings:[...new Set(result.warnings)],optional:result.optional,rules_version:rules.version};
 }
