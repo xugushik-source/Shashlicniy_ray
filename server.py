@@ -40,7 +40,7 @@ def run():
                     with store.db() as c:
                         r=c.execute('SELECT id,status,total,created FROM orders WHERE token=?',(token,)).fetchone()
                     return self.send(200,dict(r)) if r else self.send(404,{'error':'NOT_FOUND'})
-                files={'/':'index.html','/app.js':'app.js','/style.css':'style.css','/sw.js':'sw.js','/offline.js':'offline.js','/offline.html':'offline.html',**{'/manifest-'+lang+'.webmanifest':'manifest-'+lang+'.webmanifest' for lang in ('ru','ka','hy','en')},**{'/icons/'+f.name:'icons/'+f.name for f in (ROOT/'static/icons').glob('*.png')}}
+                files={'/':'index.html','/app.js':'app.js','/motion.js':'motion.js','/style.css':'style.css','/sw.js':'sw.js','/offline.js':'offline.js','/offline.html':'offline.html',**{'/manifest-'+lang+'.webmanifest':'manifest-'+lang+'.webmanifest' for lang in ('ru','ka','hy','en')},**{'/icons/'+f.name:'icons/'+f.name for f in (ROOT/'static/icons').glob('*.png')}}
                 if path not in files:return self.send(404,{'error':'NOT_FOUND'})
                 b=(ROOT/'static'/files[path]).read_bytes(); self.send_response(200);self.send_header('Content-Type',{'html':'text/html; charset=utf-8','js':'text/javascript; charset=utf-8','css':'text/css','webmanifest':'application/manifest+json; charset=utf-8','png':'image/png'}[files[path].split('.')[-1]]);self.send_header('Content-Security-Policy',"default-src 'self'; style-src 'self'; img-src 'self' https:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'");self.send_header('X-Content-Type-Options','nosniff');self.end_headers();self.wfile.write(b)
             except PermissionError:self.send(403,{'error':'FORBIDDEN'})

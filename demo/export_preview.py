@@ -30,6 +30,8 @@ window.fetch=async function(path,options={}){
  html=html.replace('<button id="adminOpen" data-t="manage"></button>','<button id="adminOpen" data-t="manage" hidden></button>')
  html=html.replace('<link rel="stylesheet" href="/style.css">','<style>'+css+'</style>').replace('<script src="/app.js" defer></script>','')
  html=html.replace('poster="/media/','poster="./media/').replace('data-desktop="/media/','data-desktop="./media/').replace('data-mobile="/media/','data-mobile="./media/')
+ html=html.replace('src="/motion.js"','src="./motion.js"')
+ (out/'motion.js').write_text((ROOT/'static/motion.js').read_text())
  html=html.replace('href="/"','href="#"').replace('</body>','<script>'+adapter+'\n'+app.replace('</','<\\/')+'</script></body>')
  (out/'index.html').write_text(html)
  media=out/'media';media.mkdir(exist_ok=True)
