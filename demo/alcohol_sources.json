@@ -62,5 +62,40 @@
     "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/4867616022200.jpg",
     "source_price_minor": 1890,
     "checked_at": "2026-11-15"
+  },
+  {
+    "cat": "vodka/finlandia",
+    "url": "https://alcorium-store.ge/vodka/finlandia/finlandia-1-l/",
+    "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/6412700021027.png",
+    "source_price_minor": 3390,
+    "checked_at": "2026-11-15"
+  },
+  {
+    "cat": "vodka/finlandia",
+    "url": "https://alcorium-store.ge/vodka/finlandia/finlandia-0-7-l/",
+    "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/6412709021776.png",
+    "source_price_minor": 4890,
+    "checked_at": "2026-11-15"
+  },
+  {
+    "cat": "brandy",
+    "url": "https://alcorium-store.ge/brandy/%E1%83%90%E1%83%A1%E1%83%99%E1%83%90%E1%83%9C%E1%83%94%E1%83%9A%E1%83%98/%E1%83%99%E1%83%90%E1%83%9C%E1%83%A2-%E1%83%99%E1%83%9D%E1%83%9C%E1%83%98%E1%83%90%E1%83%99%E1%83%98-%E1%83%90%E1%83%A1%E1%83%99%E1%83%90%E1%83%9C%E1%83%94%E1%83%9A%E1%83%98-3-0-5-%E1%83%9A%E1%83%A2-12-%E1%83%AA-%E1%83%A7-ka/",
+    "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/3/4860053011967.jpg",
+    "source_price_minor": 1790,
+    "checked_at": "2026-11-15"
+  },
+  {
+    "cat": "brandy",
+    "url": "https://alcorium-store.ge/brandy/%E1%83%A1%E1%83%90%E1%83%A0%E1%83%90%E1%83%AF%E1%83%98%E1%83%A8%E1%83%95%E1%83%98%E1%83%9A%E1%83%98/%E1%83%92%E1%83%90%E1%83%92-%E1%83%A1%E1%83%90%E1%83%A0%E1%83%90%E1%83%AF%E1%83%98%E1%83%A8%E1%83%95%E1%83%98%E1%83%9A%E1%83%98-vsop-0-7%E1%83%9A-%E1%83%A8%E1%83%90%E1%83%95%E1%83%98-%E1%83%A1%E1%83%90%E1%83%A1%E1%83%90%E1%83%A9%E1%83%A3%E1%83%A5%E1%83%A0%E1%83%94-%E1%83%A7%E1%83%A3%E1%83%97%E1%83%98%E1%83%97-%E1%83%91%E1%83%A0%E1%83%94%E1%83%9C%E1%83%93%E1%83%98/",
+    "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/VSOP_BLACK_0.7_4860018007905.jpg",
+    "source_price_minor": 8990,
+    "checked_at": "2026-11-15"
+  },
+  {
+    "cat": "vodka/beluga",
+    "url": "https://alcorium-store.ge/vodka/beluga/beluga-0-5-l/",
+    "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/104998_Beluga_Noble_Vodka_700ml_40vol__002__4e59-ds.jpg",
+    "source_price_minor": 8990,
+    "checked_at": "2026-11-15"
   }
 ]
