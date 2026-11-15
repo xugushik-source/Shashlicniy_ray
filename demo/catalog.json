@@ -161,7 +161,141 @@
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "pork",
+              "names": {
+                "ru": "Шашлык из свиной мякоти",
+                "ka": "ღორის რბილობის მწვადი",
+                "hy": "Խոզի փափկամսի խորոված",
+                "en": "Pork shashlik"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "chicken",
+              "names": {
+                "ru": "Шашлык из куриной мякоти",
+                "ka": "ქათმის რბილობის მწვადი",
+                "hy": "Հավի փափկամսի խորոված",
+                "en": "Chicken shashlik"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "lula_pork",
+              "names": {
+                "ru": "Люля-кебаб из свинины",
+                "ka": "ღორის ქაბაბი",
+                "hy": "Խոզի լյուլյա քյաբաբ",
+                "en": "Pork lula kebab"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "lula_chicken",
+              "names": {
+                "ru": "Люля-кебаб из курицы",
+                "ka": "ქათმის ქაბაბი",
+                "hy": "Հավի լյուլյա քյաբաբ",
+                "en": "Chicken lula kebab"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "lula_beef",
+              "names": {
+                "ru": "Люля-кебаб из говядины",
+                "ka": "საქონლის ქაბაბი",
+                "hy": "Տավարի լյուլյա քյաբաբ",
+                "en": "Beef lula kebab"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "potato",
+              "names": {
+                "ru": "Молодой картофель на углях",
+                "ka": "ახალი კარტოფილი ნაკვერჩხალზე",
+                "hy": "Մատղաշ կարտոֆիլ ածխի վրա",
+                "en": "Grilled baby potatoes"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "bbq",
+              "names": {
+                "ru": "Соус шашлычный",
+                "ka": "მწვადის სოუსი",
+                "hy": "Խորովածի սոուս",
+                "en": "Shashlik sauce"
+              },
+              "quantity": null,
+              "grams": 100
+            },
+            {
+              "key": "garlic",
+              "names": {
+                "ru": "Соус чесночный",
+                "ka": "ნივრის სოუსი",
+                "hy": "Սխտորի սոուս",
+                "en": "Garlic sauce"
+              },
+              "quantity": null,
+              "grams": 100
+            },
+            {
+              "key": "lavash",
+              "names": {
+                "ru": "Лаваш армянский",
+                "ka": "სომხური ლავაში",
+                "hy": "Հայկական լավաշ",
+                "en": "Armenian lavash"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "onion",
+              "names": {
+                "ru": "Лук красный / маринованный",
+                "ka": "წითელი / მარინირებული ხახვი",
+                "hy": "Կարմիր / մարինացված սոխ",
+                "en": "Red / pickled onion"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "herbs",
+              "names": {
+                "ru": "Зелень",
+                "ka": "მწვანილი",
+                "hy": "Կանաչի",
+                "en": "Fresh herbs"
+              },
+              "quantity": null,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": 5,
+            "max": 7,
+            "basis": "source"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -191,7 +325,163 @@
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "pork",
+              "names": {
+                "ru": "Шашлык из свиной мякоти",
+                "ka": "ღორის რბილობის მწვადი",
+                "hy": "Խոզի փափկամսի խորոված",
+                "en": "Pork shashlik"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "chicken",
+              "names": {
+                "ru": "Шашлык из куриной мякоти",
+                "ka": "ქათმის რბილობის მწვადი",
+                "hy": "Հավի փափկամսի խորոված",
+                "en": "Chicken shashlik"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "ribs",
+              "names": {
+                "ru": "Свиные рёбра",
+                "ka": "ღორის ნეკნები",
+                "hy": "Խոզի կողեր",
+                "en": "Pork ribs"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "lula_pork",
+              "names": {
+                "ru": "Люля-кебаб из свинины",
+                "ka": "ღორის ქაბაბი",
+                "hy": "Խոզի լյուլյա քյաբաբ",
+                "en": "Pork lula kebab"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "lula_chicken",
+              "names": {
+                "ru": "Люля-кебаб из курицы",
+                "ka": "ქათმის ქაბაბი",
+                "hy": "Հավի լյուլյա քյաբաբ",
+                "en": "Chicken lula kebab"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "lula_beef",
+              "names": {
+                "ru": "Люля-кебаб из говядины",
+                "ka": "საქონლის ქაბაბი",
+                "hy": "Տավարի լյուլյա քյաբաբ",
+                "en": "Beef lula kebab"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "potato",
+              "names": {
+                "ru": "Молодой картофель на углях",
+                "ka": "ახალი კარტოფილი ნაკვერჩხალზე",
+                "hy": "Մատղաշ կարտոֆիլ ածխի վրա",
+                "en": "Grilled baby potatoes"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "vegetables",
+              "names": {
+                "ru": "Овощной микс на углях",
+                "ka": "ბოსტნეულის მიქსი ნაკვერჩხალზე",
+                "hy": "Բանջարեղենի խառնուրդ ածխի վրա",
+                "en": "Mixed grilled vegetables"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "bbq",
+              "names": {
+                "ru": "Соус шашлычный",
+                "ka": "მწვადის სოუსი",
+                "hy": "Խորովածի սոուս",
+                "en": "Shashlik sauce"
+              },
+              "quantity": null,
+              "grams": 100
+            },
+            {
+              "key": "garlic",
+              "names": {
+                "ru": "Соус чесночный",
+                "ka": "ნივრის სოუსი",
+                "hy": "Սխտորի սոուս",
+                "en": "Garlic sauce"
+              },
+              "quantity": null,
+              "grams": 100
+            },
+            {
+              "key": "lavash",
+              "names": {
+                "ru": "Лаваш армянский",
+                "ka": "სომხური ლავაში",
+                "hy": "Հայկական լավաշ",
+                "en": "Armenian lavash"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "onion",
+              "names": {
+                "ru": "Лук красный / маринованный",
+                "ka": "წითელი / მარინირებული ხახვი",
+                "hy": "Կարմիր / մարինացված սոխ",
+                "en": "Red / pickled onion"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "herbs",
+              "names": {
+                "ru": "Зелень",
+                "ka": "მწვანილი",
+                "hy": "Կանաչի",
+                "en": "Fresh herbs"
+              },
+              "quantity": null,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": 7,
+            "max": 10,
+            "basis": "source"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -221,7 +511,152 @@
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "lamb",
+              "names": {
+                "ru": "Шашлык из бараньей мякоти",
+                "ka": "ცხვრის რბილობის მწვადი",
+                "hy": "Գառան փափկամսի խորոված",
+                "en": "Lamb shashlik"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "lamb_riblets",
+              "names": {
+                "ru": "Бараньи семечки",
+                "ka": "ცხვრის პატარა ნეკნები",
+                "hy": "Գառան մանր կողիկներ",
+                "en": "Lamb riblets"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "lamb_rack",
+              "names": {
+                "ru": "Каре ягнёнка",
+                "ka": "ბატკნის კარე",
+                "hy": "Գառան կարե",
+                "en": "Rack of lamb"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "lula_lamb",
+              "names": {
+                "ru": "Люля-кебаб из баранины",
+                "ka": "ცხვრის ქაბაბი",
+                "hy": "Գառան լյուլյա քյաբաբ",
+                "en": "Lamb lula kebab"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "chicken",
+              "names": {
+                "ru": "Шашлык из куриной мякоти",
+                "ka": "ქათმის რბილობის მწვადი",
+                "hy": "Հավի փափկամսի խորոված",
+                "en": "Chicken shashlik"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "potato",
+              "names": {
+                "ru": "Молодой картофель на углях",
+                "ka": "ახალი კარტოფილი ნაკვერჩხალზე",
+                "hy": "Մատղաշ կարտոֆիլ ածխի վրա",
+                "en": "Grilled baby potatoes"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "vegetables",
+              "names": {
+                "ru": "Овощной микс на углях",
+                "ka": "ბოსტნეულის მიქსი ნაკვერჩხალზე",
+                "hy": "Բանջարեղենի խառնուրդ ածխի վրա",
+                "en": "Mixed grilled vegetables"
+              },
+              "quantity": 1,
+              "grams": null
+            },
+            {
+              "key": "bbq",
+              "names": {
+                "ru": "Соус шашлычный",
+                "ka": "მწვადის სოუსი",
+                "hy": "Խորովածի սոուս",
+                "en": "Shashlik sauce"
+              },
+              "quantity": null,
+              "grams": 100
+            },
+            {
+              "key": "garlic",
+              "names": {
+                "ru": "Соус чесночный",
+                "ka": "ნივრის სოუსი",
+                "hy": "Սխտորի սոուս",
+                "en": "Garlic sauce"
+              },
+              "quantity": null,
+              "grams": 50
+            },
+            {
+              "key": "lavash",
+              "names": {
+                "ru": "Лаваш армянский",
+                "ka": "სომხური ლავაში",
+                "hy": "Հայկական լավաշ",
+                "en": "Armenian lavash"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "onion",
+              "names": {
+                "ru": "Лук красный / маринованный",
+                "ka": "წითელი / მარინირებული ხახვი",
+                "hy": "Կարմիր / մարինացված սոխ",
+                "en": "Red / pickled onion"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "herbs",
+              "names": {
+                "ru": "Зелень",
+                "ka": "მწვანილი",
+                "hy": "Կանաչի",
+                "en": "Fresh herbs"
+              },
+              "quantity": null,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": 3,
+            "max": 5,
+            "basis": "source"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -251,7 +686,119 @@
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "lamb_rack",
+              "names": {
+                "ru": "Каре ягнёнка",
+                "ka": "ბატკნის კარე",
+                "hy": "Գառան կարե",
+                "en": "Rack of lamb"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lamb_ribs",
+              "names": {
+                "ru": "Бараньи рёбрышки",
+                "ka": "ცხვრის ნეკნები",
+                "hy": "Գառան կողեր",
+                "en": "Lamb ribs"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lamb",
+              "names": {
+                "ru": "Шашлык из бараньей мякоти",
+                "ka": "ცხვრის რბილობის მწვადი",
+                "hy": "Գառան փափկամսի խորոված",
+                "en": "Lamb shashlik"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_lamb",
+              "names": {
+                "ru": "Люля-кебаб из баранины",
+                "ka": "ცხვრის ქაბაბი",
+                "hy": "Գառան լյուլյա քյաբաբ",
+                "en": "Lamb lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "vegetable_side",
+              "names": {
+                "ru": "Овощной гарнир",
+                "ka": "ბოსტნეულის გარნირი",
+                "hy": "Բանջարեղենային խավարտ",
+                "en": "Vegetable side"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lavash",
+              "names": {
+                "ru": "Лаваш армянский",
+                "ka": "სომხური ლავაში",
+                "hy": "Հայկական լավաշ",
+                "en": "Armenian lavash"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "onion",
+              "names": {
+                "ru": "Лук красный / маринованный",
+                "ka": "წითელი / მარინირებული ხახვი",
+                "hy": "Կարմիր / մարինացված սոխ",
+                "en": "Red / pickled onion"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "herbs",
+              "names": {
+                "ru": "Зелень",
+                "ka": "მწვანილი",
+                "hy": "Կանաչի",
+                "en": "Fresh herbs"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "bbq",
+              "names": {
+                "ru": "Соус шашлычный",
+                "ka": "მწვადის სოუსი",
+                "hy": "Խորովածի սոուս",
+                "en": "Shashlik sauce"
+              },
+              "quantity": null,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": 2,
+            "max": 4,
+            "basis": "source"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -311,7 +858,130 @@
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "wings",
+              "names": {
+                "ru": "Куриные крылья",
+                "ka": "ქათმის ფრთები",
+                "hy": "Հավի թևիկներ",
+                "en": "Chicken wings"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "chicken",
+              "names": {
+                "ru": "Шашлык из куриной мякоти",
+                "ka": "ქათმის რბილობის მწვადი",
+                "hy": "Հավի փափկամսի խորոված",
+                "en": "Chicken shashlik"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "lula_chicken",
+              "names": {
+                "ru": "Люля-кебаб из курицы",
+                "ka": "ქათმის ქაბაბი",
+                "hy": "Հավի լյուլյա քյաբաբ",
+                "en": "Chicken lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "potato",
+              "names": {
+                "ru": "Молодой картофель на углях",
+                "ka": "ახალი კარტოფილი ნაკვერჩხალზე",
+                "hy": "Մատղաշ կարտոֆիլ ածխի վրա",
+                "en": "Grilled baby potatoes"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "vegetables",
+              "names": {
+                "ru": "Овощной микс на углях",
+                "ka": "ბოსტნეულის მიქსი ნაკვერჩხალზე",
+                "hy": "Բանջարեղենի խառնուրդ ածխի վրա",
+                "en": "Mixed grilled vegetables"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lavash",
+              "names": {
+                "ru": "Лаваш армянский",
+                "ka": "სომხური ლავაში",
+                "hy": "Հայկական լավաշ",
+                "en": "Armenian lavash"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "onion",
+              "names": {
+                "ru": "Лук красный / маринованный",
+                "ka": "წითელი / მარინირებული ხახვი",
+                "hy": "Կարմիր / մարինացված սոխ",
+                "en": "Red / pickled onion"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "herbs",
+              "names": {
+                "ru": "Зелень",
+                "ka": "მწვანილი",
+                "hy": "Կանաչի",
+                "en": "Fresh herbs"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "bbq",
+              "names": {
+                "ru": "Соус шашлычный",
+                "ka": "მწვადის სოუსი",
+                "hy": "Խորովածի սոուս",
+                "en": "Shashlik sauce"
+              },
+              "quantity": null,
+              "grams": 100
+            },
+            {
+              "key": "garlic",
+              "names": {
+                "ru": "Соус чесночный",
+                "ka": "ნივრის სოუსი",
+                "hy": "Սխտորի սոուս",
+                "en": "Garlic sauce"
+              },
+              "quantity": null,
+              "grams": 50
+            }
+          ],
+          "servings": {
+            "min": 2,
+            "max": 4,
+            "basis": "source"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -371,7 +1041,121 @@
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "pork",
+              "names": {
+                "ru": "Шашлык из свиной мякоти",
+                "ka": "ღორის რბილობის მწვადი",
+                "hy": "Խոզի փափկամսի խորոված",
+                "en": "Pork shashlik"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "ribs",
+              "names": {
+                "ru": "Свиные рёбра",
+                "ka": "ღორის ნეკნები",
+                "hy": "Խոզի կողեր",
+                "en": "Pork ribs"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "lula_pork",
+              "names": {
+                "ru": "Люля-кебаб из свинины",
+                "ka": "ღორის ქაბაბი",
+                "hy": "Խոզի լյուլյա քյաբաբ",
+                "en": "Pork lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "potato",
+              "names": {
+                "ru": "Молодой картофель на углях",
+                "ka": "ახალი კარტოფილი ნაკვერჩხალზე",
+                "hy": "Մատղաշ կարտոֆիլ ածխի վրա",
+                "en": "Grilled baby potatoes"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "vegetables",
+              "names": {
+                "ru": "Овощной микс на углях",
+                "ka": "ბოსტნეულის მიქსი ნაკვერჩხალზე",
+                "hy": "Բանջարեղենի խառնուրդ ածխի վրա",
+                "en": "Mixed grilled vegetables"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lavash",
+              "names": {
+                "ru": "Лаваш армянский",
+                "ka": "სომხური ლავაში",
+                "hy": "Հայկական լավաշ",
+                "en": "Armenian lavash"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "onion",
+              "names": {
+                "ru": "Лук красный / маринованный",
+                "ka": "წითელი / მარინირებული ხახვი",
+                "hy": "Կարմիր / մարինացված սոխ",
+                "en": "Red / pickled onion"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "herbs",
+              "names": {
+                "ru": "Зелень",
+                "ka": "მწვანილი",
+                "hy": "Կանաչի",
+                "en": "Fresh herbs"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "bbq",
+              "names": {
+                "ru": "Соус шашлычный",
+                "ka": "მწვადის სოუსი",
+                "hy": "Խորովածի սոուս",
+                "en": "Shashlik sauce"
+              },
+              "quantity": null,
+              "grams": 100
+            }
+          ],
+          "servings": {
+            "min": 2,
+            "max": 4,
+            "basis": "source"
+          },
+          "notes": [
+            "pork_source_conflict"
+          ],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -431,7 +1215,130 @@
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "lula_lamb",
+              "names": {
+                "ru": "Люля-кебаб из баранины",
+                "ka": "ცხვრის ქაბაბი",
+                "hy": "Գառան լյուլյա քյաբաբ",
+                "en": "Lamb lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_beef",
+              "names": {
+                "ru": "Люля-кебаб из говядины",
+                "ka": "საქონლის ქაბაბი",
+                "hy": "Տավարի լյուլյա քյաբաբ",
+                "en": "Beef lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_chicken",
+              "names": {
+                "ru": "Люля-кебаб из курицы",
+                "ka": "ქათმის ქაბაბი",
+                "hy": "Հավի լյուլյա քյաբաբ",
+                "en": "Chicken lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "potato",
+              "names": {
+                "ru": "Молодой картофель на углях",
+                "ka": "ახალი კარტოფილი ნაკვერჩხალზე",
+                "hy": "Մատղաշ կարտոֆիլ ածխի վրա",
+                "en": "Grilled baby potatoes"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "vegetables",
+              "names": {
+                "ru": "Овощной микс на углях",
+                "ka": "ბოსტნეულის მიქსი ნაკვერჩხალზე",
+                "hy": "Բանջարեղենի խառնուրդ ածխի վրա",
+                "en": "Mixed grilled vegetables"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lavash",
+              "names": {
+                "ru": "Лаваш армянский",
+                "ka": "სომხური ლავაში",
+                "hy": "Հայկական լավաշ",
+                "en": "Armenian lavash"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "onion",
+              "names": {
+                "ru": "Лук красный / маринованный",
+                "ka": "წითელი / მარინირებული ხახვი",
+                "hy": "Կարմիր / մարինացված սոխ",
+                "en": "Red / pickled onion"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "herbs",
+              "names": {
+                "ru": "Зелень",
+                "ka": "მწვანილი",
+                "hy": "Կանաչի",
+                "en": "Fresh herbs"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "bbq",
+              "names": {
+                "ru": "Соус шашлычный",
+                "ka": "მწვადის სოუსი",
+                "hy": "Խորովածի սոուս",
+                "en": "Shashlik sauce"
+              },
+              "quantity": null,
+              "grams": 100
+            },
+            {
+              "key": "garlic",
+              "names": {
+                "ru": "Соус чесночный",
+                "ka": "ნივრის სოუსი",
+                "hy": "Սխտորի սոուս",
+                "en": "Garlic sauce"
+              },
+              "quantity": null,
+              "grams": 50
+            }
+          ],
+          "servings": {
+            "min": 2,
+            "max": 4,
+            "basis": "source"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -461,7 +1368,88 @@
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "courgette",
+              "names": {
+                "ru": "Кабачки",
+                "ka": "ყაბაყი",
+                "hy": "Դդմիկ",
+                "en": "Courgettes"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "aubergine",
+              "names": {
+                "ru": "Баклажаны",
+                "ka": "ბადრიჯანი",
+                "hy": "Սմբուկ",
+                "en": "Aubergines"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "pepper",
+              "names": {
+                "ru": "Перец",
+                "ka": "წიწაკა",
+                "hy": "Պղպեղ",
+                "en": "Peppers"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "zucchini",
+              "names": {
+                "ru": "Цукини",
+                "ka": "ცუკინი",
+                "hy": "Ցուկկինի",
+                "en": "Zucchini"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "mushrooms",
+              "names": {
+                "ru": "Шампиньоны",
+                "ka": "შამპინიონები",
+                "hy": "Շամպինիոն",
+                "en": "Button mushrooms"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "potato",
+              "names": {
+                "ru": "Молодой картофель на углях",
+                "ka": "ახალი კარტოფილი ნაკვერჩხალზე",
+                "hy": "Մատղաշ կարտոֆիլ ածխի վրա",
+                "en": "Grilled baby potatoes"
+              },
+              "quantity": null,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": 2,
+            "max": 4,
+            "basis": "source"
+          },
+          "notes": [
+            "side_platter"
+          ],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -1613,7 +2601,119 @@
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "dorado",
+              "names": {
+                "ru": "Дорадо на мангале",
+                "ka": "დორადო მაყალზე",
+                "hy": "Դորադո մանղալի վրա",
+                "en": "Grilled sea bream"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "salmon",
+              "names": {
+                "ru": "Сёмга на мангале",
+                "ka": "ორაგული მაყალზე",
+                "hy": "Սաղմոն մանղալի վրա",
+                "en": "Grilled salmon"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "trout",
+              "names": {
+                "ru": "Форель на мангале",
+                "ka": "კალმახი მაყალზე",
+                "hy": "Իշխան մանղալի վրա",
+                "en": "Grilled trout"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "seabass",
+              "names": {
+                "ru": "Сибас на мангале",
+                "ka": "სიბასი მაყალზე",
+                "hy": "Սիբաս մանղալի վրա",
+                "en": "Grilled sea bass"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "vegetables",
+              "names": {
+                "ru": "Овощной микс на углях",
+                "ka": "ბოსტნეულის მიქსი ნაკვერჩხალზე",
+                "hy": "Բանջարեղենի խառնուրդ ածխի վրա",
+                "en": "Mixed grilled vegetables"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lemon",
+              "names": {
+                "ru": "Лимон",
+                "ka": "ლიმონი",
+                "hy": "Կիտրոն",
+                "en": "Lemon"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "herbs",
+              "names": {
+                "ru": "Зелень",
+                "ka": "მწვანილი",
+                "hy": "Կանաչի",
+                "en": "Fresh herbs"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "narsharab",
+              "names": {
+                "ru": "Соус наршараб",
+                "ka": "ნარშარაბის სოუსი",
+                "hy": "Նարշարաբ սոուս",
+                "en": "Narsharab sauce"
+              },
+              "quantity": null,
+              "grams": 60
+            },
+            {
+              "key": "Tartar",
+              "names": {
+                "ru": "Соус тартар",
+                "ka": "ტარტარის სოუსი",
+                "hy": "Թարթառ սոուս",
+                "en": "Tartare sauce"
+              },
+              "quantity": null,
+              "grams": 60
+            }
+          ],
+          "servings": {
+            "min": 2,
+            "max": 4,
+            "basis": "source"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -2906,16 +4006,152 @@
         "image": "/media/30cd32762eb0a7ea.jpg",
         "weight_unknown": true,
         "source_price_rub": "19500",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/assorti_korporativnii",
+        "source_page": "https://shashlik-mashlik.com/menu/shashlik/nabory/assorti_korporativnii",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "",
+          "ru": "Свиная шея (600 г), Куриное бедро (600 г), Баранина на кости (600 г), Люля-кебаб из баранины (600 г), Куриные крылья (600 г), Филе индейки (600 г), Картофель на углях (1250 г), Соус шашлычный (600 г), Овощное ассорти (1500 г), Соленья (1000 г), Хачапури по-мегрельски (3 шт.)",
           "ka": "",
           "hy": "",
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "neck",
+              "names": {
+                "ru": "Свиная шея",
+                "ka": "ღორის კისერი",
+                "hy": "Խոզի վիզ",
+                "en": "Pork neck"
+              },
+              "quantity": null,
+              "grams": 600
+            },
+            {
+              "key": "thigh",
+              "names": {
+                "ru": "Куриное бедро",
+                "ka": "ქათმის ბარკალი",
+                "hy": "Հավի ազդր",
+                "en": "Chicken thigh"
+              },
+              "quantity": null,
+              "grams": 600
+            },
+            {
+              "key": "bonelamb",
+              "names": {
+                "ru": "Баранина на кости",
+                "ka": "ცხვრის ხორცი ძვლით",
+                "hy": "Գառան միս ոսկորով",
+                "en": "Bone-in lamb"
+              },
+              "quantity": null,
+              "grams": 600
+            },
+            {
+              "key": "lula_lamb",
+              "names": {
+                "ru": "Люля-кебаб из баранины",
+                "ka": "ცხვრის ქაბაბი",
+                "hy": "Գառան լյուլյա քյաբաբ",
+                "en": "Lamb lula kebab"
+              },
+              "quantity": null,
+              "grams": 600
+            },
+            {
+              "key": "wings",
+              "names": {
+                "ru": "Куриные крылья",
+                "ka": "ქათმის ფრთები",
+                "hy": "Հավի թևիկներ",
+                "en": "Chicken wings"
+              },
+              "quantity": null,
+              "grams": 600
+            },
+            {
+              "key": "turkey",
+              "names": {
+                "ru": "Филе индейки",
+                "ka": "ინდაურის ფილე",
+                "hy": "Հնդկահավի ֆիլե",
+                "en": "Turkey fillet"
+              },
+              "quantity": null,
+              "grams": 600
+            },
+            {
+              "key": "potato_plain",
+              "names": {
+                "ru": "Картофель на углях",
+                "ka": "კარტოფილი ნაკვერჩხალზე",
+                "hy": "Կարտոֆիլ ածխի վրա",
+                "en": "Grilled potatoes"
+              },
+              "quantity": null,
+              "grams": 1250
+            },
+            {
+              "key": "bbq",
+              "names": {
+                "ru": "Соус шашлычный",
+                "ka": "მწვადის სოუსი",
+                "hy": "Խորովածի սոուս",
+                "en": "Shashlik sauce"
+              },
+              "quantity": null,
+              "grams": 600
+            },
+            {
+              "key": "vegetable_platter",
+              "names": {
+                "ru": "Овощное ассорти",
+                "ka": "ბოსტნეულის ასორტი",
+                "hy": "Բանջարեղենի տեսականի",
+                "en": "Vegetable platter"
+              },
+              "quantity": null,
+              "grams": 1500
+            },
+            {
+              "key": "pickles",
+              "names": {
+                "ru": "Соленья",
+                "ka": "მწნილეული",
+                "hy": "Թթուներ",
+                "en": "Pickles"
+              },
+              "quantity": null,
+              "grams": 1000
+            },
+            {
+              "key": "khachapuri",
+              "names": {
+                "ru": "Хачапури по-мегрельски",
+                "ka": "მეგრული ხაჭაპური",
+                "hy": "Մեգրելական խաչապուրի",
+                "en": "Megrelian khachapuri"
+              },
+              "quantity": 3,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": null,
+            "max": null,
+            "basis": "unknown"
+          },
+          "notes": [
+            "khachapuri_weight_ambiguous"
+          ],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -2928,24 +4164,117 @@
       },
       "category": "combo",
       "price": 11900,
-      "grams": 1,
+      "grams": 1500,
       "stock": 100,
       "active": 1,
       "details": {
         "demo": true,
         "image": "/media/30cd32762eb0a7ea.jpg",
-        "weight_unknown": true,
+        "weight_unknown": false,
         "source_price_rub": "3750",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/assorti_ot_shefa",
+        "source_page": "https://shashlik-mashlik.com/menu/shashlik/nabory/assorti_ot_shefa",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "",
+          "ru": "Свиная шея, Свиные рёбра, Люля-кебаб из говядины, Куриное бедро, Куриные крылья, Люля-кебаб из курицы, Картофель на углях",
           "ka": "",
           "hy": "",
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "neck",
+              "names": {
+                "ru": "Свиная шея",
+                "ka": "ღორის კისერი",
+                "hy": "Խոզի վիզ",
+                "en": "Pork neck"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "ribs",
+              "names": {
+                "ru": "Свиные рёбра",
+                "ka": "ღორის ნეკნები",
+                "hy": "Խոզի կողեր",
+                "en": "Pork ribs"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_beef",
+              "names": {
+                "ru": "Люля-кебаб из говядины",
+                "ka": "საქონლის ქაბაბი",
+                "hy": "Տավարի լյուլյա քյաբաբ",
+                "en": "Beef lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "thigh",
+              "names": {
+                "ru": "Куриное бедро",
+                "ka": "ქათმის ბარკალი",
+                "hy": "Հավի ազդր",
+                "en": "Chicken thigh"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "wings",
+              "names": {
+                "ru": "Куриные крылья",
+                "ka": "ქათმის ფრთები",
+                "hy": "Հավի թևիկներ",
+                "en": "Chicken wings"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_chicken",
+              "names": {
+                "ru": "Люля-кебаб из курицы",
+                "ka": "ქათმის ქაბაბი",
+                "hy": "Հավի լյուլյա քյաբաբ",
+                "en": "Chicken lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "potato_plain",
+              "names": {
+                "ru": "Картофель на углях",
+                "ka": "კარტოფილი ნაკვერჩხალზე",
+                "hy": "Կարտոֆիլ ածխի վրա",
+                "en": "Grilled potatoes"
+              },
+              "quantity": null,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": 3,
+            "max": 4,
+            "basis": "estimate"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": [
+            350,
+            500
+          ]
+        }
       }
     },
     {
@@ -2958,24 +4287,106 @@
       },
       "category": "combo",
       "price": 10700,
-      "grams": 1,
+      "grams": 1300,
       "stock": 100,
       "active": 1,
       "details": {
         "demo": true,
         "image": "/media/30cd32762eb0a7ea.jpg",
-        "weight_unknown": true,
+        "weight_unknown": false,
         "source_price_rub": "3390",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/assorti_shashlikov",
+        "source_page": "https://shashlik-mashlik.com/menu/shashlik/nabory/assorti_shashlikov",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "",
+          "ru": "Свиная шея, Бараньи рёбрышки, Шашлык из куриной мякоти, Куриные крылья, Люля-кебаб из курицы, Картофель на углях",
           "ka": "",
           "hy": "",
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "neck",
+              "names": {
+                "ru": "Свиная шея",
+                "ka": "ღორის კისერი",
+                "hy": "Խոզի վիզ",
+                "en": "Pork neck"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lamb_ribs",
+              "names": {
+                "ru": "Бараньи рёбрышки",
+                "ka": "ცხვრის ნეკნები",
+                "hy": "Գառան կողեր",
+                "en": "Lamb ribs"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "chicken",
+              "names": {
+                "ru": "Шашлык из куриной мякоти",
+                "ka": "ქათმის რბილობის მწვადი",
+                "hy": "Հավի փափկամսի խորոված",
+                "en": "Chicken shashlik"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "wings",
+              "names": {
+                "ru": "Куриные крылья",
+                "ka": "ქათმის ფრთები",
+                "hy": "Հավի թևիկներ",
+                "en": "Chicken wings"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_chicken",
+              "names": {
+                "ru": "Люля-кебаб из курицы",
+                "ka": "ქათმის ქაბაბი",
+                "hy": "Հավի լյուլյա քյաբաբ",
+                "en": "Chicken lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "potato_plain",
+              "names": {
+                "ru": "Картофель на углях",
+                "ka": "კარტოფილი ნაკვერჩხალზე",
+                "hy": "Կարտոֆիլ ածխի վրա",
+                "en": "Grilled potatoes"
+              },
+              "quantity": null,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": 2,
+            "max": 3,
+            "basis": "estimate"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": [
+            350,
+            500
+          ]
+        }
       }
     },
     {
@@ -2996,16 +4407,152 @@
         "image": "/media/30cd32762eb0a7ea.jpg",
         "weight_unknown": true,
         "source_price_rub": "12500",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/assorti_prazdnichnii",
+        "source_page": "https://shashlik-mashlik.com/menu/shashlik/nabory/assorti_prazdnichnii",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "",
+          "ru": "Свиная шея (400 г), Свиные рёбра (400 г), Люля-кебаб из баранины (400 г), Куриные крылья (400 г), Люля-кебаб из курицы (400 г), Куриное бедро (400 г), Хачапури по-мегрельски (2 шт.), Картофель на углях (750 г), Ассорти «Кавказ» (1000 г), Соленья (700 г), Соус шашлычный (400 г)",
           "ka": "",
           "hy": "",
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "neck",
+              "names": {
+                "ru": "Свиная шея",
+                "ka": "ღორის კისერი",
+                "hy": "Խոզի վիզ",
+                "en": "Pork neck"
+              },
+              "quantity": null,
+              "grams": 400
+            },
+            {
+              "key": "ribs",
+              "names": {
+                "ru": "Свиные рёбра",
+                "ka": "ღორის ნეკნები",
+                "hy": "Խոզի կողեր",
+                "en": "Pork ribs"
+              },
+              "quantity": null,
+              "grams": 400
+            },
+            {
+              "key": "lula_lamb",
+              "names": {
+                "ru": "Люля-кебаб из баранины",
+                "ka": "ცხვრის ქაბაბი",
+                "hy": "Գառան լյուլյա քյաբաբ",
+                "en": "Lamb lula kebab"
+              },
+              "quantity": null,
+              "grams": 400
+            },
+            {
+              "key": "wings",
+              "names": {
+                "ru": "Куриные крылья",
+                "ka": "ქათმის ფრთები",
+                "hy": "Հավի թևիկներ",
+                "en": "Chicken wings"
+              },
+              "quantity": null,
+              "grams": 400
+            },
+            {
+              "key": "lula_chicken",
+              "names": {
+                "ru": "Люля-кебаб из курицы",
+                "ka": "ქათმის ქაბაბი",
+                "hy": "Հավի լյուլյա քյաբաբ",
+                "en": "Chicken lula kebab"
+              },
+              "quantity": null,
+              "grams": 400
+            },
+            {
+              "key": "thigh",
+              "names": {
+                "ru": "Куриное бедро",
+                "ka": "ქათმის ბარკალი",
+                "hy": "Հավի ազդր",
+                "en": "Chicken thigh"
+              },
+              "quantity": null,
+              "grams": 400
+            },
+            {
+              "key": "khachapuri",
+              "names": {
+                "ru": "Хачапури по-мегрельски",
+                "ka": "მეგრული ხაჭაპური",
+                "hy": "Մեգրելական խաչապուրի",
+                "en": "Megrelian khachapuri"
+              },
+              "quantity": 2,
+              "grams": null
+            },
+            {
+              "key": "potato_plain",
+              "names": {
+                "ru": "Картофель на углях",
+                "ka": "კარტოფილი ნაკვერჩხალზე",
+                "hy": "Կարտոֆիլ ածխի վրա",
+                "en": "Grilled potatoes"
+              },
+              "quantity": null,
+              "grams": 750
+            },
+            {
+              "key": "caucasus",
+              "names": {
+                "ru": "Ассорти «Кавказ»",
+                "ka": "ასორტი „კავკასია“",
+                "hy": "«Կովկաս» տեսականի",
+                "en": "Caucasus platter"
+              },
+              "quantity": null,
+              "grams": 1000
+            },
+            {
+              "key": "pickles",
+              "names": {
+                "ru": "Соленья",
+                "ka": "მწნილეული",
+                "hy": "Թթուներ",
+                "en": "Pickles"
+              },
+              "quantity": null,
+              "grams": 700
+            },
+            {
+              "key": "bbq",
+              "names": {
+                "ru": "Соус шашлычный",
+                "ka": "მწვადის სოუსი",
+                "hy": "Խորովածի սոուս",
+                "en": "Shashlik sauce"
+              },
+              "quantity": null,
+              "grams": 400
+            }
+          ],
+          "servings": {
+            "min": null,
+            "max": null,
+            "basis": "unknown"
+          },
+          "notes": [
+            "khachapuri_weight_ambiguous"
+          ],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": null
+        }
       }
     },
     {
@@ -3018,24 +4565,117 @@
       },
       "category": "combo",
       "price": 14400,
-      "grams": 1,
+      "grams": 1500,
       "stock": 100,
       "active": 1,
       "details": {
         "demo": true,
         "image": "/media/30cd32762eb0a7ea.jpg",
-        "weight_unknown": true,
+        "weight_unknown": false,
         "source_price_rub": "4550",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/assorti_ot_dushi",
+        "source_page": "https://shashlik-mashlik.com/menu/shashlik/nabory/assorti_ot_dushi",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "",
+          "ru": "Свиная шея, Баранина на кости, Люля-кебаб из свинины, Филе индейки, Шашлык из бараньей мякоти, Куриное бедро, Картофель на углях",
           "ka": "",
           "hy": "",
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "neck",
+              "names": {
+                "ru": "Свиная шея",
+                "ka": "ღორის კისერი",
+                "hy": "Խոզի վիզ",
+                "en": "Pork neck"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "bonelamb",
+              "names": {
+                "ru": "Баранина на кости",
+                "ka": "ცხვრის ხორცი ძვლით",
+                "hy": "Գառան միս ոսկորով",
+                "en": "Bone-in lamb"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_pork",
+              "names": {
+                "ru": "Люля-кебаб из свинины",
+                "ka": "ღორის ქაბაბი",
+                "hy": "Խոզի լյուլյա քյաբաբ",
+                "en": "Pork lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "turkey",
+              "names": {
+                "ru": "Филе индейки",
+                "ka": "ინდაურის ფილე",
+                "hy": "Հնդկահավի ֆիլե",
+                "en": "Turkey fillet"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lamb",
+              "names": {
+                "ru": "Шашлык из бараньей мякоти",
+                "ka": "ცხვრის რბილობის მწვადი",
+                "hy": "Գառան փափկամսի խորոված",
+                "en": "Lamb shashlik"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "thigh",
+              "names": {
+                "ru": "Куриное бедро",
+                "ka": "ქათმის ბარკალი",
+                "hy": "Հավի ազդր",
+                "en": "Chicken thigh"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "potato_plain",
+              "names": {
+                "ru": "Картофель на углях",
+                "ka": "კარტოფილი ნაკვერჩხალზე",
+                "hy": "Կարտոֆիլ ածխի վրա",
+                "en": "Grilled potatoes"
+              },
+              "quantity": null,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": 3,
+            "max": 4,
+            "basis": "estimate"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": [
+            350,
+            500
+          ]
+        }
       }
     },
     {
@@ -3048,24 +4688,95 @@
       },
       "category": "lula",
       "price": 8300,
-      "grams": 1,
+      "grams": 1100,
       "stock": 100,
       "active": 1,
       "details": {
         "demo": true,
         "image": "/media/2b75d3fdd8544002.jpg",
-        "weight_unknown": true,
+        "weight_unknown": false,
         "source_price_rub": "2600",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/assorti_lyulya",
+        "source_page": "https://shashlik-mashlik.com/menu/shashlik/nabory/assorti_lyulya",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "",
+          "ru": "Люля-кебаб из говядины, Люля-кебаб из баранины, Люля-кебаб из курицы, Люля-кебаб из свинины, Картофель на углях",
           "ka": "",
           "hy": "",
           "en": ""
         },
         "translations_pending": false,
-        "volume_ml": 0
+        "volume_ml": 0,
+        "bundle": {
+          "components": [
+            {
+              "key": "lula_beef",
+              "names": {
+                "ru": "Люля-кебаб из говядины",
+                "ka": "საქონლის ქაბაბი",
+                "hy": "Տավարի լյուլյա քյաբաբ",
+                "en": "Beef lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_lamb",
+              "names": {
+                "ru": "Люля-кебаб из баранины",
+                "ka": "ცხვრის ქაბაბი",
+                "hy": "Գառան լյուլյա քյաբաբ",
+                "en": "Lamb lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_chicken",
+              "names": {
+                "ru": "Люля-кебаб из курицы",
+                "ka": "ქათმის ქაბაბი",
+                "hy": "Հավի լյուլյա քյաբաբ",
+                "en": "Chicken lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "lula_pork",
+              "names": {
+                "ru": "Люля-кебаб из свинины",
+                "ka": "ღორის ქაბაბი",
+                "hy": "Խոզի լյուլյա քյաբաբ",
+                "en": "Pork lula kebab"
+              },
+              "quantity": null,
+              "grams": null
+            },
+            {
+              "key": "potato_plain",
+              "names": {
+                "ru": "Картофель на углях",
+                "ka": "კარტოფილი ნაკვერჩხალზე",
+                "hy": "Կարտոֆիլ ածխի վրա",
+                "en": "Grilled potatoes"
+              },
+              "quantity": null,
+              "grams": null
+            }
+          ],
+          "servings": {
+            "min": 2,
+            "max": 3,
+            "basis": "estimate"
+          },
+          "notes": [],
+          "checked_at": "2026-11-15",
+          "weight_basis": "complete_set",
+          "estimate_full_dish_g_per_adult": [
+            350,
+            500
+          ]
+        }
       }
     },
     {

@@ -1,5 +1,7 @@
 """Build an attributed demo catalogue using downloaded public menu data."""
 import json,re,hashlib,shutil,sys
+try:from .set_catalog import apply_sets
+except ImportError:from set_catalog import apply_sets
 from pathlib import Path
 from decimal import Decimal,ROUND_CEILING
 from html.parser import HTMLParser
@@ -59,7 +61,7 @@ def build():
   kept=canonical[key];duplicates.append({'removed_id':p['id'],'kept_id':kept['id'],'name':p['names']['ru'],'source':p['details']['source_page']})
   kept['details'].setdefault('aliases',[]).append(p['id'])
   kept['details'].setdefault('duplicate_sources',[]).append(p['details']['source_page'])
- products=list(canonical.values())
+ products=apply_sets(list(canonical.values()))
  (ROOT/'demo/deduplication.json').write_text(json.dumps(duplicates,ensure_ascii=False,indent=2))
  products.extend(json.loads((ROOT/'demo/alcohol_catalog.json').read_text()))
  info={'provider':'National Bank of Georgia','source':'https://nbg.gov.ge/gw/api/ct/monetarypolicy/currencies/en/json/','valid_from':rate['validFromDate'],'rub_quantity':rate['quantity'],'gel_rate':rate['rate'],'rounding':'ceil_to_whole_GEL'}
