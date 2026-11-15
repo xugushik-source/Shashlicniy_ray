@@ -8,7 +8,7 @@ def main():
  print('Ready for webhook configuration JSON (hidden).',flush=True)
  c=json.loads(getpass.getpass(''));base=c['url'].rstrip('/')
  try:
-  with urllib.request.urlopen(base+'/api/settings',timeout=20) as r:s=json.load(r)
+  with urllib.request.urlopen(urllib.request.Request(base+'/api/settings',headers={'User-Agent':'Mozilla/5.0'}),timeout=20) as r:s=json.load(r)
   if not s.get('pilot'):raise ValueError()
  except (urllib.error.URLError,ValueError):
   print('Public order API is not accessible. Webhook unchanged.',flush=True);return 1
