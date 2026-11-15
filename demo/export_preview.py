@@ -33,6 +33,9 @@ window.fetch=async function(path,options={}){
  html=html.replace('href="/"','href="#"').replace('</body>','<script>'+adapter+'\n'+app.replace('</','<\\/')+'</script></body>')
  (out/'index.html').write_text(html)
  media=out/'media';media.mkdir(exist_ok=True)
+ shutil.copytree(ROOT/'static/icons',out/'icons',dirs_exist_ok=True)
+ html=(out/'index.html').read_text().replace('src="/icons/','src="./icons/').replace('href="/icons/','href="./icons/')
+ (out/'index.html').write_text(html)
  for p in (ROOT/'static/media').iterdir():
   if p.is_file():shutil.copy2(p,media/p.name)
  (out/'README.txt').write_text('Шашлычный рай — демо для Ахалкалаки.\nРаспакуйте весь архив и откройте index.html в браузере. Сервер и установка не нужны.\nЧетыре языка, фотографии, каталог, корзина и расчёт порций работают локально.\nЗаказы не отправляются, Telegram не подключён, деньги не списываются. Не выполняйте переводы по банковским ссылкам во время демо.\nЦены сторонних ресторанов пересчитаны по НБГ на 14.11.2026: 100 RUB = 3.154 GEL и округлены вверх до целого лари.\nПорционные нормы технические; вес неизвестных позиций не используется для расчёта застолья.\nНазвания блюд переведены, подробные описания и аллергены ещё требуют завершения.\nФотографии сторонних ресторанов, коммерческая лицензия не получена.\n')

@@ -1,0 +1,37 @@
+{
+  "id": "/",
+  "name": "Խորովածի դրախտ",
+  "short_name": "Խորովածի դրախտ",
+  "description": "Խորոված և սեղաններ՝ առաքմամբ Ախալքալաքում",
+  "lang": "hy",
+  "start_url": "/?source=homescreen&lang=hy",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0D0D0D",
+  "background_color": "#0D0D0D",
+  "categories": [
+    "food",
+    "shopping"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
