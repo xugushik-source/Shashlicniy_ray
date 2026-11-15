@@ -6,7 +6,7 @@ export function buildFeast(catalog,p,rules=FEAST_RULES){
  if(p.budget!==undefined&&!int(p.budget,1,10000000))fail('INVALID_BUDGET');
  const adults=p.adults,children=p.children??0,guests=adults+children,budget=p.budget??Infinity;
  const selected=new Set(p.categories),prefs={salads:p.salads!==false,bread:p.bread!==false,sauces:p.sauces!==false,vegetables:p.vegetables!==false,starters:p.starters!==false,water:p.water!==false,softDrinks:p.softDrinks===true};
- const alcohol=p.alcohol??'none';if(!['none','wine','vodka','beer'].includes(alcohol))fail('INVALID_ALCOHOL');
+ const alcohol=p.alcohol??'none';if(!['none','wine','vodka','beer','chacha'].includes(alcohol))fail('INVALID_ALCOHOL');
  if(alcohol!=='none'&&!int(p.alcoholBottles??1,1,12))fail('INVALID_ALCOHOL');
  const available=catalog.filter(x=>x.active!==0&&x.stock>0&&x.price>0),known=x=>!x.details?.weight_unknown&&x.grams>0;
  const name=x=>x.names.ru.toLowerCase(),isLula=x=>/люля/.test(name(x)),plainHot=x=>/шашлык|люля|мякоть|шея|шейка|корейка|цыпл|дорадо|форель|лосось|семга|сёмга|баранина|семечки|филе/.test(name(x))&&!/лаваше|шаверм|хинкал|ассорти|суп|харчо|салат|жульен|сердеч|печень|наггет/.test(name(x))&&['pork','lamb','beef','poultry','fish','tandoor','lula'].includes(x.category);
@@ -24,7 +24,7 @@ export function buildFeast(catalog,p,rules=FEAST_RULES){
  const volume=x=>{if(x.details?.volume_ml>0)return x.details.volume_ml;const n=name(x);const ml=n.match(/(\d+)\s*мл/);if(ml)return +ml[1];const l=n.match(/(\d+(?:[.,]\d+)?)\s*(?:литр|л\b)/);if(l)return Math.round(+l[1].replace(',','.')*1000);return 0};
  const waters=drinks.filter(x=>/вода/.test(name(x))).sort((a,b)=>(/б\/газа|негаз/.test(name(b))?1:0)-(/б\/газа|негаз/.test(name(a))?1:0)||a.price-b.price);
  const soft=drinks.filter(x=>/компот|морс|лимонад|тархун|дюшес/.test(name(x))&&volume(x)>0).sort((a,b)=>a.price/volume(a)-b.price/volume(b));
- const alc=available.filter(x=>x.category==='alcohol'&&({wine:/вино|саперави|ркацители/,vodka:/водка/,beer:/пиво/})[alcohol]?.test(name(x))).sort((a,b)=>a.price-b.price);
+ const alc=available.filter(x=>x.category==='alcohol'&&(x.details?.alcohol_type?x.details.alcohol_type===alcohol:({wine:/вино|саперави|ркацители/,vodka:/водка/,beer:/пиво/,chacha:/чача/})[alcohol]?.test(name(x)))).sort((a,b)=>a.price-b.price);
  function make(first,second){
   const rows=[],warnings=[];
   function add(product,quantity,group){if(!product||quantity<1)return;const old=rows.find(x=>x.id===product.id);if(old){old.quantity+=quantity;return}rows.push({id:product.id,quantity,group,names:product.names,price:product.price,grams:known(product)?product.grams:null,volume_ml:volume(product)||null,image:product.details?.image||null})}

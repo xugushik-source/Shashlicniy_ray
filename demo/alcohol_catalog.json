@@ -1,0 +1,314 @@
+[
+  {
+    "id": "demo-alcohol-kindzmarauli",
+    "names": {
+      "ru": "Вино Teliani Valley Киндзмараули, красное полусладкое",
+      "ka": "ღვინო თელიანი ველი ქინძმარაული, წითელი ნახევრადტკბილი",
+      "hy": "Գինի Teliani Valley Կինձմարաուլի, կարմիր կիսաքաղցր",
+      "en": "Teliani Valley Kindzmarauli red semi-sweet wine"
+    },
+    "category": "alcohol",
+    "price": 1500,
+    "grams": 1,
+    "stock": 100,
+    "active": 1,
+    "cost_confirmed": false,
+    "details": {
+      "demo": true,
+      "demo_alcohol": true,
+      "stock_confirmed": false,
+      "weight_unknown": true,
+      "volume_ml": 750,
+      "alcohol_type": "wine",
+      "wine_style": "red",
+      "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/3/%E1%83%97%E1%83%94%E1%83%9A%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_%E1%83%95%E1%83%94%E1%83%9A%E1%83%98_%E1%83%A5%E1%83%98%E1%83%9C%E1%83%AB%E1%83%9B%E1%83%90%E1%83%A0%E1%83%90%E1%83%A3%E1%83%9A%E1%83%98_0.75%E1%83%9A.png",
+      "source_page": "https://alcorium-store.ge/georgian-wine/%E1%83%97%E1%83%94%E1%83%9A%E1%83%98%E1%83%90%E1%83%9C%E1%83%98-%E1%83%95%E1%83%94%E1%83%9A%E1%83%98/%E1%83%97-%E1%83%A2-%E1%83%A6%E1%83%95%E1%83%98%E1%83%9C%E1%83%9D-%E1%83%A5%E1%83%98%E1%83%9C%E1%83%AB%E1%83%9B%E1%83%90%E1%83%A0%E1%83%90%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%AC-%E1%83%9C%E1%83%90%E1%83%AE-%E1%83%A2%E1%83%99%E1%83%91%E1%83%98%E1%83%9A%E1%83%98-0-75/",
+      "source_site": "https://alcorium-store.ge",
+      "source_price_gel": 14.9,
+      "price_checked_at": "2026-11-15",
+      "description": {
+        "ru": "Демонстрационная позиция. Цена округлена вверх по открытому каталогу Alcorium; наличие магазина не подтверждено.",
+        "ka": "სადემონსტრაციო პროდუქტი. ფასი დამრგვალებულია Alcorium-ის ღია კატალოგიდან; მაღაზიის მარაგი დაუდასტურებელია.",
+        "hy": "Ցուցադրական ապրանք։ Գինը կլորացված է Alcorium-ի բաց կատալոգից․ խանութի առկայությունը հաստատված չէ։",
+        "en": "Demo item. Price rounded up from the public Alcorium catalogue; store stock is unconfirmed."
+      }
+    }
+  },
+  {
+    "id": "demo-alcohol-saperavi",
+    "names": {
+      "ru": "Вино Rtvelisi Саперави Premium, красное сухое",
+      "ka": "ღვინო რთველისი საფერავი Premium, წითელი მშრალი",
+      "hy": "Գինի Rtvelisi Սապերավի Premium, կարմիր չոր",
+      "en": "Rtvelisi Saperavi Premium dry red wine"
+    },
+    "category": "alcohol",
+    "price": 2200,
+    "grams": 1,
+    "stock": 100,
+    "active": 1,
+    "cost_confirmed": false,
+    "details": {
+      "demo": true,
+      "demo_alcohol": true,
+      "stock_confirmed": false,
+      "weight_unknown": true,
+      "volume_ml": 750,
+      "alcohol_type": "wine",
+      "wine_style": "red",
+      "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/4860117331741.png",
+      "source_page": "https://alcorium-store.ge/georgian-wine/%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98-%E1%83%A6%E1%83%95%E1%83%98%E1%83%9C%E1%83%9D-%E1%83%A1%E1%83%90%E1%83%A4%E1%83%94%E1%83%A0%E1%83%90%E1%83%95%E1%83%98-%E1%83%9E%E1%83%A0%E1%83%94%E1%83%9B%E1%83%98%E1%83%A3%E1%83%9B-%E1%83%99%E1%83%9D%E1%83%9A%E1%83%94%E1%83%A5%E1%83%AA%E1%83%98%E1%83%90-13-0-75-%E1%83%AC-%E1%83%9B%E1%83%A8/",
+      "source_site": "https://alcorium-store.ge",
+      "source_price_gel": 21.9,
+      "price_checked_at": "2026-11-15",
+      "description": {
+        "ru": "Демонстрационная позиция. Цена округлена вверх по открытому каталогу Alcorium; наличие магазина не подтверждено.",
+        "ka": "სადემონსტრაციო პროდუქტი. ფასი დამრგვალებულია Alcorium-ის ღია კატალოგიდან; მაღაზიის მარაგი დაუდასტურებელია.",
+        "hy": "Ցուցադրական ապրանք։ Գինը կլորացված է Alcorium-ի բաց կատալոգից․ խանութի առկայությունը հաստատված չէ։",
+        "en": "Demo item. Price rounded up from the public Alcorium catalogue; store stock is unconfirmed."
+      }
+    }
+  },
+  {
+    "id": "demo-alcohol-tsinandali",
+    "names": {
+      "ru": "Вино Mildiani Цинандали, белое сухое",
+      "ka": "ღვინო მილდიანი წინანდალი, თეთრი მშრალი",
+      "hy": "Գինի Mildiani Ցինանդալի, սպիտակ չոր",
+      "en": "Mildiani Tsinandali dry white wine"
+    },
+    "category": "alcohol",
+    "price": 1200,
+    "grams": 1,
+    "stock": 100,
+    "active": 1,
+    "cost_confirmed": false,
+    "details": {
+      "demo": true,
+      "demo_alcohol": true,
+      "stock_confirmed": false,
+      "weight_unknown": true,
+      "volume_ml": 750,
+      "alcohol_type": "wine",
+      "wine_style": "white",
+      "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/4860006701006__%E1%83%9B%E1%83%98%E1%83%9A%E1%83%93%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_-_%E1%83%AC%E1%83%98%E1%83%9C%E1%83%90%E1%83%9C%E1%83%93%E1%83%90%E1%83%9A%E1%83%98.png",
+      "source_page": "https://alcorium-store.ge/georgian-wine/%E1%83%9B%E1%83%98%E1%83%9A%E1%83%93%E1%83%98%E1%83%90%E1%83%9C%E1%83%98/%E1%83%9A%E1%83%94%E1%83%97%E1%83%A0%E1%83%94-%E1%83%AC%E1%83%98%E1%83%9C%E1%83%90%E1%83%9C%E1%83%93%E1%83%90%E1%83%9A%E1%83%98-%E1%83%9B%E1%83%98%E1%83%9A%E1%83%93%E1%83%98%E1%83%90%E1%83%9C%E1%83%98-0-750/",
+      "source_site": "https://alcorium-store.ge",
+      "source_price_gel": 11.9,
+      "price_checked_at": "2026-11-15",
+      "description": {
+        "ru": "Демонстрационная позиция. Цена округлена вверх по открытому каталогу Alcorium; наличие магазина не подтверждено.",
+        "ka": "სადემონსტრაციო პროდუქტი. ფასი დამრგვალებულია Alcorium-ის ღია კატალოგიდან; მაღაზიის მარაგი დაუდასტურებელია.",
+        "hy": "Ցուցադրական ապրանք։ Գինը կլորացված է Alcorium-ի բաց կատալոգից․ խանութի առկայությունը հաստատված չէ։",
+        "en": "Demo item. Price rounded up from the public Alcorium catalogue; store stock is unconfirmed."
+      }
+    }
+  },
+  {
+    "id": "demo-alcohol-guinness",
+    "names": {
+      "ru": "Пиво Guinness",
+      "ka": "ლუდი Guinness",
+      "hy": "Գարեջուր Guinness",
+      "en": "Guinness beer"
+    },
+    "category": "alcohol",
+    "price": 700,
+    "grams": 1,
+    "stock": 100,
+    "active": 1,
+    "cost_confirmed": false,
+    "details": {
+      "demo": true,
+      "demo_alcohol": true,
+      "stock_confirmed": false,
+      "weight_unknown": true,
+      "volume_ml": 440,
+      "alcohol_type": "beer",
+      "beer_style": "dark",
+      "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/5000213101872_v354-6v.png",
+      "source_page": "https://alcorium-store.ge/beer/guinness/guinness-0-440-cen-%E1%83%9A%E1%83%A3%E1%83%93%E1%83%98-%E1%83%92%E1%83%98%E1%83%9C%E1%83%94%E1%83%A1%E1%83%98-%E1%83%A5%E1%83%98%E1%83%9A%E1%83%90/",
+      "source_site": "https://alcorium-store.ge",
+      "source_price_gel": 6.4,
+      "price_checked_at": "2026-11-15",
+      "description": {
+        "ru": "Демонстрационная позиция. Цена округлена вверх по открытому каталогу Alcorium; наличие магазина не подтверждено.",
+        "ka": "სადემონსტრაციო პროდუქტი. ფასი დამრგვალებულია Alcorium-ის ღია კატალოგიდან; მაღაზიის მარაგი დაუდასტურებელია.",
+        "hy": "Ցուցադրական ապրանք։ Գինը կլորացված է Alcorium-ի բաց կատալոգից․ խանութի առկայությունը հաստատված չէ։",
+        "en": "Demo item. Price rounded up from the public Alcorium catalogue; store stock is unconfirmed."
+      }
+    }
+  },
+  {
+    "id": "demo-alcohol-heineken",
+    "names": {
+      "ru": "Пиво Heineken",
+      "ka": "ლუდი Heineken",
+      "hy": "Գարեջուր Heineken",
+      "en": "Heineken beer"
+    },
+    "category": "alcohol",
+    "price": 500,
+    "grams": 1,
+    "stock": 100,
+    "active": 1,
+    "cost_confirmed": false,
+    "details": {
+      "demo": true,
+      "demo_alcohol": true,
+      "stock_confirmed": false,
+      "weight_unknown": true,
+      "volume_ml": 500,
+      "alcohol_type": "beer",
+      "beer_style": "light",
+      "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/3800022407699.jpg",
+      "source_page": "https://alcorium-store.ge/beer/heineken/heineken-0-5-can-%E1%83%9A%E1%83%A3%E1%83%93%E1%83%98-%E1%83%B0%E1%83%90%E1%83%98%E1%83%9C%E1%83%94%E1%83%99%E1%83%94%E1%83%9C%E1%83%98-%E1%83%A5%E1%83%98%E1%83%9A%E1%83%90-5-0-500/",
+      "source_site": "https://alcorium-store.ge",
+      "source_price_gel": 4.8,
+      "price_checked_at": "2026-11-15",
+      "description": {
+        "ru": "Демонстрационная позиция. Цена округлена вверх по открытому каталогу Alcorium; наличие магазина не подтверждено.",
+        "ka": "სადემონსტრაციო პროდუქტი. ფასი დამრგვალებულია Alcorium-ის ღია კატალოგიდან; მაღაზიის მარაგი დაუდასტურებელია.",
+        "hy": "Ցուցադրական ապրանք։ Գինը կլորացված է Alcorium-ի բաց կատալոգից․ խանութի առկայությունը հաստատված չէ։",
+        "en": "Demo item. Price rounded up from the public Alcorium catalogue; store stock is unconfirmed."
+      }
+    }
+  },
+  {
+    "id": "demo-alcohol-pilsner",
+    "names": {
+      "ru": "Пиво Pilsner Urquell",
+      "ka": "ლუდი Pilsner Urquell",
+      "hy": "Գարեջուր Pilsner Urquell",
+      "en": "Pilsner Urquell beer"
+    },
+    "category": "alcohol",
+    "price": 600,
+    "grams": 1,
+    "stock": 100,
+    "active": 1,
+    "cost_confirmed": false,
+    "details": {
+      "demo": true,
+      "demo_alcohol": true,
+      "stock_confirmed": false,
+      "weight_unknown": true,
+      "volume_ml": 500,
+      "alcohol_type": "beer",
+      "beer_style": "light",
+      "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/8594404115115.png",
+      "source_page": "https://alcorium-store.ge/beer/pilsner-urquell/%E1%83%9C-%E1%83%94-%E1%83%92-%E1%83%9E%E1%83%90%E1%83%9A%E1%83%96-%E1%83%A3%E1%83%A0%E1%83%A5-0-5%E1%83%9A-%E1%83%A5%E1%83%98%E1%83%9A%E1%83%90/",
+      "source_site": "https://alcorium-store.ge",
+      "source_price_gel": 5.2,
+      "price_checked_at": "2026-11-15",
+      "description": {
+        "ru": "Демонстрационная позиция. Цена округлена вверх по открытому каталогу Alcorium; наличие магазина не подтверждено.",
+        "ka": "სადემონსტრაციო პროდუქტი. ფასი დამრგვალებულია Alcorium-ის ღია კატალოგიდან; მაღაზიის მარაგი დაუდასტურებელია.",
+        "hy": "Ցուցադրական ապրանք։ Գինը կլորացված է Alcorium-ի բաց կատալոգից․ խանութի առկայությունը հաստատված չէ։",
+        "en": "Demo item. Price rounded up from the public Alcorium catalogue; store stock is unconfirmed."
+      }
+    }
+  },
+  {
+    "id": "demo-alcohol-wyborowa",
+    "names": {
+      "ru": "Водка Wyborowa",
+      "ka": "არაყი Wyborowa",
+      "hy": "Օղի Wyborowa",
+      "en": "Wyborowa vodka"
+    },
+    "category": "alcohol",
+    "price": 1300,
+    "grams": 1,
+    "stock": 100,
+    "active": 1,
+    "cost_confirmed": false,
+    "details": {
+      "demo": true,
+      "demo_alcohol": true,
+      "stock_confirmed": false,
+      "weight_unknown": true,
+      "volume_ml": 500,
+      "alcohol_type": "vodka",
+      "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/3/Wyborowa_0.5L.jpg",
+      "source_page": "https://alcorium-store.ge/vodka/wyborowa/wyborowa-0-5-l-%E1%83%90%E1%83%A0%E1%83%90%E1%83%A7%E1%83%98-%E1%83%95%E1%83%98%E1%83%91%E1%83%9D%E1%83%A0%E1%83%9D%E1%83%95%E1%83%90/",
+      "source_site": "https://alcorium-store.ge",
+      "source_price_gel": 12.9,
+      "price_checked_at": "2026-11-15",
+      "description": {
+        "ru": "Демонстрационная позиция. Цена округлена вверх по открытому каталогу Alcorium; наличие магазина не подтверждено.",
+        "ka": "სადემონსტრაციო პროდუქტი. ფასი დამრგვალებულია Alcorium-ის ღია კატალოგიდან; მაღაზიის მარაგი დაუდასტურებელია.",
+        "hy": "Ցուցադրական ապրանք։ Գինը կլորացված է Alcorium-ի բաց կատալոգից․ խանութի առկայությունը հաստատված չէ։",
+        "en": "Demo item. Price rounded up from the public Alcorium catalogue; store stock is unconfirmed."
+      }
+    }
+  },
+  {
+    "id": "demo-alcohol-chacha",
+    "names": {
+      "ru": "Чача Marani Ркацители",
+      "ka": "ჭაჭა მარანი რქაწითელი",
+      "hy": "Չաչա Marani Ռկացիտելի",
+      "en": "Marani Rkatsiteli chacha"
+    },
+    "category": "alcohol",
+    "price": 1900,
+    "grams": 1,
+    "stock": 100,
+    "active": 1,
+    "cost_confirmed": false,
+    "details": {
+      "demo": true,
+      "demo_alcohol": true,
+      "stock_confirmed": false,
+      "weight_unknown": true,
+      "volume_ml": 500,
+      "alcohol_type": "chacha",
+      "image": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/4867616022200.jpg",
+      "source_page": "https://alcorium-store.ge/chacha/%E1%83%9B%E1%83%90%E1%83%A0%E1%83%90%E1%83%9C%E1%83%98/%E1%83%9B%E1%83%90%E1%83%A0%E1%83%90%E1%83%9C%E1%83%98-%E1%83%A0%E1%83%A5%E1%83%90%E1%83%AC%E1%83%98%E1%83%97%E1%83%94%E1%83%9A%E1%83%98-0-5%E1%83%9A/",
+      "source_site": "https://alcorium-store.ge",
+      "source_price_gel": 18.9,
+      "price_checked_at": "2026-11-15",
+      "description": {
+        "ru": "Демонстрационная позиция. Цена округлена вверх по открытому каталогу Alcorium; наличие магазина не подтверждено.",
+        "ka": "სადემონსტრაციო პროდუქტი. ფასი დამრგვალებულია Alcorium-ის ღია კატალოგიდან; მაღაზიის მარაგი დაუდასტურებელია.",
+        "hy": "Ցուցադրական ապրանք։ Գինը կլորացված է Alcorium-ի բաց կատալոգից․ խանութի առկայությունը հաստատված չէ։",
+        "en": "Demo item. Price rounded up from the public Alcorium catalogue; store stock is unconfirmed."
+      }
+    }
+  },
+  {
+    "id": "demo-alcohol-natakhtari",
+    "names": {
+      "ru": "Пиво «Натахтари»",
+      "ka": "ლუდი ნატახტარი",
+      "hy": "Գարեջուր Նատախտարի",
+      "en": "Natakhtari beer"
+    },
+    "category": "alcohol",
+    "price": 600,
+    "grams": 1,
+    "stock": 100,
+    "active": 1,
+    "cost_confirmed": false,
+    "details": {
+      "demo": true,
+      "demo_alcohol": true,
+      "stock_confirmed": false,
+      "weight_unknown": true,
+      "volume_ml": 500,
+      "alcohol_type": "beer",
+      "source_page": "https://europroduct.ge/products/product/78adf75922",
+      "source_site": "https://europroduct.ge",
+      "source_price_gel": 5.95,
+      "price_checked_at": "2026-11-15",
+      "source_evidence": "Search excerpt: ლუდი 'ნატახტარი' 0.5ლ ქილა. 5,95 ₾. Product page could not be retrieved.",
+      "description": {
+        "ru": "Демо: банка 0,5 л. Ориентир цены Europroduct — 5,95 ₾, округлено до 6 ₾. Наличие не подтверждено.",
+        "ka": "დემო: ქილა 0.5 ლ. Europroduct-ის საორიენტაციო ფასი 5.95 ₾, დამრგვალებულია 6 ₾-მდე. მარაგი დაუდასტურებელია.",
+        "hy": "Դեմո՝ 0.5 լ տարա։ Europroduct-ի կողմնորոշիչ գինը 5.95 ₾ է՝ կլորացված 6 ₾։ Առկայությունը հաստատված չէ։",
+        "en": "Demo: 0.5 L can. Europroduct reference price 5.95 GEL, rounded to 6 GEL. Stock unconfirmed."
+      }
+    }
+  }
+]

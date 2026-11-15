@@ -61,6 +61,7 @@ def build():
   kept['details'].setdefault('duplicate_sources',[]).append(p['details']['source_page'])
  products=list(canonical.values())
  (ROOT/'demo/deduplication.json').write_text(json.dumps(duplicates,ensure_ascii=False,indent=2))
+ products.extend(json.loads((ROOT/'demo/alcohol_catalog.json').read_text()))
  info={'provider':'National Bank of Georgia','source':'https://nbg.gov.ge/gw/api/ct/monetarypolicy/currencies/en/json/','valid_from':rate['validFromDate'],'rub_quantity':rate['quantity'],'gel_rate':rate['rate'],'rounding':'ceil_to_whole_GEL'}
  (ROOT/'demo/catalog.json').write_text(json.dumps({'exchange':info,'products':products},ensure_ascii=False,indent=2))
  print(json.dumps({'products':len(products),'known_weights':sum(not p['details']['weight_unknown'] for p in products),'rate':info},ensure_ascii=False))
