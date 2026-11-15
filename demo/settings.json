@@ -1,0 +1,25 @@
+{
+  "demo": true,
+  "city": {
+    "ru": "Ахалкалаки",
+    "ka": "ახალქალაქი",
+    "hy": "Ախալքալաք",
+    "en": "Akhalkalaki"
+  },
+  "phone_display": "+995 591 244 075",
+  "phone": "+995591244075",
+  "payment_methods": [
+    "cash",
+    "bank_transfer"
+  ],
+  "payment_links": [
+    {
+      "name": "Bank of Georgia",
+      "url": "https://egreve.bog.ge/Harut"
+    },
+    {
+      "name": "TBC Bank",
+      "url": "https://transfer.tbcbank.ge/?iban=z5odvB987WFKzWTYmygC6R7SJqhOqgpeAne2Tt+pQ1x/afoCC5+Fzsim8Iww0dhX1GI="
+    }
+  ]
+}

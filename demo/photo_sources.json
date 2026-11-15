@@ -1,0 +1,2777 @@
+[
+  {
+    "file": "Мясье-Шашлык/Coca-Cola--300-мл-0c263373.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/736cdaa2d88d40996e1e7be88c6ed8259bdeb160-3499x2624.jpg",
+    "bytes": 1019991,
+    "menu_items": [
+      {
+        "name": "Coca-Cola  300 мл",
+        "category": "napitki",
+        "price": 149,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/napitki/coca-cola"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Coca-Cola--500-мл-2bce0f09.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/4d895cc1f47fb62942610f08fed7f85cf3fe4eeb-5333x4000.jpg",
+    "bytes": 1660354,
+    "menu_items": [
+      {
+        "name": "Coca-Cola  500 мл",
+        "category": "napitki",
+        "price": 199,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/napitki/coca-cola05"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Аджапсандали-60093ca6.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/a36e57056bf2a0e40d21a93e3f0fdc4bbc07d674-3499x2624.jpg",
+    "bytes": 1759383,
+    "menu_items": [
+      {
+        "name": "Аджапсандали ",
+        "category": "zakuski",
+        "price": 419,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/adzhapsandali"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Аджика-f1b8ad3a.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/963d2c176a6dd9e8a4ab9db7dadddab19a021e00-803x803.jpg",
+    "bytes": 143345,
+    "menu_items": [
+      {
+        "name": "Аджика",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/adzhika"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-1-0f801d02.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/2f946ce11d15218c8432465abb5b964b700f39f7-5333x4000.jpg",
+    "bytes": 1809810,
+    "menu_items": [
+      {
+        "name": "Ассорти №1",
+        "category": "sety",
+        "price": 4499,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sety/assorti-1"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-2-4c3ebe49.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/b5f146b6b93169943137d520c96abb53beb155ef-3499x2624.jpg",
+    "bytes": 1894296,
+    "menu_items": [
+      {
+        "name": "Ассорти №2",
+        "category": "sety",
+        "price": 7199,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sety/assorti-2"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-3-13b061db.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/ac122e863982ab51dc222ba646c89a7e28ab5484-3499x2624.jpg",
+    "bytes": 1747993,
+    "menu_items": [
+      {
+        "name": "Ассорти №3",
+        "category": "sety",
+        "price": 7199,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sety/assorti-3"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-из-баранины-aec5c128.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/88d8c36aca71b4137110ee93b706676d02dabc99-3498x2624.jpg",
+    "bytes": 1904684,
+    "menu_items": [
+      {
+        "name": "Ассорти из баранины",
+        "category": "sety",
+        "price": 6719,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sety/assorti-iz-baraniny"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-из-европейских-сыров-d2a3732a.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/fa5e5031b972ec22eb9a94f7f2a478068ee3bce3-3499x2624.jpg",
+    "bytes": 1836369,
+    "menu_items": [
+      {
+        "name": "Ассорти из европейских сыров ",
+        "category": "zakuski",
+        "price": 1199,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/assorti-iz-evropeiskikh-syrov"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-из-курицы-4af2ac57.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/aaa46a02dbf82f5ed9f78c9abe5079985149795a-3498x2624.jpg",
+    "bytes": 1836634,
+    "menu_items": [
+      {
+        "name": "Ассорти из курицы",
+        "category": "sety",
+        "price": 3599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sety/assorti-iz-kuricy"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-из-пхали-0e5d35a9.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/40582c6c21bfbbb0efcb563f6b5a3f913e438712-3499x2624.jpg",
+    "bytes": 1941533,
+    "menu_items": [
+      {
+        "name": "Ассорти из пхали ",
+        "category": "zakuski",
+        "price": 359,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/assorti-iz-pkhali"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-из-свинины-d38d24f3.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/abf9ad88b0271775f12e60b4a3f02bfcc83104e6-3498x2624.jpg",
+    "bytes": 1807437,
+    "menu_items": [
+      {
+        "name": "Ассорти из свинины",
+        "category": "sety",
+        "price": 3599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sety/assorti-iz-svininy"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-кавказских-сыров-b53322da.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/8ce8885c832e2afe2695f46635be7915b855bb4d-3499x2624.jpg",
+    "bytes": 1686083,
+    "menu_items": [
+      {
+        "name": "Ассорти кавказских сыров",
+        "category": "zakuski",
+        "price": 779,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/assorti-kavkazskikh-syrov"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-люля-кебабов-65cf529b.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/4b879f4ebbfb8e23bce5c326c775e9d22d715053-3499x2624.jpg",
+    "bytes": 1825849,
+    "menu_items": [
+      {
+        "name": "Ассорти люля-кебабов",
+        "category": "sety",
+        "price": 3599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sety/assorti-lyulya-kebabov"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-овощей-1-0743d7ab.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/c83ee39e8a93216fc7bf86eea267803e364414b3-5333x4000.jpg",
+    "bytes": 2055804,
+    "menu_items": [
+      {
+        "name": "Ассорти овощей №1",
+        "category": "ovoshi-na-mangale",
+        "price": 2700,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/ovoshi-na-mangale/assorti-ovoshei-1"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ассорти-овощей-на-углях-630b50b0.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/23a3b58da39659fceba1ef4d7c0e7213f93d347b-3499x2624.jpg",
+    "bytes": 1876239,
+    "menu_items": [
+      {
+        "name": "Ассорти овощей на углях",
+        "category": "ovoshi-na-mangale",
+        "price": 1079,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/ovoshi-na-mangale/assorti-ovoshei-na-uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Бараньи-семечки-56144c72.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/412459f7fc014b4bd9b1868e7df37d38567a813c-3499x2624.jpg",
+    "bytes": 1830110,
+    "menu_items": [
+      {
+        "name": "Бараньи семечки",
+        "category": "shashlyk",
+        "price": 1079,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/barani-semechki"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Барбекю-d36376e2.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/7703a207271199409ac9130d24c892d47a2768cc-858x858.jpg",
+    "bytes": 142144,
+    "menu_items": [
+      {
+        "name": "Барбекю",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/barbekyu"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Горчица-5dc78089.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/385670c2ace45583c022a52956b1cbaa68103dc8-876x876.jpg",
+    "bytes": 129182,
+    "menu_items": [
+      {
+        "name": "Горчица",
+        "category": "sousy",
+        "price": 49,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/gorchica"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Греческий-салат-4f67ceec.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/0ce02cb5c0ea78149da890de6ffd93ec4d190bb5-5333x4000.jpg",
+    "bytes": 1988502,
+    "menu_items": [
+      {
+        "name": "Греческий салат",
+        "category": "salaty",
+        "price": 449,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/salaty/grecheskii-salat"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Грузинский-салат-4c2b5e4e.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/8ac8b8f0a16a07cd244f7d4091f6264bf1f1d4ee-3499x2624.jpg",
+    "bytes": 1683466,
+    "menu_items": [
+      {
+        "name": "Грузинский салат",
+        "category": "salaty",
+        "price": 479,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/salaty/salat-gruzinskii"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Дорадо-на-мангале-6fc9bd3b.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/28a1d02173013dc8a3656def31e2174e8ff1d826-3499x2624.jpg",
+    "bytes": 1748520,
+    "menu_items": [
+      {
+        "name": "Дорадо на мангале",
+        "category": "shashlyk",
+        "price": 1379,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/dorado-na-mangale"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Жареные-хинкали-с-говядиной-b4d9dd7c.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/e0366b1452fcc7aeb99e37ac0befca06f39ae303-3499x2624.jpg",
+    "bytes": 1394031,
+    "menu_items": [
+      {
+        "name": "Жареные хинкали с говядиной",
+        "category": "khinkali",
+        "price": 539,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khinkali/zharenye-khinkali-s-govyadinoi"
+      },
+      {
+        "name": "Жареные хинкали с бараниной",
+        "category": "khinkali",
+        "price": 599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khinkali/zharenye-khinkali-s-baraninoi"
+      },
+      {
+        "name": "Жареные хинкали с сыром",
+        "category": "khinkali",
+        "price": 479,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khinkali/zharenye-khinkali-s-syrom"
+      },
+      {
+        "name": "Жареные хинкали с грибами",
+        "category": "khinkali",
+        "price": 359,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khinkali/zharenye-khinkali-s-gribami"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Имеретинский-салат-1bf12d33.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/624321579481d471e73991ee0dafcd67a445cb93-3499x2624.jpg",
+    "bytes": 1555399,
+    "menu_items": [
+      {
+        "name": "Имеретинский салат",
+        "category": "salaty",
+        "price": 539,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/salaty/salat-imeretinskii"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Каре-ягненка-30e837dd.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/77f0f83ff9a430d7819b19a42708f5bd601ad0d3-3499x2624.jpg",
+    "bytes": 1822232,
+    "menu_items": [
+      {
+        "name": "Каре ягненка",
+        "category": "shashlyk",
+        "price": 1679,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/kare-yagnenka"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Картофель-по-деревенски-be1cae7a.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/146fcb74c69b6820466d694e1374b5a5336e2a72-3499x2624.jpg",
+    "bytes": 1380715,
+    "menu_items": [
+      {
+        "name": "Картофель по-деревенски",
+        "category": "garniry",
+        "price": 239,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/garniry/kartofel-po-derevenski"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Картофель-фри-5f20a879.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/953107b818e6f43f110c031c91f6f2238c25bcb3-3499x2624.jpg",
+    "bytes": 1629540,
+    "menu_items": [
+      {
+        "name": "Картофель фри",
+        "category": "garniry",
+        "price": 179,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/garniry/kartofel-fri"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Кетчуп-ca8bbcd2.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/64c7d5e12ef4faee7eaddccbedae1f65c0775532-891x891.jpg",
+    "bytes": 103579,
+    "menu_items": [
+      {
+        "name": "Кетчуп",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/ketchup"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Компот-Домашный--300-мл-71b2d249.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/f874ee005e63a4cee30e34a5d97a840c3223b567-939x939.jpg",
+    "bytes": 141056,
+    "menu_items": [
+      {
+        "name": "Компот Домашный  300 мл",
+        "category": "napitki",
+        "price": 129,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/napitki/kompot-domashnyi"
+      },
+      {
+        "name": "Компот Домашный 1 литр",
+        "category": "napitki",
+        "price": 349,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/napitki/kompot-domashnyi500"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Лепешка-домашняя-d3570539.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/90f3152762e5140ebc560518ecdf698fe6ec8b58-1280x960.jpg",
+    "bytes": 315288,
+    "menu_items": [
+      {
+        "name": "Лепешка домашняя",
+        "category": "khachapuri",
+        "price": 169,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khachapuri/lepeshka-domashnyaya"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Люля-кебаб-из-баранины-866b2dd5.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/915c3d7382f7ba4412596f630551ce57605eecb1-3499x2624.jpg",
+    "bytes": 1659732,
+    "menu_items": [
+      {
+        "name": "Люля-кебаб из баранины",
+        "category": "shashlyk",
+        "price": 899,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/lyulya-kebab-iz-baraniny"
+      },
+      {
+        "name": "Люля-кебаб из говядины",
+        "category": "shashlyk",
+        "price": 779,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/lyulya-kebab-iz-govyadiny"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Люля-кебаб-из-курицы-f6b7dc20.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/3ddd7f7259e3b956df825b249e2a4bfc0327451b-3499x2624.jpg",
+    "bytes": 1810870,
+    "menu_items": [
+      {
+        "name": "Люля-кебаб из курицы",
+        "category": "shashlyk",
+        "price": 599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/lyulya-kebab-kurinyi"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Люля-кебаб-из-свинины-b86cdcee.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/034f08e578f677772175ce60210f8033cec78d36-3499x2624.jpg",
+    "bytes": 1753496,
+    "menu_items": [
+      {
+        "name": "Люля-кебаб из свинины",
+        "category": "shashlyk",
+        "price": 599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/lyulya-kebab-iz-svininy"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Майонез-0bb8a01a.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/26dd5296536f551a1798f1a7ddbee938adac7bcf-877x877.jpg",
+    "bytes": 132860,
+    "menu_items": [
+      {
+        "name": "Майонез",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/maionez"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Микс-овощей-на-углях-20e268bd.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/e0ffd7f60e79a677478ee6bc654352b129317a39-3499x2624.jpg",
+    "bytes": 1377494,
+    "menu_items": [
+      {
+        "name": "Микс овощей на углях",
+        "category": "ovoshi-na-mangale",
+        "price": 479,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/ovoshi-na-mangale/miks-iz-ovoshei-na-uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Молодой-картофель-на-углях-4489edd0.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/ad03ca8ce746b2c3d84f09c453d8ef3102c98f13-3499x2624.jpg",
+    "bytes": 1751679,
+    "menu_items": [
+      {
+        "name": "Молодой картофель на углях",
+        "category": "ovoshi-na-mangale",
+        "price": 359,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/ovoshi-na-mangale/molodoi-kartofel-na-uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Морс-Домашний--300мл-b122a186.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/009d68cf451c8f35abcb31f8099a48b5188727bb-944x943.jpg",
+    "bytes": 81986,
+    "menu_items": [
+      {
+        "name": "Морс Домашний  300мл",
+        "category": "napitki",
+        "price": 129,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/napitki/mors-domashnii"
+      },
+      {
+        "name": "Морс Домашний 1 литр",
+        "category": "napitki",
+        "price": 349,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/napitki/mors-domashnii500"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Наггетсы-куриные-a9d7542e.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/3bbded09ee55549880eb96d5f476f279b55da289-3499x2624.jpg",
+    "bytes": 1401670,
+    "menu_items": [
+      {
+        "name": "Наггетсы куриные",
+        "category": "zakuski",
+        "price": 419,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/naggetsy-kurinye"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Наршараб-77039248.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/12a765c63f9221d7e6c8bafc9615295c9fe5685a-847x847.jpg",
+    "bytes": 113425,
+    "menu_items": [
+      {
+        "name": "Наршараб",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/narsharab"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Овощной-салат-50da160b.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/8dc334c51dd893334d73a500e97d0bdc1ac1c6ea-3499x2624.jpg",
+    "bytes": 1479131,
+    "menu_items": [
+      {
+        "name": "Овощной салат",
+        "category": "salaty",
+        "price": 479,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/salaty/ovoshnoi-salat"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Пхали-с-баклажанами-0a52ee79.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/7a3ddf5d955225bf13afd86e90c54b7b245fc6a7-3499x2624.jpg",
+    "bytes": 1656946,
+    "menu_items": [
+      {
+        "name": "Пхали с баклажанами ",
+        "category": "zakuski",
+        "price": 359,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/pkhali-s-baklazhanami"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Пхали-с-фасолью-59e70c13.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/4619b286be187ff20c3e146b33a7c86403fd56cf-3499x2624.jpg",
+    "bytes": 1659961,
+    "menu_items": [
+      {
+        "name": "Пхали с фасолью ",
+        "category": "zakuski",
+        "price": 359,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/pkhali-s-fasolyu"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Пхали-со-свёклой-f983ce2d.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/cab8d4120101787b1163d54f7abeb9d257d41c18-3499x2624.jpg",
+    "bytes": 1704331,
+    "menu_items": [
+      {
+        "name": "Пхали со свёклой ",
+        "category": "zakuski",
+        "price": 359,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/pkhali-so-svyokloi"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Пхали-со-шпинатом-7df00b27.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/7439d10177d4b72c354ca960d91127ea429db68c-3499x2624.jpg",
+    "bytes": 1742347,
+    "menu_items": [
+      {
+        "name": "Пхали со шпинатом ",
+        "category": "zakuski",
+        "price": 359,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/pkhali-so-shpinatom"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Рулетики-из-баклажанов-f564f763.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/652b0264895c5d7a1e392e2773dc2ea250356d48-3499x2624.jpg",
+    "bytes": 1611684,
+    "menu_items": [
+      {
+        "name": "Рулетики из баклажанов ",
+        "category": "zakuski",
+        "price": 419,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/zakuski/ruletiki-iz-baklazhanov"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Рыбное-ассорти-e41651d2.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/43cf9bcc5a37301ab03c9b9832ea8fca7c5ee507-5333x3999.jpg",
+    "bytes": 2976670,
+    "menu_items": [
+      {
+        "name": "Рыбное ассорти",
+        "category": "sety",
+        "price": 5399,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sety/rybnoe-assorti"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Сацебели-cf27321e.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/3846bbdfd24126ed297b80495a71da1d362a5c0d-849x849.jpg",
+    "bytes": 144787,
+    "menu_items": [
+      {
+        "name": "Сацебели",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/sacebeli"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Семга-на-мангале-846f686a.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/31ec134481cd284fa6fa1d3b0fd5591fba5247e5-3499x2624.jpg",
+    "bytes": 1686767,
+    "menu_items": [
+      {
+        "name": "Семга на мангале",
+        "category": "shashlyk",
+        "price": 1499,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/semga-na-mangale"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Сибас-на-мангале-6bc29d64.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/77d2687ec42708cb043c11e1c071b8335b521efb-3499x2624.jpg",
+    "bytes": 1745769,
+    "menu_items": [
+      {
+        "name": "Сибас на мангале",
+        "category": "shashlyk",
+        "price": 1439,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/sibas-na-mangale"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Сырный-add5550c.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/e6d7ceaf08399e8007b3cad20a817b52779bd4cc-884x878.jpg",
+    "bytes": 124848,
+    "menu_items": [
+      {
+        "name": "Сырный",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/syrnyi"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Тартар-8c6f82e5.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/f85da1f83118ea9bc3014a127e95115f7613a616-865x860.jpg",
+    "bytes": 123650,
+    "menu_items": [
+      {
+        "name": "Тартар",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/tartar"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ткемали-зеленый-ac31e0ea.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/03741fa96c52829140d601a2ddcc1e7326d6c879-886x886.jpg",
+    "bytes": 159813,
+    "menu_items": [
+      {
+        "name": "Ткемали зеленый",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/tkemali-zelenyi"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Ткемали-красный-cacdfd99.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/341942535499427fb0cb8ffa46c590215238cd03-879x879.jpg",
+    "bytes": 126227,
+    "menu_items": [
+      {
+        "name": "Ткемали красный",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/tkemali-krasnyi"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Форель-на-мангале-749b0bf7.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/4a6d430815615b9e45535b5d46bc8d21d1ecceba-3499x2624.jpg",
+    "bytes": 1734085,
+    "menu_items": [
+      {
+        "name": "Форель на мангале",
+        "category": "shashlyk",
+        "price": 1199,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/forel-na-mangale"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Хачапури-Пеновани-8f50857d.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/f0abbe7bf4b48ae9fd13b0204c23141554b31426-3499x2624.jpg",
+    "bytes": 1693187,
+    "menu_items": [
+      {
+        "name": "Хачапури Пеновани",
+        "category": "khachapuri",
+        "price": 659,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khachapuri/khachapuri-penovani"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Хачапури-по-аджарски-49d82e2d.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/fee3ab9b2c0ec6b78c01de6809a470cfa5c94364-3499x2624.jpg",
+    "bytes": 1647041,
+    "menu_items": [
+      {
+        "name": "Хачапури по-аджарски ",
+        "category": "khachapuri",
+        "price": 659,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khachapuri/khachapuri-po-adzharski"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Хачапури-по-имеретински-a5ae31f7.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/489542e83c887e34fc34c091130f3c32d3db6898-3499x2624.jpg",
+    "bytes": 1659784,
+    "menu_items": [
+      {
+        "name": "Хачапури по-имеретински",
+        "category": "khachapuri",
+        "price": 659,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khachapuri/khachapuri-po-imeretinski"
+      },
+      {
+        "name": "Пирог с сыром и зеленью",
+        "category": "khachapuri",
+        "price": 599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khachapuri/pirog-s-syrom-i-zelenyu"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Хачапури-по-мегрельски-fe3ce7d8.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/299ae949d1a1756d290472b6e2310276a280ef25-3499x2624.jpg",
+    "bytes": 1716941,
+    "menu_items": [
+      {
+        "name": "Хачапури по-мегрельски",
+        "category": "khachapuri",
+        "price": 659,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khachapuri/khachapuri-po-megrelski"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Хинкали-с-говядиной-dddac16a.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/586ad33111bf6afe6ce0771480914c73e3527ead-3499x2624.jpg",
+    "bytes": 1455344,
+    "menu_items": [
+      {
+        "name": "Хинкали с говядиной",
+        "category": "khinkali",
+        "price": 539,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khinkali/khinkali-s-govyadinoi"
+      },
+      {
+        "name": "Хинкали с бараниной",
+        "category": "khinkali",
+        "price": 599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khinkali/khinkali-s-baraninoi"
+      },
+      {
+        "name": "Хинкали с сыром",
+        "category": "khinkali",
+        "price": 479,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khinkali/khinkali-s-syrom"
+      },
+      {
+        "name": "Хинкали с грибами",
+        "category": "khinkali",
+        "price": 359,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/khinkali/khinkali-s-gribami"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Хрустящие-баклажаны-5a993b98.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/3470f69211fe3cb3c46beb055864263a67f7a3f5-5333x4000.jpg",
+    "bytes": 2026697,
+    "menu_items": [
+      {
+        "name": "Хрустящие баклажаны",
+        "category": "salaty",
+        "price": 539,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/salaty/khrustyashie-baklazhany"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Цезарь-с-курицей-23637b2b.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/eb9bcd3b003c45e0e89b397d4bd8b99075dfe568-5333x4000.jpg",
+    "bytes": 1866684,
+    "menu_items": [
+      {
+        "name": "Цезарь с курицей",
+        "category": "salaty",
+        "price": 599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/salaty/cezar-s-kuricei"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Цезарь-с-тигровыми-креветками-c4bec14c.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/81a7fd500e637180f9c6198deeb419a20cc1c431-5333x4000.jpg",
+    "bytes": 1872581,
+    "menu_items": [
+      {
+        "name": "Цезарь с тигровыми креветками",
+        "category": "salaty",
+        "price": 719,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/salaty/cezar-s-tigrovymi-krevetkami"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Цыпленок-на-мангале-1fa55ec0.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/0f867a00105a886730ee56d96fe93e7af6cce636-3499x2624.jpg",
+    "bytes": 1857175,
+    "menu_items": [
+      {
+        "name": "Цыпленок на мангале",
+        "category": "shashlyk",
+        "price": 1019,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/cyplenok-na-mangale"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Чесночный-83b0e0fc.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/e6c5ce7c2c3e9aca41f3fb971a67f3539aceb699-851x851.jpg",
+    "bytes": 119197,
+    "menu_items": [
+      {
+        "name": "Чесночный",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/chesnochnyi"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Шампиньоны-на-углях-8b9fa8bf.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/0f2f4c0ea73e04954e25eb2b4b7a00b2aa52c0d6-3499x2624.jpg",
+    "bytes": 1781165,
+    "menu_items": [
+      {
+        "name": "Шампиньоны на углях",
+        "category": "ovoshi-na-mangale",
+        "price": 419,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/ovoshi-na-mangale/shampinony-na-uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Шашлык-из-куриной-мякоти-f6b655bd.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/b1faf553697e5a36201947ad84c1622107ad7560-3499x2624.jpg",
+    "bytes": 1872339,
+    "menu_items": [
+      {
+        "name": "Шашлык из куриной мякоти",
+        "category": "shashlyk",
+        "price": 659,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/shashlyk-iz-kurinoi-myakoti"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Шашлык-из-куриных-крыльев-fbc88dde.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/e2d2000537d6102ff7ce3d30caf56780fb6c6fbf-3499x2624.jpg",
+    "bytes": 1748878,
+    "menu_items": [
+      {
+        "name": "Шашлык из куриных крыльев",
+        "category": "shashlyk",
+        "price": 659,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/shashlyk-iz-kurinykh-krylev"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Шашлык-из-куриных-сердечек-с-картофелем-фри-87faa47e.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/27391dbdd1b879e5d47c90f761252d022cdcb75a-3499x2624.jpg",
+    "bytes": 1696910,
+    "menu_items": [
+      {
+        "name": "Шашлык из куриных сердечек с картофелем фри",
+        "category": "shashlyk",
+        "price": 599,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/shashlyk-iz-kurinykh-serdechek-s-kartofelem-fri"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Шашлык-из-свиной-мякоти-f6d2bd33.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/567aadcc25eb407db6ff08c0989a9391127ba7ad-3499x2624.jpg",
+    "bytes": 1804330,
+    "menu_items": [
+      {
+        "name": "Шашлык из свиной мякоти",
+        "category": "shashlyk",
+        "price": 779,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/svinaya-myakot"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Шашлык-из-свиных-ребрышек-bb90e599.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/978028972fe80b4fa73fabc157a74367d4512f7f-3499x2624.jpg",
+    "bytes": 1708340,
+    "menu_items": [
+      {
+        "name": "Шашлык из свиных ребрышек",
+        "category": "shashlyk",
+        "price": 779,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/svinye-rebra"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Шашлык-из-телячьей-мякоти-f1a96a08.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/92db0a34db80ac95203f1dc88cfaf58a52cab733-3499x2624.jpg",
+    "bytes": 1800213,
+    "menu_items": [
+      {
+        "name": "Шашлык из телячьей мякоти",
+        "category": "shashlyk",
+        "price": 1619,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/Шашлык из телячьей мякоти"
+      },
+      {
+        "name": "Шашлык из бараньей мякоти",
+        "category": "shashlyk",
+        "price": 1619,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/shashlyk-iz-baraniny"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Шашлычный-a53d5781.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/54b9fb9b967918751deed46100cd6eab6419df8b-914x914.jpg",
+    "bytes": 142715,
+    "menu_items": [
+      {
+        "name": "Шашлычный",
+        "category": "sousy",
+        "price": 59,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/sousy/shashlychnyi"
+      }
+    ]
+  },
+  {
+    "file": "Мясье-Шашлык/Щербет-Домашний-300-мл-7008b6c2.jpg",
+    "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
+    "image_url": "https://content.cdn.starterapp.ru/images/myasyeshashlyk/2a467fbd017a6b2b3342d39523f6ae641a11f1f8-945x945.jpg",
+    "bytes": 99010,
+    "menu_items": [
+      {
+        "name": "Щербет Домашний 300 мл",
+        "category": "napitki",
+        "price": 99,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/napitki/sherbet-domashnii"
+      },
+      {
+        "name": "Щербет Домашный 1 литр",
+        "category": "napitki",
+        "price": 349,
+        "currency": "RUB",
+        "page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/napitki/sherbet-domashnyi"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Аджапсандал-54f6dc5a.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/33b4632e043246262f0d121d0b045ab008f8e017-1200x800.jpg",
+    "bytes": 179815,
+    "menu_items": [
+      {
+        "name": "Аджапсандал",
+        "category": "Горячие закуски",
+        "price": "490",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/adzhapsandal"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Аджика-a80d9415.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/9ebfaaf1a5c9d6de638e14a023b5f4c231fb2157-1200x1800.jpg",
+    "bytes": 308501,
+    "menu_items": [
+      {
+        "name": "Аджика",
+        "category": "Соусы",
+        "price": "95",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/adzhika"
+      },
+      {
+        "name": "Горчица",
+        "category": "Соусы",
+        "price": "50",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/gorchitsa"
+      },
+      {
+        "name": "Кетчуп",
+        "category": "Соусы",
+        "price": "85",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/ketchup"
+      },
+      {
+        "name": "Наршараб",
+        "category": "Соусы",
+        "price": "95",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/narsharab"
+      },
+      {
+        "name": "Сметана",
+        "category": "Соусы",
+        "price": "50",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/smetana"
+      },
+      {
+        "name": "Соус Цезарь",
+        "category": "Соусы",
+        "price": "95",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/sous_tsezar"
+      },
+      {
+        "name": "Тар-тар",
+        "category": "Соусы",
+        "price": "95",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/tartar"
+      },
+      {
+        "name": "Хрен ",
+        "category": "Соусы",
+        "price": "50",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/khren"
+      },
+      {
+        "name": "Чесночный",
+        "category": "Соусы",
+        "price": "95",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/chesnochnii"
+      },
+      {
+        "name": "Шашлычный",
+        "category": "Соусы",
+        "price": "95",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/sousi/shashlichnii"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Айран-05-76a1ad20.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/dcf77ba2fdec6bc8cd4acc55e23e130f405c8fbd-400x600.jpg",
+    "bytes": 39274,
+    "menu_items": [
+      {
+        "name": "Айран 0,5",
+        "category": "Напитки",
+        "price": "220",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/airan_05"
+      },
+      {
+        "name": "Айран 1 л.",
+        "category": "Напитки",
+        "price": "500",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/airan_1_l"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Ассорти-Кавказ-34c4e8a3.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/30577b84999361549f4b118e63d76d408d5b5835-1200x800.jpg",
+    "bytes": 176176,
+    "menu_items": [
+      {
+        "name": "Ассорти Кавказ",
+        "category": "Холодные закуски",
+        "price": "680",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/assorti_kavkaz"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Ассорти-корпоративный-30cd3276.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/0c16024001867a67c8c859963f000c7add47daa8-1200x800.jpg",
+    "bytes": 141033,
+    "menu_items": [
+      {
+        "name": "Ассорти корпоративный ",
+        "category": "Наборы",
+        "price": "19500",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/assorti_korporativnii"
+      },
+      {
+        "name": "Ассорти от шефа",
+        "category": "Наборы",
+        "price": "3750",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/assorti_ot_shefa"
+      },
+      {
+        "name": "Ассорти шашлыков",
+        "category": "Наборы",
+        "price": "3390",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/assorti_shashlikov"
+      },
+      {
+        "name": "Ассорти праздничный  ",
+        "category": "Наборы",
+        "price": "12500",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/assorti_prazdnichnii"
+      },
+      {
+        "name": "Ассорти от души",
+        "category": "Наборы",
+        "price": "4550",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/assorti_ot_dushi"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Ассорти-люля-2b75d3fd.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/e9bdeea5dff4c2907983ee409bf9c4508149572f-1200x900.jpg",
+    "bytes": 176916,
+    "menu_items": [
+      {
+        "name": "Ассорти люля",
+        "category": "Люля-кебаб",
+        "price": "2600",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/assorti_lyulya"
+      },
+      {
+        "name": "Ассорти люля",
+        "category": "Наборы",
+        "price": "2600",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/assorti_lyulya"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Баклажаны-запеченные-6811161c.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/742813cfbc05170aac781d4682892c273c3c1c1f-1200x800.jpg",
+    "bytes": 169913,
+    "menu_items": [
+      {
+        "name": "Баклажаны запеченные ",
+        "category": "Горячие закуски",
+        "price": "530",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/baklazhani_zapechennie"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Баранина-нк-01ae93dc.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/2a6ee25392915631b6ebf0c2206f26bf7712ccae-1200x796.jpg",
+    "bytes": 175242,
+    "menu_items": [
+      {
+        "name": "Баранина н/к",
+        "category": "Баранина",
+        "price": "950",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/baranina_nk"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Бараньи-семечки-03c3611d.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/f9f14c69a7c50fb48fdfea6e24582952dd9fc7c4-1200x800.jpg",
+    "bytes": 157443,
+    "menu_items": [
+      {
+        "name": "Бараньи семечки",
+        "category": "Баранина",
+        "price": "710",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/barani_semechki"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Баранья-мякоть-580c65b7.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/7f50df9eb9e88d8f37fc8880a78cb18fd7baa0f9-1200x851.jpg",
+    "bytes": 179348,
+    "menu_items": [
+      {
+        "name": "Баранья мякоть",
+        "category": "Баранина",
+        "price": "1010",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/baranya_myakot"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Бастурма--Суджук-8b34fb02.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/096904e05e2b1e7400a68ee61cac56d643dd6335-1200x800.jpg",
+    "bytes": 196475,
+    "menu_items": [
+      {
+        "name": "Бастурма / Суджук",
+        "category": "Холодные закуски",
+        "price": "690",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/basturma__sudzhuk"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Борщ-2efe51cb.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/1a074564f770e58ecde48c316772083657d6d476-1200x800.jpg",
+    "bytes": 138041,
+    "menu_items": [
+      {
+        "name": "Борщ",
+        "category": "Супы",
+        "price": "490",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/supi/borshch"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Вода-минеральная-Рычал-Су-8ab0cdb4.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/ddfa2b72e9fd0c5abfc348a7092f2c5cf9b2e733-1600x1068.jpg",
+    "bytes": 58040,
+    "menu_items": [
+      {
+        "name": "Вода минеральная Рычал-Су",
+        "category": "Напитки",
+        "price": "250",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/voda_mineralnaya_richalsu"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Вода-минеральная-бгаза-215d5aae.png",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/6639fb2fb5bd6babb4fd50f4e744a9090dfa9b4a-1200x869.png",
+    "bytes": 125489,
+    "menu_items": [
+      {
+        "name": "Вода минеральная б/газа",
+        "category": "Напитки",
+        "price": "250",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/voda_mineralnaya_bgaza"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Греческий-65645582.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/f125df180aa4638e05ba550507e5482e375e4028-1200x800.jpg",
+    "bytes": 169520,
+    "menu_items": [
+      {
+        "name": "Греческий",
+        "category": "Салаты",
+        "price": "450",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/salati/grecheskii"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Грибной-крем-суп-6b2f2d96.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/71914ea6aaf2d3ebe5380c7e8ce01452a0da4fe4-1200x800.jpg",
+    "bytes": 139501,
+    "menu_items": [
+      {
+        "name": "Грибной крем-суп",
+        "category": "Супы",
+        "price": "490",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/supi/gribnoi_kremsup"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Грибы-запеченные-6f25f02b.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/e4e7364f0e63b7aa3225c6b05a763210f4ac8384-1200x800.jpg",
+    "bytes": 198133,
+    "menu_items": [
+      {
+        "name": "Грибы запеченные",
+        "category": "Горячие закуски",
+        "price": "560",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/gribi_zapechennie"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Долма-bf21157b.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/563874d0d8a9d2dbde7486e60b9000a5f38a7f09-1200x800.jpg",
+    "bytes": 213584,
+    "menu_items": [
+      {
+        "name": "Долма",
+        "category": "Мясные горячие блюда",
+        "price": "580",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/dolma"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Дорадо-на-углях-2e6cc6eb.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/1773c9b6c3a574558554c050b9b22ded3b26e082-1200x800.jpg",
+    "bytes": 158980,
+    "menu_items": [
+      {
+        "name": "Дорадо на углях",
+        "category": "Рыба",
+        "price": "920",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/dorado_na_uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Дюшес-05-b9ef81e0.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/e5c327d7cc8d020eca08d2b3735d57e0c874eb1c-1200x1200.jpg",
+    "bytes": 53218,
+    "menu_items": [
+      {
+        "name": "Дюшес 0,5",
+        "category": "Напитки",
+        "price": "290",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/dyushes_05"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Европейский-1aeaa3cc.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/aec7b62d0cd3f2ba20742fd4bccfe4b7556b4bea-1200x800.jpg",
+    "bytes": 173910,
+    "menu_items": [
+      {
+        "name": "Европейский",
+        "category": "Салаты",
+        "price": "450",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/salati/yevropeiskii"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Жаркое-по-домашнему-c8c59bb3.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/5b41b96c7bfdb07bb8cca9aca860a49731f442e4-1200x800.jpg",
+    "bytes": 173933,
+    "menu_items": [
+      {
+        "name": "Жаркое по-домашнему",
+        "category": "Мясные горячие блюда",
+        "price": "690",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/zharkoe_podomashnemu"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Жульен-с-грибами-98676bd4.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/a0f6fbac6f41ebb8301e43957b8fce69f3008b10-1200x1800.jpg",
+    "bytes": 211712,
+    "menu_items": [
+      {
+        "name": "Жульен с грибами",
+        "category": "Горячие закуски",
+        "price": "280",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/zhulen_s_gribami"
+      },
+      {
+        "name": "Жульен с креветками",
+        "category": "Горячие закуски",
+        "price": "360",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/zhulen_s_krevetkami"
+      },
+      {
+        "name": "Жульен с курицей",
+        "category": "Горячие закуски",
+        "price": "290",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/zhulen_s_kuritsei"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Кавказ-c0f90636.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/8410fde344234b9fdff3dd8f05870b461925575a-1200x800.jpg",
+    "bytes": 170592,
+    "menu_items": [
+      {
+        "name": "Кавказ",
+        "category": "Салаты",
+        "price": "380",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/salati/kavkaz"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Каре-ягненка-dd450e2a.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/1e1f3f33e35756a9a3c078a826aca4e008cbfa7c-1200x800.jpg",
+    "bytes": 212677,
+    "menu_items": [
+      {
+        "name": "Каре ягненка",
+        "category": "Баранина",
+        "price": "990",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/kare_yagnenka"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Картофель-айдахо-46f12064.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/fb26501ea873f0bba7edc2e78f4271cee19f2c5f-1200x800.jpg",
+    "bytes": 159229,
+    "menu_items": [
+      {
+        "name": "Картофель айдахо",
+        "category": "Гарниры",
+        "price": "280",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/garniri/kartofel_aidakho"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Картофель-на-углях-d25b8000.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/75683724efc0adf1885b10b73750b47986911613-800x600.jpg",
+    "bytes": 167091,
+    "menu_items": [
+      {
+        "name": "Картофель на углях",
+        "category": "Гарниры",
+        "price": "350",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/garniri/kartofel_na_uglyakh"
+      },
+      {
+        "name": "Картофель на углях",
+        "category": "Овощи",
+        "price": "350",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/kartofel_na_uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Картофель-по-деревенски-982828a8.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/bb3d53f682fbab0d701c48ec497be5c949738ff6-1200x800.jpg",
+    "bytes": 151505,
+    "menu_items": [
+      {
+        "name": "Картофель по-деревенски",
+        "category": "Гарниры",
+        "price": "280",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/garniri/kartofel_poderevenski"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Ковурма-по-фергански-c594de34.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/f17b786b01d560efaecf81083eb446ec633ef583-1200x800.jpg",
+    "bytes": 171380,
+    "menu_items": [
+      {
+        "name": "Ковурма по-фергански ",
+        "category": "Мясные горячие блюда",
+        "price": "650",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/kovurma_poferganski"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Кока-Кола-05-1f2b472b.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/bff333c5f2f244f1d35da502e390173e2b676d26-1600x1200.jpg",
+    "bytes": 57683,
+    "menu_items": [
+      {
+        "name": "Кока-Кола 0,5",
+        "category": "Напитки",
+        "price": "200",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/kokakola_05"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Кока-Кола-1-ff10836b.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/993ecceb1393e4ba6da4efa7638cb90eac188ef8-1600x1200.jpg",
+    "bytes": 57097,
+    "menu_items": [
+      {
+        "name": "Кока-Кола 1",
+        "category": "Напитки",
+        "price": "300",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/kokakola_1"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Куриное-бедро-филе-31110ac9.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/2bd32a6e5f77a3f295600826913085c71618ca51-1200x800.jpg",
+    "bytes": 166670,
+    "menu_items": [
+      {
+        "name": "Куриное бедро (филе)",
+        "category": "Птица",
+        "price": "590",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/kurinoe_bedro_file"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Куриное-филе-грудка-fc92fe72.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/eb582db831c83582001ff97693aee52ac6226592-1200x800.jpg",
+    "bytes": 157977,
+    "menu_items": [
+      {
+        "name": "Куриное филе (грудка)",
+        "category": "Птица",
+        "price": "560",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/kurinoe_file_grudka"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Куриные-крылышки-29e4f824.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/25fb8d05fe3ba96b59e81c36df9b0cf5edce3c76-1200x800.jpg",
+    "bytes": 180005,
+    "menu_items": [
+      {
+        "name": "Куриные крылышки",
+        "category": "Птица",
+        "price": "510",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/kurinie_krilishki"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Куриные-ножки-b9efc82d.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/76c5edbf66c41fe78413564e9a9dff82513a163d-1200x800.jpg",
+    "bytes": 165103,
+    "menu_items": [
+      {
+        "name": "Куриные ножки",
+        "category": "Птица",
+        "price": "510",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/kurinie_nozhki"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Куриный-16187f4b.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/1621486c5cdbcdd55d6437c82114b9d57e2d5142-1200x800.jpg",
+    "bytes": 130618,
+    "menu_items": [
+      {
+        "name": "Куриный",
+        "category": "Супы",
+        "price": "390",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/supi/kurinii"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Лаваш-Армянский-7ce10e01.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/b60ab71053d3de4f8ff2b0f5b27dd7af19c734d2-1200x800.jpg",
+    "bytes": 146354,
+    "menu_items": [
+      {
+        "name": "Лаваш Армянский",
+        "category": "Гарниры",
+        "price": "30",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/garniri/lavash_armyanskii"
+      },
+      {
+        "name": "Лепешка",
+        "category": "Гарниры",
+        "price": "50",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/garniri/lepeshka"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Лосось-на-углях-7079c288.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/b98c6d9babeedfc6d99d9eefbb0d475662b04a31-1200x800.jpg",
+    "bytes": 167692,
+    "menu_items": [
+      {
+        "name": "Лосось на углях",
+        "category": "Рыба",
+        "price": "1250",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/losos_na_uglyakh"
+      },
+      {
+        "name": "Форель на углях",
+        "category": "Рыба",
+        "price": "990",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/forel_na_uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Люля-кебаб-говяжий-в-лаваше-bfbca9be.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/337187e32051818b0fcdbbf9b553ba4ee4310288-1200x796.jpg",
+    "bytes": 153944,
+    "menu_items": [
+      {
+        "name": "Люля-кебаб говяжий в лаваше",
+        "category": "Говядина",
+        "price": "660",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_govyazhii_v_lavashe"
+      },
+      {
+        "name": "Люля-кебаб из баранины в лаваше",
+        "category": "Баранина",
+        "price": "740",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_iz_baranini_v_lavashe"
+      },
+      {
+        "name": "Люля-кебаб говяжий в лаваше",
+        "category": "Люля-кебаб",
+        "price": "660",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_govyazhii_v_lavashe"
+      },
+      {
+        "name": "Люля-кебаб из баранины в лаваше",
+        "category": "Люля-кебаб",
+        "price": "740",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_iz_baranini_v_lavashe"
+      },
+      {
+        "name": "Люля-кебаб свиной в лаваше",
+        "category": "Люля-кебаб",
+        "price": "630",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_svinoi_v_lavashe"
+      },
+      {
+        "name": "Люля-кебаб свиной в лаваше",
+        "category": "Свинина",
+        "price": "630",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_svinoi_v_lavashe"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Люля-кебаб-говяжий-с-сыром-7541ba51.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/aabc8ee28c3807ed9c63e79459893072263c9483-1200x900.jpg",
+    "bytes": 182459,
+    "menu_items": [
+      {
+        "name": "Люля-кебаб говяжий с сыром",
+        "category": "Говядина",
+        "price": "650",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_govyazhii_s_sirom"
+      },
+      {
+        "name": "Люля-кебаб говяжий",
+        "category": "Говядина",
+        "price": "610",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_govyazhii"
+      },
+      {
+        "name": "Люля-кебаб говяжий с грибами",
+        "category": "Говядина",
+        "price": "650",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_govyazhii_s_gribami"
+      },
+      {
+        "name": "Люля-кебаб говяжий с сыром",
+        "category": "Люля-кебаб",
+        "price": "650",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_govyazhii_s_sirom"
+      },
+      {
+        "name": "Люля-кебаб говяжий",
+        "category": "Люля-кебаб",
+        "price": "610",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_govyazhii"
+      },
+      {
+        "name": "Люля-кебаб говяжий с грибами",
+        "category": "Люля-кебаб",
+        "price": "650",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_govyazhii_s_gribami"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Люля-кебаб-из-баранины-93482e38.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/08b36e4e461adbcfeb7641769eca873783fc6361-1200x796.jpg",
+    "bytes": 170252,
+    "menu_items": [
+      {
+        "name": "Люля-кебаб из баранины",
+        "category": "Баранина",
+        "price": "690",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_iz_baranini"
+      },
+      {
+        "name": "Люля-кебаб из баранины",
+        "category": "Люля-кебаб",
+        "price": "690",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_iz_baranini"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Люля-кебаб-куриный-1a5df80c.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/137423dd23f8e9cb95b04d2a2d46241737ca08f8-1200x796.jpg",
+    "bytes": 177795,
+    "menu_items": [
+      {
+        "name": "Люля-кебаб куриный",
+        "category": "Птица",
+        "price": "530",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_kurinii"
+      },
+      {
+        "name": "Люля-кебаб куриный с сыром ",
+        "category": "Птица",
+        "price": "570",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_kurinii_s_sirom"
+      },
+      {
+        "name": "Люля-кебаб куриный с грибами",
+        "category": "Птица",
+        "price": "570",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_kurinii_s_gribami"
+      },
+      {
+        "name": "Люля-кебаб куриный",
+        "category": "Люля-кебаб",
+        "price": "530",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_kurinii"
+      },
+      {
+        "name": "Люля-кебаб куриный с сыром ",
+        "category": "Люля-кебаб",
+        "price": "570",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_kurinii_s_sirom"
+      },
+      {
+        "name": "Люля-кебаб куриный с грибами",
+        "category": "Люля-кебаб",
+        "price": "570",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_kurinii_s_gribami"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Люля-кебаб-куриный-в-лаваше-7d77aa8e.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/870df97b442dcd9e4418d9b35bd472ba2a46fedb-1200x796.jpg",
+    "bytes": 148135,
+    "menu_items": [
+      {
+        "name": "Люля-кебаб куриный в лаваше",
+        "category": "Птица",
+        "price": "580",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_kurinii_v_lavashe"
+      },
+      {
+        "name": "Люля-кебаб куриный в лаваше",
+        "category": "Люля-кебаб",
+        "price": "580",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_kurinii_v_lavashe"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Люля-кебаб-свиной-435d541e.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/cd2950038ec0d80f138a12ca1aab15b2238fe707-1200x796.jpg",
+    "bytes": 186890,
+    "menu_items": [
+      {
+        "name": "Люля-кебаб свиной",
+        "category": "Люля-кебаб",
+        "price": "580",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_svinoi"
+      },
+      {
+        "name": "Люля-кебаб свиной",
+        "category": "Свинина",
+        "price": "580",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/lyulyakebab_svinoi"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Морс-Домашний-05-798d125f.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/49bd3c711921e2d42c955a63f9808ec5147734d1-400x600.jpg",
+    "bytes": 32491,
+    "menu_items": [
+      {
+        "name": "Морс Домашний 0,5",
+        "category": "Напитки",
+        "price": "250",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/mors_domashnii_05"
+      },
+      {
+        "name": "Морс домашний 1л",
+        "category": "Напитки",
+        "price": "550",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/mors_domashnii_1l"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Мясное-ассорти-74ca50c2.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/784c74dc161b83afae4a0494fa1796f159b69aac-1200x800.jpg",
+    "bytes": 164315,
+    "menu_items": [
+      {
+        "name": "Мясное ассорти",
+        "category": "Холодные закуски",
+        "price": "790",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/myasnoe_assorti"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Овощное-ассорти-9bbbfb2c.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/0cfecda51d4bc067ad97aea355c71ed6afb32483-1200x800.jpg",
+    "bytes": 175921,
+    "menu_items": [
+      {
+        "name": "Овощное ассорти",
+        "category": "Холодные закуски",
+        "price": "650",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/ovoshchnoe_assorti"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Овощной-шашлык-f179e632.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/cebbc1af9e728253a6b73a7944e61f260e0f878a-1200x800.jpg",
+    "bytes": 152094,
+    "menu_items": [
+      {
+        "name": "Овощной шашлык",
+        "category": "Овощи",
+        "price": "510",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/ovoshchnoi_shashlik"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Оджахури-a1279bf2.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/b08f59cdabc1263891e1099784dab85bc8f50249-1200x800.jpg",
+    "bytes": 172696,
+    "menu_items": [
+      {
+        "name": "Оджахури",
+        "category": "Мясные горячие блюда",
+        "price": "670",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/odzhakhuri"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Печень-говяжья-7cafb60a.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/e688f8721762da11711362d178e45eeb4718a663-1200x800.jpg",
+    "bytes": 173061,
+    "menu_items": [
+      {
+        "name": "Печень говяжья",
+        "category": "Говядина",
+        "price": "560",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/pechen_govyazhya"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Рулетики-из-баклажанов-с-грецким-орехом-8ff9f5ae.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/753996d42d56b02b37fcf144fdb8b2710114785c-1200x800.jpg",
+    "bytes": 158399,
+    "menu_items": [
+      {
+        "name": "Рулетики из баклажанов (с грецким орехом)",
+        "category": "Холодные закуски",
+        "price": "490",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/ruletiki_iz_baklazhanov_s_gretskim_orekhom"
+      },
+      {
+        "name": "Рулетики из баклажанов с сырной начинкой",
+        "category": "Холодные закуски",
+        "price": "490",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/ruletiki_iz_baklazhanov_s_sirnoi_nachinkoi"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Салат-лесной-5fff8d21.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/9e49305526c796dbc89335bfe8c53f206927ce74-1200x800.jpg",
+    "bytes": 197632,
+    "menu_items": [
+      {
+        "name": "Салат лесной",
+        "category": "Салаты",
+        "price": "450",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/salati/salat_lesnoi"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Салат-с-говяжьим-языком-b1805f9d.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/3cfb7e9713630b0daf0854c82d4f2bdb7d271250-1200x800.jpg",
+    "bytes": 178450,
+    "menu_items": [
+      {
+        "name": "Салат с говяжьим языком",
+        "category": "Салаты",
+        "price": "460",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/salati/salat_s_govyazhim_yazikom"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Салат-с-морепродуктами-79694025.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/00c1d0c14334a168fb903c5e3b83bf9fabbd7d6b-1200x800.jpg",
+    "bytes": 186755,
+    "menu_items": [
+      {
+        "name": "Салат с морепродуктами ",
+        "category": "Салаты",
+        "price": "490",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/salati/salat_s_moreproduktami"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Свиная-корейка-ef4013ab.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/8f9033921391f7dffbf2db79b7e6161e2de28d10-1200x800.jpg",
+    "bytes": 167310,
+    "menu_items": [
+      {
+        "name": "Свиная корейка",
+        "category": "Свинина",
+        "price": "650",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/svinaya_koreika"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Свиная-шея-f4e12e87.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/981b2deb230fc0a5e285382db9d9905527c71942-1200x800.jpg",
+    "bytes": 177443,
+    "menu_items": [
+      {
+        "name": "Свиная шея",
+        "category": "Свинина",
+        "price": "690",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/svinaya_sheya"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Свиные-ребра-c08dd6ed.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/3a9afd387955b0eb61e093845e0cba945b176a5f-1200x800.jpg",
+    "bytes": 170205,
+    "menu_items": [
+      {
+        "name": "Свиные ребра",
+        "category": "Свинина",
+        "price": "650",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/svinie_rebra"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Сибас-на-углях-e78eff7d.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/e4fa78453e18c601276352ad943f7456331f3629-1200x800.jpg",
+    "bytes": 181680,
+    "menu_items": [
+      {
+        "name": "Сибас на углях",
+        "category": "Рыба",
+        "price": "920",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/sibas_na_uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Соленья-882d0a6f.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/ee82cfe21590b8930c71e36e47289daa2bb15449-1200x800.jpg",
+    "bytes": 167386,
+    "menu_items": [
+      {
+        "name": "Соленья",
+        "category": "Холодные закуски",
+        "price": "530",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/solenya"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Сыр-брынза-2f02b0e2.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/3c2fd68b92fdc771640d3af76d008380dc789bd0-1200x800.jpg",
+    "bytes": 169663,
+    "menu_items": [
+      {
+        "name": "Сыр брынза",
+        "category": "Холодные закуски",
+        "price": "380",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/sir_brinza"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Сыр-сулугуни-8c63cb59.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/4c739b410c23f012c3ee927014773adffadd8ded-1200x800.jpg",
+    "bytes": 173013,
+    "menu_items": [
+      {
+        "name": "Сыр сулугуни",
+        "category": "Холодные закуски",
+        "price": "410",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/sir_suluguni"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Сырное-ассорти-87146ce2.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/91cde744fb066c7da5498523cc47c1d9d1141422-1200x800.jpg",
+    "bytes": 162263,
+    "menu_items": [
+      {
+        "name": "Сырное ассорти",
+        "category": "Холодные закуски",
+        "price": "630",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/sirnoe_assorti"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Тархун-05-b8b8549e.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/d781b9fe7c30e9cb4549a66fb3e31429e4b4cecb-1200x1200.jpg",
+    "bytes": 66964,
+    "menu_items": [
+      {
+        "name": "Тархун 0,5",
+        "category": "Напитки",
+        "price": "290",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/napitki/tarkhun_05"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Телятина-на-кости-309b8854.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/95f168830a31a04060ed2f31562b1e73780b6307-1200x800.jpg",
+    "bytes": 168710,
+    "menu_items": [
+      {
+        "name": "Телятина на кости",
+        "category": "Говядина",
+        "price": "970",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/telyatina_na_kosti"
+      },
+      {
+        "name": "Телячья корейка",
+        "category": "Говядина",
+        "price": "990",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/telyachya_koreika"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Телячий-язык-3a22ae9a.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/99ca1e31d284d7b78f8df602bc48e2ea441da818-1200x800.jpg",
+    "bytes": 168018,
+    "menu_items": [
+      {
+        "name": "Телячий язык",
+        "category": "Холодные закуски",
+        "price": "620",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/kholodnie_zakuski/telyachii_yazik"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Телячья-мякоть-9e5d7076.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/2fc58f2d0e9778758201bc2ded209886fb237912-1200x796.jpg",
+    "bytes": 178661,
+    "menu_items": [
+      {
+        "name": "Телячья мякоть",
+        "category": "Говядина",
+        "price": "1010",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/telyachya_myakot"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Теплый-салат-с-телятиной-40be7e1c.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/d7111755f3cdb72fe14be2297a0725399f196134-1200x800.jpg",
+    "bytes": 164752,
+    "menu_items": [
+      {
+        "name": "Теплый салат с телятиной",
+        "category": "Салаты",
+        "price": "470",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/salati/teplii_salat_s_telyatinoi"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Уха-по-фински-eb271d0d.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/de172f3441e0a732ef303e823d8bb5d139f06c82-1200x800.jpg",
+    "bytes": 142165,
+    "menu_items": [
+      {
+        "name": "Уха по-фински ",
+        "category": "Супы",
+        "price": "650",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/supi/ukha_pofinski"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Филе-индейки-7c957a6f.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/58156391dc60da945e03e3a2fd4a4416fd4fc974-1200x847.jpg",
+    "bytes": 183460,
+    "menu_items": [
+      {
+        "name": "Филе индейки",
+        "category": "Птица",
+        "price": "610",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/file-indeiki"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Фри-0cf5bf5e.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/29d9240353e99a61cb6b6d119f3fe4c535462659-1200x800.jpg",
+    "bytes": 131389,
+    "menu_items": [
+      {
+        "name": "Фри",
+        "category": "Гарниры",
+        "price": "290",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/garniri/fri"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Харчо-из-баранины-97464f2e.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/725a07a99e94b97980538793b19be5d47d43d9b2-1200x800.jpg",
+    "bytes": 143352,
+    "menu_items": [
+      {
+        "name": "Харчо из баранины",
+        "category": "Супы",
+        "price": "490",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/supi/kharcho_iz_baranini"
+      },
+      {
+        "name": "Харчо из говядины",
+        "category": "Супы",
+        "price": "490",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/supi/kharcho_iz_govyadini"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Хачапури-по-аджарски-ecd306e4.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/dc2ca3e6ed405021a35139cde0d754505431ece4-1200x796.jpg",
+    "bytes": 153930,
+    "menu_items": [
+      {
+        "name": "Хачапури по-аджарски",
+        "category": "Горячие закуски",
+        "price": "590",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/khachapuri_poadzharski"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Хачапури-по-мегрельски-500г-76f74676.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/60b56eb5fb25d9740705838c981a8ea72fc3a292-1200x796.jpg",
+    "bytes": 152769,
+    "menu_items": [
+      {
+        "name": "Хачапури по-мегрельски 500г",
+        "category": "Горячие закуски",
+        "price": "790",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/khachapuri_pomegrelski_500g"
+      },
+      {
+        "name": "Хачапури по мегрельски 750 гр.",
+        "category": "Горячие закуски",
+        "price": "990",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/khachapuri_po_megrelski_750_gr"
+      },
+      {
+        "name": "Хачапури по-мегрельски 330г",
+        "category": "Горячие закуски",
+        "price": "580",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/goryachie_zakuski/khachapuri_pomegrelski_330g"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Хинкали-говядинасвинина-f2f966a0.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/4544857d6b1287d1dcba4e7609e1daf62309bfab-1200x800.jpg",
+    "bytes": 143185,
+    "menu_items": [
+      {
+        "name": "Хинкали говядина/свинина",
+        "category": "Мясные горячие блюда",
+        "price": "490",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/khinkali"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Хинкали-с-бараниной-46b7890d.png",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/11ad2b7f74c6e47fef99b4fed8d2e84bf8c845f6-800x600.png",
+    "bytes": 1234581,
+    "menu_items": [
+      {
+        "name": "Хинкали с бараниной",
+        "category": "Мясные горячие блюда",
+        "price": "510",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/khinkali_s_baraninoi"
+      },
+      {
+        "name": "Хинкали с сыром",
+        "category": "Мясные горячие блюда",
+        "price": "510",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/khinkali_s_sirom"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Цезарь-с-креветками-98ac0436.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/412ff7ca9c359dc0e2da3463e6e1036cb7eb3027-1200x800.jpg",
+    "bytes": 158112,
+    "menu_items": [
+      {
+        "name": "Цезарь с креветками",
+        "category": "Салаты",
+        "price": "610",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/salati/tsezar_s_krevetkami"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Цезарь-с-курицей-5eebaa4f.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/d5c999eb52fd5626d26b3aa9104b66cd0f3c7766-1200x800.jpg",
+    "bytes": 194292,
+    "menu_items": [
+      {
+        "name": "Цезарь с курицей",
+        "category": "Салаты",
+        "price": "530",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/salati/tsezar_s_kuritsei"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Цыпленок-на-углях-5bb1d726.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/4f759772737e443fd6a4b7bf1ee60105d8613cea-1200x800.jpg",
+    "bytes": 169285,
+    "menu_items": [
+      {
+        "name": "Цыпленок на углях",
+        "category": "Птица",
+        "price": "820",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/tsiplenok_na_uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Чанахи-bc181cee.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/a418cc6f5234da965148fafa3bf14b726ae6a116-1200x800.jpg",
+    "bytes": 162216,
+    "menu_items": [
+      {
+        "name": "Чанахи",
+        "category": "Мясные горячие блюда",
+        "price": "690",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/chanakhi"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Чахохбили-a03c4807.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/ca4ad34ca59826924960fab1f34e0938368ef3a5-1200x800.jpg",
+    "bytes": 162783,
+    "menu_items": [
+      {
+        "name": "Чахохбили",
+        "category": "Мясные горячие блюда",
+        "price": "560",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/chakhokhbili"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Чашашули-из-баранины-69adbe9a.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/7075f85293287a79bb2c27342b005b84d72f60d9-800x600.jpg",
+    "bytes": 151959,
+    "menu_items": [
+      {
+        "name": "Чашашули из баранины",
+        "category": "Мясные горячие блюда",
+        "price": "750",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/chashashuli_iz_baranini"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Чашушули-из-телятины-72f78e51.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/dd5c6c1aa8ef0cdf98804aad803183cedbde64aa-1200x800.jpg",
+    "bytes": 191045,
+    "menu_items": [
+      {
+        "name": "Чашушули из телятины",
+        "category": "Мясные горячие блюда",
+        "price": "730",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/myasnie_goryachie_blyuda/chashushuli_iz_telyatini"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Шаверма-с-курицей-на-углях-e82e0d19.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/7cd0eac3a1b9668aab3def273db7d0def7ba8c1f-1200x800.jpg",
+    "bytes": 150188,
+    "menu_items": [
+      {
+        "name": "Шаверма с курицей на углях",
+        "category": "Птица",
+        "price": "480",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/shaverma-s-kuricei-na-uglyakh"
+      },
+      {
+        "name": "Шаверма со свининой на углях",
+        "category": "Шаверма",
+        "price": "510",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/shaverma_so_svininoi_na_uglyakh"
+      },
+      {
+        "name": "Шаверма с курицей на углях",
+        "category": "Шаверма",
+        "price": "480",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/shaverma-s-kuricei-na-uglyakh"
+      },
+      {
+        "name": "Шаверма со свининой на углях",
+        "category": "Свинина",
+        "price": "510",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/shaverma_so_svininoi_na_uglyakh"
+      }
+    ]
+  },
+  {
+    "file": "Шашлык-Машлык/Шампиньоны-на-углях-6dd24a24.jpg",
+    "source_site": "https://shashlik-mashlik.com/",
+    "image_url": "https://content.cdn.starterapp.ru/images/shashlykmashlyk/1c68e3d331fab6c6f004d177256140d69bc3cac7-1200x800.jpg",
+    "bytes": 134998,
+    "menu_items": [
+      {
+        "name": "Шампиньоны на углях",
+        "category": "Овощи",
+        "price": "520",
+        "currency": "RUB",
+        "page": "https://shashlik-mashlik.com/menu/shashlik/shampinoni_na_uglyakh"
+      }
+    ]
+  }
+]

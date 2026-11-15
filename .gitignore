@@ -1,0 +1,14 @@
+data/
+__pycache__/
+*.pyc
+.env
+
+demo-preview/
+
+.env.*
+!.env.example
+dist/
+*.sqlite
+*.sqlite3
+*.sqlite-*
+.DS_Store
