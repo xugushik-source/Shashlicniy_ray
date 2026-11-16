@@ -154,3 +154,10 @@ load().catch(error);
 (()=>{if(typeof document.addEventListener!=='function')return;const video=document.getElementById('siteFireVideo');if(!video)return;const motion=matchMedia('(prefers-reduced-motion: reduce)');let loaded=false;
 function syncFire(){const still=motion.matches||navigator.connection?.saveData;if(still||document.hidden){video.pause();return}if(!loaded){video.src=matchMedia('(max-width: 767px)').matches?video.dataset.mobile:video.dataset.desktop;video.muted=true;loaded=true}video.play().catch(()=>{})}
 video.addEventListener('error',()=>{video.hidden=true});document.addEventListener('visibilitychange',syncFire);motion.addEventListener('change',syncFire);window.addEventListener('pagehide',()=>video.pause());window.addEventListener('pageshow',syncFire);navigator.connection?.addEventListener?.('change',syncFire);if('requestIdleCallback' in window)window.requestIdleCallback(syncFire,{timeout:1500});else setTimeout(syncFire,250)})();
+
+// Stop document rubber-banding sideways; preserve vertical scroll and local gestures.
+(()=>{if(typeof document.addEventListener!=='function')return;let start=null;
+const localGesture='input,textarea,select,[contenteditable],#categories,.showcase-media';
+document.addEventListener('touchstart',e=>{start=e.touches.length===1&&!e.target.closest?.(localGesture)?{id:e.touches[0].identifier,x:e.touches[0].clientX,y:e.touches[0].clientY,axis:null}:null},{passive:true});
+document.addEventListener('touchmove',e=>{if(!start||e.touches.length!==1||e.touches[0].identifier!==start.id){start=null;return}const dx=Math.abs(e.touches[0].clientX-start.x),dy=Math.abs(e.touches[0].clientY-start.y);if(!start.axis&&Math.max(dx,dy)>10)start.axis=dx>dy?'x':'y';if(start.axis==='x'&&e.cancelable)e.preventDefault()},{passive:false});
+for(const event of ['touchend','touchcancel'])document.addEventListener(event,()=>{start=null},{passive:true});})();

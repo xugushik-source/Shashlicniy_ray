@@ -54,3 +54,4 @@ h1,h2,h3,h4,.brand-type,.button,button,.feast-item-content,.set-info,.city-optio
  #shopContact{flex-wrap:wrap;gap:8px 16px}
  .city-dialog-head{flex-wrap:wrap}
 }
+html,body{overscroll-behavior-x:none}
