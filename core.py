@@ -3,6 +3,17 @@ from pathlib import Path
 
 class BusinessError(Exception): pass
 
+def delivery_settings():
+    config=json.loads((Path(__file__).parent/'config/delivery.json').read_text())
+    city=next((city for city in config['cities'] if city['id']==config['default_city_id']),None)
+    return dict(config,city=city['names'] if city else {})
+def resolve_delivery_city(city_id=None):
+    config=delivery_settings()
+    if city_id is None:city_id=config['default_city_id']
+    city=next((city for city in config['cities'] if city['id']==city_id),None)
+    if not isinstance(city_id,str) or not city or city['active'] is not True:raise BusinessError('CITY_UNAVAILABLE')
+    return city
+
 def integer(x, low=0, high=100000000):
     if type(x) is not int or not low <= x <= high: raise BusinessError('INVALID_NUMBER')
     return x
@@ -64,10 +75,12 @@ class Store:
         if 'error' in result: raise BusinessError(result['error'])
         return result['result']
     def create_order(self,p,key):
+        city=resolve_delivery_city(p.get('city_id'))
         if not isinstance(key,str) or not 8<=len(key)<=100: raise BusinessError('IDEMPOTENCY_REQUIRED')
         phone=p.get('phone',''); address=p.get('address','')
         if not isinstance(phone,str) or not 8<=len(phone)<=30 or not isinstance(address,str) or not 5<=len(address)<=500: raise BusinessError('CONTACT_REQUIRED')
         fingerprint=hashlib.sha256(json.dumps(p,sort_keys=True).encode()).hexdigest()
+        address=address.strip() if address.strip().startswith(city['names']['ru']+',') else city['names']['ru']+', '+address.strip()
         with self.db() as c:
             c.execute('BEGIN IMMEDIATE')
             old=c.execute('SELECT * FROM orders WHERE key=?',(key,)).fetchone()

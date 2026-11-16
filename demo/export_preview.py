@@ -5,6 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def export():
  out=ROOT/'demo-preview';out.mkdir(exist_ok=True)
  products=json.loads((ROOT/'demo/catalog.json').read_text())['products'];settings=json.loads((ROOT/'demo/settings.json').read_text())
+ delivery=json.loads((ROOT/'config/delivery.json').read_text());settings.update(delivery);settings['city']=next(c['names'] for c in delivery['cities'] if c['id']==delivery['default_city_id'])
  data=json.dumps({'products':products,'settings':settings},ensure_ascii=False).replace('</','<\\/')
  adapter='''const demoData=DEMO_DATA;
 // This adapter performs local demo calculations only. It never sends network requests.
@@ -18,7 +19,7 @@ window.fetch=async function(path,options={}){
  if(path==='/api/quote')return response(200,quote(p.items));
  if(path==='/api/feast')return response(200,buildFeast(demoData.products,p));
  if(path==='/api/recommendations')return response(200,{recommendations:recommendProducts(demoData.products,p.selected||[],{allowAlcohol:p.allowAlcohol===true})});
- if(path==='/api/orders'){const q=quote(p.items);if(q.total!==p.confirmed_total)throw Error('PRICE_CHANGED');return response(200,{id:'DEMO-'+Math.random().toString(16).slice(2,10).toUpperCase(),total:q.total,demo:true,payment:'not_charged'})}
+ if(path==='/api/orders'){const city=demoData.settings.cities.find(c=>c.id===(p.city_id??demoData.settings.default_city_id));if(!city||city.active!==true)throw Error('CITY_UNAVAILABLE');const q=quote(p.items);if(q.total!==p.confirmed_total)throw Error('PRICE_CHANGED');return response(200,{id:'DEMO-'+Math.random().toString(16).slice(2,10).toUpperCase(),total:q.total,demo:true,payment:'not_charged'})}
  return response(403,{error:'DEMO_READ_ONLY'});
  }catch(e){return response(400,{error:e.message})}
 };

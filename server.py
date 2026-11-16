@@ -2,7 +2,7 @@ import os,json,secrets,hmac,sqlite3
 from http.server import ThreadingHTTPServer,BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlparse,parse_qs
-from core import Store,BusinessError
+from core import Store,BusinessError,delivery_settings,resolve_delivery_city
 ROOT=Path(__file__).parent
 
 def run():
@@ -21,7 +21,7 @@ def run():
             try:
                 if path=='/api/settings':
                     settings=json.loads((ROOT/'demo/settings.json').read_text()) if demo else {'demo':False}
-                    return self.send(200,settings)
+                    return self.send(200,dict(settings,**delivery_settings()))
                 if path.startswith('/media/'):
                     name=path.removeprefix('/media/')
                     if not name or '/' in name or '..' in name or Path(name).suffix.lower() not in ('.jpg','.jpeg','.png','.webp','.mp4'):return self.send(404,{'error':'NOT_FOUND'})
@@ -58,6 +58,7 @@ def run():
                 if path=='/api/feast':
                     q=store.feast(p);q['lines']=[{k:v for k,v in l.items() if k!='cost'} for l in q['lines']];return self.send(200,q)
                 if path=='/api/orders':
+                    resolve_delivery_city(p.get('city_id'))
                     if demo:
                         q=store.quote(p.get('items'))
                         if p.get('confirmed_total')!=q['total']:raise BusinessError('PRICE_CHANGED')

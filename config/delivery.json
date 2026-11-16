@@ -1,0 +1,345 @@
+{
+  "default_city_id": "akhalkalaki",
+  "cities": [
+    {
+      "id": "akhalkalaki",
+      "names": {
+        "ru": "Ахалкалаки",
+        "ka": "ახალქალაქი",
+        "hy": "Ախալքալաք",
+        "en": "Akhalkalaki"
+      },
+      "active": true
+    },
+    {
+      "id": "ninotsminda",
+      "names": {
+        "ru": "Ниноцминда",
+        "ka": "ნინოწმინდა",
+        "hy": "Նինոծմինդա",
+        "en": "Ninotsminda"
+      },
+      "active": false
+    },
+    {
+      "id": "akhaltsikhe",
+      "names": {
+        "ru": "Ахалцихе",
+        "ka": "ახალციხე",
+        "hy": "Ախալցխա",
+        "en": "Akhaltsikhe"
+      },
+      "active": false
+    },
+    {
+      "id": "aspindza",
+      "names": {
+        "ru": "Аспиндза",
+        "ka": "ასპინძა",
+        "hy": "Ասպինձա",
+        "en": "Aspindza"
+      },
+      "active": false
+    },
+    {
+      "id": "borjomi",
+      "names": {
+        "ru": "Боржоми",
+        "ka": "ბორჯომი",
+        "hy": "Բորժոմի",
+        "en": "Borjomi"
+      },
+      "active": false
+    },
+    {
+      "id": "bakuriani",
+      "names": {
+        "ru": "Бакуриани",
+        "ka": "ბაკურიანი",
+        "hy": "Բակուրիանի",
+        "en": "Bakuriani"
+      },
+      "active": false
+    },
+    {
+      "id": "tbilisi",
+      "names": {
+        "ru": "Тбилиси",
+        "ka": "თბილისი",
+        "hy": "Թբիլիսի",
+        "en": "Tbilisi"
+      },
+      "active": false
+    },
+    {
+      "id": "batumi",
+      "names": {
+        "ru": "Батуми",
+        "ka": "ბათუმი",
+        "hy": "Բաթումի",
+        "en": "Batumi"
+      },
+      "active": false
+    },
+    {
+      "id": "kutaisi",
+      "names": {
+        "ru": "Кутаиси",
+        "ka": "ქუთაისი",
+        "hy": "Քութայիսի",
+        "en": "Kutaisi"
+      },
+      "active": false
+    },
+    {
+      "id": "rustavi",
+      "names": {
+        "ru": "Рустави",
+        "ka": "რუსთავი",
+        "hy": "Ռուսթավի",
+        "en": "Rustavi"
+      },
+      "active": false
+    },
+    {
+      "id": "gori",
+      "names": {
+        "ru": "Гори",
+        "ka": "გორი",
+        "hy": "Գորի",
+        "en": "Gori"
+      },
+      "active": false
+    },
+    {
+      "id": "khashuri",
+      "names": {
+        "ru": "Хашури",
+        "ka": "ხაშური",
+        "hy": "Խաշուրի",
+        "en": "Khashuri"
+      },
+      "active": false
+    },
+    {
+      "id": "poti",
+      "names": {
+        "ru": "Поти",
+        "ka": "ფოთი",
+        "hy": "Փոթի",
+        "en": "Poti"
+      },
+      "active": false
+    },
+    {
+      "id": "zugdidi",
+      "names": {
+        "ru": "Зугдиди",
+        "ka": "ზუგდიდი",
+        "hy": "Զուգդիդի",
+        "en": "Zugdidi"
+      },
+      "active": false
+    },
+    {
+      "id": "kobuleti",
+      "names": {
+        "ru": "Кобулети",
+        "ka": "ქობულეთი",
+        "hy": "Քոբուլեթի",
+        "en": "Kobuleti"
+      },
+      "active": false
+    },
+    {
+      "id": "telavi",
+      "names": {
+        "ru": "Телави",
+        "ka": "თელავი",
+        "hy": "Թելավի",
+        "en": "Telavi"
+      },
+      "active": false
+    },
+    {
+      "id": "mtskheta",
+      "names": {
+        "ru": "Мцхета",
+        "ka": "მცხეთა",
+        "hy": "Մցխեթա",
+        "en": "Mtskheta"
+      },
+      "active": false
+    },
+    {
+      "id": "marneuli",
+      "names": {
+        "ru": "Марнеули",
+        "ka": "მარნეული",
+        "hy": "Մառնեուլի",
+        "en": "Marneuli"
+      },
+      "active": false
+    },
+    {
+      "id": "bolnisi",
+      "names": {
+        "ru": "Болниси",
+        "ka": "ბოლნისი",
+        "hy": "Բոլնիսի",
+        "en": "Bolnisi"
+      },
+      "active": false
+    },
+    {
+      "id": "dmanisi",
+      "names": {
+        "ru": "Дманиси",
+        "ka": "დმანისი",
+        "hy": "Դմանիսի",
+        "en": "Dmanisi"
+      },
+      "active": false
+    },
+    {
+      "id": "tsalka",
+      "names": {
+        "ru": "Цалка",
+        "ka": "წალკა",
+        "hy": "Ծալկա",
+        "en": "Tsalka"
+      },
+      "active": false
+    },
+    {
+      "id": "tetritskaro",
+      "names": {
+        "ru": "Тетрицкаро",
+        "ka": "თეთრიწყარო",
+        "hy": "Թեթրիծղարո",
+        "en": "Tetritskaro"
+      },
+      "active": false
+    },
+    {
+      "id": "gurjaani",
+      "names": {
+        "ru": "Гурджаани",
+        "ka": "გურჯაანი",
+        "hy": "Գուրջաանի",
+        "en": "Gurjaani"
+      },
+      "active": false
+    },
+    {
+      "id": "sighnaghi",
+      "names": {
+        "ru": "Сигнахи",
+        "ka": "სიღნაღი",
+        "hy": "Սիղնաղի",
+        "en": "Sighnaghi"
+      },
+      "active": false
+    },
+    {
+      "id": "sagarejo",
+      "names": {
+        "ru": "Сагареджо",
+        "ka": "საგარეჯო",
+        "hy": "Սագարեջո",
+        "en": "Sagarejo"
+      },
+      "active": false
+    },
+    {
+      "id": "samtredia",
+      "names": {
+        "ru": "Самтредиа",
+        "ka": "სამტრედია",
+        "hy": "Սամտրեդիա",
+        "en": "Samtredia"
+      },
+      "active": false
+    },
+    {
+      "id": "zestafoni",
+      "names": {
+        "ru": "Зестафони",
+        "ka": "ზესტაფონი",
+        "hy": "Զեստափոնի",
+        "en": "Zestafoni"
+      },
+      "active": false
+    },
+    {
+      "id": "tskaltubo",
+      "names": {
+        "ru": "Цхалтубо",
+        "ka": "წყალტუბო",
+        "hy": "Ծղալտուբո",
+        "en": "Tskaltubo"
+      },
+      "active": false
+    },
+    {
+      "id": "ozurgeti",
+      "names": {
+        "ru": "Озургети",
+        "ka": "ოზურგეთი",
+        "hy": "Օզուրգեթի",
+        "en": "Ozurgeti"
+      },
+      "active": false
+    },
+    {
+      "id": "senaki",
+      "names": {
+        "ru": "Сенаки",
+        "ka": "სენაკი",
+        "hy": "Սենակի",
+        "en": "Senaki"
+      },
+      "active": false
+    },
+    {
+      "id": "ambrolauri",
+      "names": {
+        "ru": "Амбролаури",
+        "ka": "ამბროლაური",
+        "hy": "Ամբրոլաուրի",
+        "en": "Ambrolauri"
+      },
+      "active": false
+    },
+    {
+      "id": "oni",
+      "names": {
+        "ru": "Они",
+        "ka": "ონი",
+        "hy": "Օնի",
+        "en": "Oni"
+      },
+      "active": false
+    },
+    {
+      "id": "mestia",
+      "names": {
+        "ru": "Местиа",
+        "ka": "მესტია",
+        "hy": "Մեստիա",
+        "en": "Mestia"
+      },
+      "active": false
+    },
+    {
+      "id": "stepantsminda",
+      "names": {
+        "ru": "Степанцминда",
+        "ka": "სტეფანწმინდა",
+        "hy": "Ստեփանծմինդա",
+        "en": "Stepantsminda"
+      },
+      "active": false
+    }
+  ]
+}
