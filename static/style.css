@@ -55,3 +55,8 @@ h1,h2,h3,h4,.brand-type,.button,button,.feast-item-content,.set-info,.city-optio
  .city-dialog-head{flex-wrap:wrap}
 }
 html,body{overscroll-behavior-x:none}
+
+:root{--header-height:120px;--categories-height:72px}
+html{scroll-padding-top:calc(var(--header-height) + 8px)}
+#categories{position:sticky;top:var(--header-height);z-index:2;background:#0d0d0df5;border-bottom:1px solid #51473b;padding:12px 0;margin:25px 0;isolation:isolate;scroll-padding-inline:8px}
+#products{scroll-margin-top:calc(var(--categories-height) + 12px)}
