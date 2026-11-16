@@ -21,7 +21,9 @@ def integer(x, low=0, high=100000000):
 class Store:
     def __init__(self, path):
         self.path = str(path)
-        with self.db() as c: c.executescript((Path(__file__).parent/'migrations/001.sql').read_text())
+        with self.db() as c:
+            c.executescript((Path(__file__).parent/'migrations/001.sql').read_text())
+            if 'customer_name' not in {row[1] for row in c.execute('PRAGMA table_info(orders)')}:c.execute("ALTER TABLE orders ADD COLUMN customer_name TEXT NOT NULL DEFAULT ''")
     def db(self):
         c=sqlite3.connect(self.path, timeout=15); c.row_factory=sqlite3.Row
         c.execute('PRAGMA foreign_keys=ON'); return c
@@ -76,6 +78,8 @@ class Store:
         return result['result']
     def create_order(self,p,key):
         city=resolve_delivery_city(p.get('city_id'))
+        customer_name=p.get('customer_name','')
+        if not isinstance(customer_name,str) or len(customer_name.strip())>100 or any(ord(c)<32 or ord(c)==127 for c in customer_name):raise BusinessError('INVALID_NAME')
         if not isinstance(key,str) or not 8<=len(key)<=100: raise BusinessError('IDEMPOTENCY_REQUIRED')
         phone=p.get('phone',''); address=p.get('address','')
         if not isinstance(phone,str) or not 8<=len(phone)<=30 or not isinstance(address,str) or not 5<=len(address)<=500: raise BusinessError('CONTACT_REQUIRED')
@@ -90,7 +94,7 @@ class Store:
             quote=self.quote(p.get('items'),c)
             if p.get('confirmed_total')!=quote['total']: raise BusinessError('PRICE_CHANGED')
             oid=str(uuid.uuid4()); token=secrets.token_urlsafe(32); cost=sum(l['cost']*l['quantity'] for l in quote['lines'])
-            c.execute('INSERT INTO orders(id,key,fingerprint,token,phone,address,status,total,cost) VALUES(?,?,?,?,?,?,?,?,?)',(oid,key,fingerprint,token,phone,address,'new',quote['total'],cost))
+            c.execute('INSERT INTO orders(id,key,fingerprint,token,customer_name,phone,address,status,total,cost) VALUES(?,?,?,?,?,?,?,?,?,?)',(oid,key,fingerprint,token,customer_name.strip(),phone,address,'new',quote['total'],cost))
             for l in quote['lines']:
                 c.execute('INSERT INTO lines VALUES(?,?,?,?,?,?)',(oid,l['id'],l['quantity'],l['price'],l['cost'],l['grams']))
                 c.execute('UPDATE products SET stock=stock-? WHERE id=?',(l['quantity'],l['id']))
