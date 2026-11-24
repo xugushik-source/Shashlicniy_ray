@@ -4860,7 +4860,7 @@
       "active": 1,
       "details": {
         "demo": true,
-        "image": null,
+        "image": "/media/bc9186d1ef5bd7ae.jpg",
         "weight_unknown": true,
         "source_price_rub": "50",
         "source_page": "https://shashlik-mashlik.com/menu/sousi/smetana",
@@ -4876,8 +4876,8 @@
         "catalog_group": "sauces",
         "sale_unit": "portion",
         "photo_audit": {
-          "status": "required",
-          "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "image_original": "/media/a80d9415af717760.jpg",
         "price_source": "forel-owner-approved-2026-11-24",
@@ -4889,7 +4889,13 @@
           "hy": "",
           "en": ""
         },
-        "recipe_confirmed": false
+        "recipe_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/sauces/sour-cream.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 50,
+          "sha256": "bc9186d1ef5bd7aebc4556213182504eadb2b1b181739ab123b0be97a46fdc05"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10203,12 +10209,18 @@
           "en": "Fish kebab"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/17dbae9f1bc12255.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/fish/fish-kebab.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 14,
+          "sha256": "17dbae9f1bc122554eec6cb5ff22147d204b60057ce7b8b9c907d888d8f5c3d4"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10277,16 +10289,22 @@
           "en": "Vendace (1 kg)"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/6041fb2ede4824b8.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "fish",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/fish/ryabushka.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 16,
+          "sha256": "6041fb2ede4824b8a18012bd198518b742269b5dad79afec118bbe3eaf4fc0cf"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10355,16 +10373,22 @@
           "en": "Large trout (1 kg)"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/605914dcc57372f6.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "fish",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/fish/trout-large.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 18,
+          "sha256": "605914dcc57372f60c7112a9d076a0d5a747b5a3d1cf527f3cca69205d3acd35"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10394,16 +10418,22 @@
           "en": "Spit-roasted chicken (1 kg)"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/e6be68b3cef554ef.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "grill",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/grill/chicken-spit.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 20,
+          "sha256": "e6be68b3cef554efe8026bd90c0c82ba8623e7d582b1d9c7f41a51d4ea4d56f8"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10433,12 +10463,18 @@
           "en": "Quail"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/e145b2a7058d4bb7.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/grill/quail.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 22,
+          "sha256": "e145b2a7058d4bb740357b1a452360de40c67863eb656fc7f2cd83818cc77bd9"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10468,12 +10504,18 @@
           "en": "Chicken tabaka"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/01dfd8ecabb7bc2b.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/grill/chicken-tabaka.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 23,
+          "sha256": "01dfd8ecabb7bc2b2d582b903f43bd2df505c91272366f2362c231a047a047c5"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10503,16 +10545,22 @@
           "en": "Roasted pork leg"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/8d82677d83ab929c.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "hot",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/pork-leg-baked.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 1,
+          "sha256": "8d82677d83ab929c6a63af239123b47fe1c8a5d70ee23c42a83b56a6fc262683"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10542,16 +10590,22 @@
           "en": "Roasted rabbit (1 kg)"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/ff81015aefc8915f.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "hot",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/rabbit-baked.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 2,
+          "sha256": "ff81015aefc8915f772d3fe48bd31eb66cfc2a2b047ff45d8067a946d6c63451"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10581,16 +10635,22 @@
           "en": "Boiled free-range chicken"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/4cd66f77c4f76720.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "hot",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/chicken-boiled.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 3,
+          "sha256": "4cd66f77c4f767200c5c1684a8148f01cd14f597a3696d198c8b9ba067677385"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10620,16 +10680,22 @@
           "en": "Roasted suckling pig (1 kg)"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/236c8dcde3a23526.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "hot",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/piglet-baked.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 4,
+          "sha256": "236c8dcde3a2352618ab5a2a8f20f0b9b37068004150d2f36200a036fb9714e4"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10659,16 +10725,22 @@
           "en": "Pork knuckle"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/4dd72417f4540006.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "hot",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/pork-knuckle.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 5,
+          "sha256": "4dd72417f454000698f2bc1544c98ad18624ebcf1f6ab47243913c268e0af140"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10698,17 +10770,23 @@
           "en": "Beef loin (1 kg)"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/1b646273bc6cf788.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "hot",
           "banquet"
         ],
-        "meat_type": "beef"
+        "meat_type": "beef",
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/beef-saddle.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 6,
+          "sha256": "1b646273bc6cf788d25b470266ef285ba1b22333877f15dc93aa4ecda7878b93"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10738,16 +10816,22 @@
           "en": "Lamb khashlama (1 kg)"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/8960a7cc26c98585.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "hot",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/lamb-khashlama.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 7,
+          "sha256": "8960a7cc26c98585408df82766da2082fc33455ff71b7753a25da17e16efd72d"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10777,12 +10861,18 @@
           "en": "Beef stroganoff"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/c8691c8ffdf8645b.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/beef-stroganoff.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 8,
+          "sha256": "c8691c8ffdf8645b0788a8bc3b2e98810d6064810ecfcac2188883c470a1b32f"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10812,12 +10902,18 @@
           "en": "Fried pork"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/33a7775e5f94c5e6.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/pork-fried.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 9,
+          "sha256": "33a7775e5f94c5e67f5d4dd8c1ee7a1c8043ff0a1a072348f8032fff213a0e76"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10847,12 +10943,18 @@
           "en": "Pork in a clay pot"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/d09362dc716f8d08.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/pork-pot.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 10,
+          "sha256": "d09362dc716f8d0883f66e3fc08929ac811b3ddeafed92ddab45ab38c7d103cf"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10882,12 +10984,18 @@
           "en": "Khashlama"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/0554722ee7e396c9.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/khashlama.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 11,
+          "sha256": "0554722ee7e396c93b15dad8a577a402a3e29267611e1df042a486a1dd91d9cc"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10917,12 +11025,18 @@
           "en": "Oxtail"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/78bfd2d489b4b583.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/oxtail.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 12,
+          "sha256": "78bfd2d489b4b5832da3bb689ec5e98dee9fa3e47daba0ce7fd733ac4f598c0e"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10952,12 +11066,18 @@
           "en": "Shkmeruli"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/b529fac5acc0742c.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/hot/chkmeruli.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 13,
+          "sha256": "b529fac5acc0742ceb89e509738a76c2024733c1aa05bc04e0e172d98f2c4383"
+        }
       },
       "pricing_status": "approved"
     },
@@ -10987,16 +11107,22 @@
           "en": "Banquet pickle platter"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/e257ad4a9bc0f0d1.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
         "stock_confirmed": false,
         "display_categories": [
           "cold",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/cold/pickles-banquet.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 25,
+          "sha256": "e257ad4a9bc0f0d1d81d2f245aacb53339d2451891ad76ac5d613e38d0933edc"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11139,12 +11265,18 @@
           "en": "Fish roe"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/8cc227ac7de6ad5a.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/cold/caviar.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 28,
+          "sha256": "8cc227ac7de6ad5a9af587f848906055dc7e847c1940cad347fad45e0230c7d6"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11279,12 +11411,18 @@
           "en": "Lemon"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/4714a66ad47ad096.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/cold/lemon.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 32,
+          "sha256": "4714a66ad47ad096a6b47f312a2c82715af783af481a2244547d61c8cde9d06e"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11314,12 +11452,18 @@
           "en": "Olives"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/b114f83de941ed20.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/cold/olives.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 33,
+          "sha256": "b114f83de941ed2026ac164bf86044c231beffbd986a632f5bfd357f5dc402bc"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11349,12 +11493,18 @@
           "en": "Crab salad"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/e8c803bc62be4cc0.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/salads/crab-salad.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 34,
+          "sha256": "e8c803bc62be4cc03ecfff2ef01100951f6be3a9ae841dabdc8f3d63aac1fc76"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11384,12 +11534,18 @@
           "en": "Kuchmachi"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/38b7e0527fca7777.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/salads/kuchmachi.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 35,
+          "sha256": "38b7e0527fca77770bf7841b407dd57dacc28207a624b794ce150f135e83c6c4"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11419,12 +11575,18 @@
           "en": "Traffic light salad"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/9957eddc5d1dafe9.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/salads/svetofor.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 36,
+          "sha256": "9957eddc5d1dafe9e323d1744f483b0d1557d1448b7c9f7984bf6bd5ef2bc8c9"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11454,12 +11616,18 @@
           "en": "Moscow salad"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/b020dfb7a64831d6.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/salads/moskovsky.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 37,
+          "sha256": "b020dfb7a64831d60a552f48f36a0532e7430b6e403fb8cb8c00f48d64f41006"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11559,12 +11727,18 @@
           "en": "Chakapuli"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/ab208a6ca9fca33c.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/soups/chakapuli.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 40,
+          "sha256": "ab208a6ca9fca33cbd9d85895e293b852bbd77c47faba0da1649df9965c35bd1"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11594,12 +11768,18 @@
           "en": "Ostri"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/d3d25cdb1c3aed77.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/soups/ostri.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 42,
+          "sha256": "d3d25cdb1c3aed778540752dda8f2f825c55bb3d7ae494a7fe0282f1ab960276"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11629,12 +11809,18 @@
           "en": "Solyanka"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/c73cbe7620f9237a.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/soups/solyanka.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 43,
+          "sha256": "c73cbe7620f9237a5e10e60ee4a26b4edac9d7182461e2c882e622a3ea2e4f6a"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11664,12 +11850,18 @@
           "en": "Fish soup"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/ef118b3541b70b71.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/soups/ukha.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 44,
+          "sha256": "ef118b3541b70b71aaf939b430d575d3a318938f68a629db885f1e0b5deb835a"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11699,12 +11891,18 @@
           "en": "Peas with egg"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/213d5ae9669bcfcb.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/sides/peas-egg.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 45,
+          "sha256": "213d5ae9669bcfcbae51c32684fb618e7142fdbe7ee0a1aa7376b064aa3406b2"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11734,12 +11932,18 @@
           "en": "Mushrooms with cheese"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/25fceb2f46a5368f.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/sides/mushrooms-cheese.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 46,
+          "sha256": "25fceb2f46a5368f4183fd2b2d774e258dce66b9ef5eef0f02e9919813d1702a"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11769,12 +11973,18 @@
           "en": "Bread basket"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/941d4c83b655dfbe.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/bread/bread-basket.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 48,
+          "sha256": "941d4c83b655dfbe54ffc7306aa1ba26192f37d7feed01cbd50d8a33924cc0f1"
+        }
       },
       "pricing_status": "approved"
     },
@@ -11804,12 +12014,18 @@
           "en": "Matsoni"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/c67bd9340165cee2.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Фотография из предоставленного владельцем списка БАЗАРа; просмотрена 2026-11-24."
         },
-        "stock_confirmed": false
+        "stock_confirmed": false,
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/sauces/matsoni.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 49,
+          "sha256": "c67bd9340165cee243e66cb68b35e3cc8bb0475826d73fc9366a1c5f2952e4dd"
+        }
       },
       "pricing_status": "approved"
     }
