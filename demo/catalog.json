@@ -8337,14 +8337,14 @@
     {
       "id": "demo-a9030107f71ca4f2",
       "names": {
-        "ru": "Свиная корейка",
-        "ka": "ღორის კორეიკა",
-        "hy": "Խոզի կորեյկա",
-        "en": "Pork loin"
+        "ru": "Свиная корейка (1 кг)",
+        "ka": "ღორის კორეიკა (1 კგ)",
+        "hy": "Խոզի գոտկամիս (1 կգ)",
+        "en": "Pork loin (1 kg)"
       },
       "category": "pork",
-      "price": 2100,
-      "grams": 1,
+      "price": 6500,
+      "grams": 1000,
       "stock": 100,
       "active": 1,
       "details": {
@@ -8355,21 +8355,35 @@
         "source_page": "https://shashlik-mashlik.com/menu/shashlik/svinaya_koreika",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "",
-          "ka": "",
-          "hy": "",
-          "en": ""
+          "ru": "Свиная корейка (1 кг)",
+          "ka": "ღორის კორეიკა (1 კგ)",
+          "hy": "Խոզի գոտկամիս (1 կգ)",
+          "en": "Pork loin (1 kg)"
         },
         "translations_pending": false,
         "volume_ml": 0,
         "catalog_group": "grill",
-        "sale_unit": "portion",
+        "sale_unit": "kg",
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "price_source": "forel-owner-approved-2026-11-24",
+        "portion_confirmed": false,
+        "recipe_confirmed": false,
+        "stock_confirmed": false,
+        "display_categories": [
+          "grill",
+          "banquet"
+        ],
+        "aliases": [
+          "forel-b537655c7ffd7f52"
+        ],
+        "reference_grams": 1,
+        "original_card_preserved": true,
+        "meat_type": "pork"
       },
-      "pricing_status": "pending"
+      "pricing_status": "approved"
     },
     {
       "id": "demo-c17c036d097cab93",
@@ -10394,46 +10408,6 @@
       "pricing_status": "approved"
     },
     {
-      "id": "forel-b537655c7ffd7f52",
-      "names": {
-        "ru": "Седло (1 кг)",
-        "ka": "უნაგირა ნაწილი (1 კგ)",
-        "hy": "Թամբամաս (1 կգ)",
-        "en": "Saddle cut (1 kg)"
-      },
-      "category": "hot",
-      "price": 6500,
-      "grams": 1000,
-      "stock": 0,
-      "active": 1,
-      "details": {
-        "catalog_group": "grill",
-        "sale_unit": "kg",
-        "price_source": "forel-owner-approved-2026-11-24",
-        "weight_unknown": true,
-        "portion_confirmed": false,
-        "description": {
-          "ru": "Седло (1 кг)",
-          "ka": "უნაგირა ნაწილი (1 კგ)",
-          "hy": "Թամբամաս (1 կգ)",
-          "en": "Saddle cut (1 kg)"
-        },
-        "recipe_confirmed": false,
-        "image": null,
-        "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
-        },
-        "stock_confirmed": false,
-        "display_categories": [
-          "grill",
-          "banquet"
-        ],
-        "identity_pending": true
-      },
-      "pricing_status": "approved"
-    },
-    {
       "id": "forel-362fc6b12195c6ab",
       "names": {
         "ru": "Перепёлка",
@@ -10701,12 +10675,12 @@
     {
       "id": "forel-ba39325952664aaa",
       "names": {
-        "ru": "Седло из говядины (1 кг)",
-        "ka": "საქონლის უნაგირა ნაწილი (1 კგ)",
-        "hy": "Տավարի թամբամաս (1 կգ)",
-        "en": "Beef saddle cut (1 kg)"
+        "ru": "Говяжья корейка (1 кг)",
+        "ka": "საქონლის კორეიკა (1 კგ)",
+        "hy": "Տավարի գոտկամիս (1 կգ)",
+        "en": "Beef loin (1 kg)"
       },
-      "category": "hot",
+      "category": "beef",
       "price": 7800,
       "grams": 1000,
       "stock": 0,
@@ -10718,10 +10692,10 @@
         "weight_unknown": true,
         "portion_confirmed": false,
         "description": {
-          "ru": "Седло из говядины (1 кг)",
-          "ka": "საქონლის უნაგირა ნაწილი (1 კგ)",
-          "hy": "Տավարի թամբամաս (1 կգ)",
-          "en": "Beef saddle cut (1 kg)"
+          "ru": "Говяжья корейка (1 кг)",
+          "ka": "საქონლის კორეიკა (1 კგ)",
+          "hy": "Տավարի գոտկամիս (1 կգ)",
+          "en": "Beef loin (1 kg)"
         },
         "recipe_confirmed": false,
         "image": null,
@@ -10733,7 +10707,8 @@
         "display_categories": [
           "hot",
           "banquet"
-        ]
+        ],
+        "meat_type": "beef"
       },
       "pricing_status": "approved"
     },

@@ -18,7 +18,7 @@ class DemoHTTPTest(unittest.TestCase):
  def test_settings_links_and_catalogue(self):
   s=self.get('/api/settings');self.assertTrue(s['demo']);self.assertEqual(s['phone'],'+995591244075');self.assertEqual(s['city']['en'],'Akhalkalaki')
   self.assertEqual(s['payment_links'][1]['url'],'https://transfer.tbcbank.ge/?iban=z5odvB987WFKzWTYmygC6R7SJqhOqgpeAne2Tt+pQ1x/afoCC5+Fzsim8Iww0dhX1GI=')
-  products=self.get('/api/catalog')['products'];self.assertEqual(len(products),245)
+  products=self.get('/api/catalog')['products'];self.assertEqual(len(products),244)
   with urllib.request.urlopen(self.base+products[0]['details']['image']) as r:self.assertTrue(r.headers['Content-Type'].startswith('image/'));self.assertGreater(len(r.read()),1000)
  def test_demo_orders_never_persist_or_reserve(self):
   p=self.get('/api/catalog')['products'][0];payload={'items':[{'id':p['id'],'quantity':1}],'confirmed_total':p['price'],'payment_method':'cash'}

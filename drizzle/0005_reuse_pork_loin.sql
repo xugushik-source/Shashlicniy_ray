@@ -1,0 +1,1 @@
+INSERT INTO supplier_prices(product_id,cost_minor,sale_minor,unit,revision,supplier,approved_at) SELECT 'demo-a9030107f71ca4f2',cost_minor,sale_minor,unit,revision,supplier,approved_at FROM supplier_prices WHERE product_id='forel-b537655c7ffd7f52' ON CONFLICT(product_id) DO NOTHING;
