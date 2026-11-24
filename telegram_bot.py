@@ -53,7 +53,7 @@ class Bot:
    parts=action.split(':')
    if len(parts)!=3 or parts[1] not in CATS or not parts[2].isdigit():return
    cat=parts[1];page=min(int(parts[2]),100);items=[p for p in self.products if p['category']==cat];shown=items[page*6:page*6+6]
-   lines=[t['demo'],'']+[p['names'][lang]+' — '+str(p['price']//100)+' ₾' for p in shown]
+   lines=[t['demo'],'']+[p['names'][lang]+' — '+({'ru':'Цена на согласовании','ka':'ფასი დასადასტურებელია','hy':'Գինը ճշտվում է','en':'Price awaiting approval'}[lang] if p.get('pricing_status')=='pending' or p.get('details',{}).get('identity_pending') else str(p['price']//100)+' ₾') for p in shown]
    buttons=[]
    if page:buttons.append(self.button(t['back'],'cat:'+cat+':'+str(page-1)))
    if (page+1)*6<len(items):buttons.append(self.button(t['next'],'cat:'+cat+':'+str(page+1)))

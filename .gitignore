@@ -12,3 +12,9 @@ dist/
 *.sqlite3
 *.sqlite-*
 .DS_Store
+
+# Supplier prices and owner reports must never be published.
+private/
+reports-private/
+*supplier-prices*.json
+*supplier-prices*.sql

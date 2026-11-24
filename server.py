@@ -13,6 +13,12 @@ def run():
     class Handler(BaseHTTPRequestHandler):
         def log_message(self,*args): pass # do not log customer tokens / PII
         def send(self,status,obj):
+            if not self.path.startswith('/api/admin/'):
+                def public(v):
+                    if isinstance(v,list):return [public(x) for x in v]
+                    if isinstance(v,dict):return {k:public(x) for k,x in v.items() if not any(part in k for part in ('cost','margin','contribution','profit','reference','source_price','missing_prices','image_original'))}
+                    return v
+                obj=public(obj)
             b=json.dumps(obj,ensure_ascii=False).encode(); self.send_response(status);self.send_header('Content-Type','application/json; charset=utf-8');self.send_header('Cache-Control','no-store');self.send_header('X-Content-Type-Options','nosniff');self.end_headers();self.wfile.write(b)
         def privileged(self):
             if not admin or not hmac.compare_digest(self.headers.get('Authorization',''),'Bearer '+admin): raise PermissionError()
@@ -28,7 +34,7 @@ def run():
                     file=ROOT/'static/media'/name
                     if not file.is_file():return self.send(404,{'error':'NOT_FOUND'})
                     content=file.read_bytes();self.send_response(200);self.send_header('Content-Type','video/mp4' if file.suffix.lower()=='.mp4' else 'image/'+('jpeg' if file.suffix.lower() in ('.jpg','.jpeg') else file.suffix[1:]));self.send_header('Cache-Control','public, max-age=86400');self.send_header('X-Content-Type-Options','nosniff');self.end_headers();self.wfile.write(content);return
-                if path=='/api/catalog': return self.send(200,{'products':[{k:v for k,v in p.items() if k!='cost'} for p in store.catalog()]})
+                if path=='/api/catalog': return self.send(200,{'products':[{k:v for k,v in p.items() if k not in ('cost','cost_minor','cost_confirmed')} for p in store.catalog()]})
                 if path.startswith('/api/admin/'):
                     self.privileged()
                     if path.endswith('/catalog'): return self.send(200,store.catalog(True))
@@ -54,9 +60,9 @@ def run():
                 p=json.loads(self.rfile.read(length)); path=urlparse(self.path).path
                 if not isinstance(p,dict):raise BusinessError('INVALID_BODY')
                 if path=='/api/quote':
-                    q=store.quote(p.get('items'));q['lines']=[{k:v for k,v in l.items() if k!='cost'} for l in q['lines']];return self.send(200,q)
+                    q=store.quote(p.get('items'));q['lines']=[{k:v for k,v in l.items() if k not in ('cost','cost_minor','cost_confirmed')} for l in q['lines']];return self.send(200,q)
                 if path=='/api/feast':
-                    q=store.feast(p);q['lines']=[{k:v for k,v in l.items() if k!='cost'} for l in q['lines']];return self.send(200,q)
+                    q=store.feast(p);q['lines']=[{k:v for k,v in l.items() if k not in ('cost','cost_minor','cost_confirmed')} for l in q['lines']];return self.send(200,q)
                 if path=='/api/orders':
                     resolve_delivery_city(p.get('city_id'))
                     if demo:

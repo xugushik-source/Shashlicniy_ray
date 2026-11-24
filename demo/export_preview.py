@@ -12,7 +12,7 @@ def export():
 window.fetch=async function(path,options={}){
  let p={};try{p=JSON.parse(options.body||'{}')}catch{return response(400,{error:'INVALID_BODY'})}
  function response(status,data){return {ok:status>=200&&status<300,status,json:async()=>data}}
- function quote(items){if(!Array.isArray(items)||!items.length)throw Error('EMPTY_CART');const seen=new Set();let total=0,grams=0;const lines=[];for(const l of items){const product=demoData.products.find(x=>x.id===l.id);if(!product||!Number.isInteger(l.quantity)||l.quantity<1||l.quantity>product.stock||seen.has(l.id))throw Error('OUT_OF_STOCK');seen.add(l.id);total+=product.price*l.quantity;grams+=product.grams*l.quantity;lines.push({id:product.id,quantity:l.quantity,price:product.price,grams:product.grams})}return {lines,total,grams}}
+ function quote(items){if(!Array.isArray(items)||!items.length)throw Error('EMPTY_CART');const seen=new Set();let total=0,grams=0;const lines=[];for(const l of items){const product=demoData.products.find(x=>x.id===l.id);if(product&&(product.pricing_status==='pending'||product.details?.identity_pending))throw Error('PRICE_UNAPPROVED');if(!product||!Number.isInteger(l.quantity)||l.quantity<1||l.quantity>product.stock||seen.has(l.id))throw Error('OUT_OF_STOCK');seen.add(l.id);total+=product.price*l.quantity;grams+=(product.details?.weight_unknown?0:product.grams)*l.quantity;lines.push({id:product.id,quantity:l.quantity,price:product.price,grams:product.details?.weight_unknown?null:product.grams})}return {lines,total,grams}}
  try{
  if(path==='/api/settings')return response(200,demoData.settings);
  if(path==='/api/catalog')return response(200,{products:rankCatalog(demoData.products)});

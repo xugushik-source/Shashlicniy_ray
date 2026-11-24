@@ -9,7 +9,7 @@ def prepare(path):
     with store.db() as c:
         if c.execute('SELECT COUNT(*) FROM products').fetchone()[0]:return store
         for p in json.loads((ROOT/'demo/catalog.json').read_text())['products']:
-            c.execute('INSERT INTO products(id,names,category,price,cost,grams,stock,active,details) VALUES(?,?,?,?,?,?,?,?,?)',(p['id'],json.dumps(p['names'],ensure_ascii=False),p['category'],p['price'],0,p['grams'],p['stock'],1,json.dumps(p['details'],ensure_ascii=False)))
+            c.execute('INSERT INTO products(id,names,category,price,cost,grams,stock,active,details) VALUES(?,?,?,?,?,?,?,?,?)',(p['id'],json.dumps(p['names'],ensure_ascii=False),p['category'],p['price'],0,p['grams'],p['stock'],p.get('active',1),json.dumps(p['details'],ensure_ascii=False)))
     return store
 if __name__=='__main__':
     data=ROOT/'data';data.mkdir(exist_ok=True,mode=0o700)

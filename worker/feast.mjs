@@ -12,10 +12,10 @@ export function buildFeast(catalog,p,rules=FEAST_RULES){
  if(!Array.isArray(choices)||choices.length>5||new Set(choices.map(x=>x?.type)).size!==choices.length||choices.some(x=>!x||!alcoholTypes.includes(x.type)||!int(x.quantity,1,12)||(x.productId!==undefined&&typeof x.productId!=='string')))fail('INVALID_ALCOHOL');
  if(p.budgetMode!==undefined&&!['target','cap'].includes(p.budgetMode))fail('INVALID_BUDGET');
  const targetBudget=Number.isFinite(budget)&&p.budgetMode!=='cap';
- const available=catalog.filter(x=>x.active!==0&&x.stock>0&&x.price>0),known=x=>!x.details?.weight_unknown&&x.grams>0;
+ const available=catalog.filter(x=>x.pricing_status!=='pending'&&!x.details?.identity_pending&&x.active!==0&&x.stock>0&&x.price>0),known=x=>!x.details?.weight_unknown&&x.grams>0;
  const name=x=>x.names.ru.toLowerCase(),isLula=x=>/люля/.test(name(x)),plainHot=x=>/шашлык|люля|мякоть|шея|шейка|корейка|цыпл|дорадо|форель|лосось|семга|сёмга|баранина|семечки|филе/.test(name(x))&&!/лаваше|шаверм|хинкал|ассорти|суп|харчо|салат|жульен|сердеч|печень|наггет/.test(name(x))&&['pork','lamb','beef','poultry','fish','tandoor','lula'].includes(x.category);
  const hot=available.filter(x=>known(x)&&plainHot(x)&&((isLula(x)&&selected.has('lula'))||selected.has(x.category))).sort((a,b)=>a.price/a.grams-b.price/b.grams||a.id.localeCompare(b.id));
- if(!hot.length)fail('NO_SUITABLE_PRODUCTS');
+ if(!hot.length)fail(available.some(x=>plainHot(x)&&!known(x))?'PORTION_UNCONFIRMED':'NO_SUITABLE_PRODUCTS');
  const hotTarget=adults*rules.hotAdult+children*rules.hotChild;
  const groupDefinitions=[
   {key:'salads',enabled:prefs.salads,target:adults*rules.saladAdult+children*rules.saladChild,products:available.filter(x=>known(x)&&x.category==='salads').sort((a,b)=>(/грузинск/.test(name(b))?1:0)-(/грузинск/.test(name(a))?1:0)||a.price/a.grams-b.price/b.grams)},

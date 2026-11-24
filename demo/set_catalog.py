@@ -76,7 +76,10 @@ def apply_sets(products):
   if not guests and not d['weight_unknown'] and spec.get('estimate_servings',True):
    # Editorial adult full-platter estimate, not a promise of meat-only grams.
    guests=(max(1,math.floor(p['grams']/500)),max(1,math.floor(p['grams']/350)));basis='estimate'
+  previous=d.get('bundle',{})
   d['bundle']={'components':deepcopy(spec['components']),'servings':{'min':guests[0],'max':guests[1],'basis':basis} if guests else {'min':None,'max':None,'basis':basis},'notes':spec.get('notes',[]),'checked_at':'2026-11-15','weight_basis':'complete_set','estimate_full_dish_g_per_adult':[350,500] if basis=='estimate' else None}
+  for key in ('pricing_status','missing_prices','costing_approved','revision'):
+   if key in previous:d['bundle'][key]=previous[key]
   if spec.get('slug'):
    d['source_page']='https://shashlik-mashlik.com/menu/shashlik/nabory/'+spec['slug']
    # Preserve source wording separately. UI uses the structured, translated composition.

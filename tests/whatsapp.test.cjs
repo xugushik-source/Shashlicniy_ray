@@ -5,7 +5,7 @@ const phoneLinks=[{},{}],phoneLabels=[{},{}],storage=new Map();
 const ctx={crypto,URL,Intl,JSON,Map,console,setTimeout(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)},document:{documentElement:{},querySelector:s=>elements.get(s),querySelectorAll:s=>s==='[data-shop-phone]'?phoneLinks:s==='[data-shop-phone-number]'?phoneLabels:[]}};
 vm.createContext(ctx);vm.runInContext(fs.readFileSync('static/app.js','utf8').replace('load().catch(error);',''),ctx);
 const run=s=>vm.runInContext(s,ctx),el=id=>elements.get('#'+id);
-const product=JSON.parse(fs.readFileSync('demo/catalog.json')).products[0];
+const product=JSON.parse(fs.readFileSync('tests/fixtures/legacy-catalog.json')).products[0];
 run('shopSettings={phone:"+995591244075",phone_display:"+995 591 244 075"};products='+JSON.stringify([product])+';cart=[{id:products[0].id,quantity:2}];quote={lines:[{...products[0],quantity:2}],total:products[0].price*2};lang="ru";syncOrderChannels();');
 for(const a of phoneLinks)assert.equal(a.href,'tel:+995591244075');for(const n of phoneLabels)assert.equal(n.textContent,'+995 591 244 075');
 assert.ok(html.includes('data-shop-phone-number>+995 591 244 075'));

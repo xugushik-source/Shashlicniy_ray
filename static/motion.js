@@ -29,7 +29,7 @@
    animate(el.name,[{opacity:0,transform:'translateY(16px)'},{opacity:1,transform:'translateY(0)'}],{duration:550});
   }schedule();
  }
- function chooseSlides(products){const chosen=[];for(const category of ['combo','pork','lula','lamb','poultry','fish']){const p=products.find(p=>p.category===category&&p.active!==0&&p.stock>0&&/^\/media\//.test(p.details?.image||'')&&!chosen.some(x=>x.id===p.id));if(p)chosen.push(p)}return chosen}
+ function chooseSlides(products){const chosen=[];for(const category of ['combo','pork','lula','lamb','poultry','fish']){const p=products.find(p=>p.category===category&&p.pricing_status!=='pending'&&!p.details?.identity_pending&&p.active!==0&&p.stock>0&&/^\/media\//.test(p.details?.image||'')&&!chosen.some(x=>x.id===p.id));if(p)chosen.push(p)}return chosen}
  function refresh(next){context=next;if(!el.section)return;const selection=chooseSlides(next.products),key=selection.map(p=>`${p.id}:${p.price}:${p.names[next.lang]}`).join('|');el.section.hidden=!selection.length;
   if(key!==signature){const oldId=slides[index]?.id;slides=selection;index=Math.max(0,slides.findIndex(p=>p.id===oldId));desiredIndex=index;signature=key;++slideEpoch;if(slides.length){el.media.replaceChildren(imageFor(slides[index]));text(slides[index],false);schedule()}}
   controls();observe();if(next.cartCount!==lastCart){animate($('#bag'),[{transform:'scale(1)'},{transform:'scale(1.06)'},{transform:'scale(1)'}],{duration:300});lastCart=next.cartCount}requestScroll();

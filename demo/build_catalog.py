@@ -32,6 +32,7 @@ def metadata():
  return json.loads((ROOT/'demo/source_metadata.json').read_text())
 
 def build():
+ if (ROOT/'demo/catalog.json').exists() and any(p.get('details',{}).get('price_source','').startswith('forel-') for p in json.loads((ROOT/'demo/catalog.json').read_text())['products']):raise SystemExit('Reviewed catalogue: legacy RUB importer disabled. Use controlled supplier import.')
  rates=json.loads((ROOT/'demo/exchange_snapshot.json').read_text());rate=next(x for x in rates[0]['currencies'] if x['code']=='RUB');meta=metadata();products=[];seen=set()
  for row in json.loads((ROOT/'demo/photo_sources.json').read_text()):
   filename=hashlib.sha256(row['image_url'].encode()).hexdigest()[:16]+Path(row['file']).suffix

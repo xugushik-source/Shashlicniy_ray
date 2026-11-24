@@ -23,25 +23,28 @@ class Store:
         self.path = str(path)
         with self.db() as c:
             c.executescript((Path(__file__).parent/'migrations/001.sql').read_text())
+            if 'price_approved' not in {row[1] for row in c.execute('PRAGMA table_info(products)')}:c.execute('ALTER TABLE products ADD COLUMN price_approved INTEGER NOT NULL DEFAULT 0 CHECK(price_approved IN (0,1))')
             if 'customer_name' not in {row[1] for row in c.execute('PRAGMA table_info(orders)')}:c.execute("ALTER TABLE orders ADD COLUMN customer_name TEXT NOT NULL DEFAULT ''")
     def db(self):
         c=sqlite3.connect(self.path, timeout=15); c.row_factory=sqlite3.Row
         c.execute('PRAGMA foreign_keys=ON'); return c
     def catalog(self, admin=False):
         with self.db() as c:
-            return [dict(r, names=json.loads(r['names']), details=json.loads(r['details'])) for r in c.execute('SELECT * FROM products'+('' if admin else ' WHERE active=1'))]
+            return [dict(r, names=json.loads(r['names']), details=json.loads(r['details']),pricing_status='approved' if r['price_approved'] else 'pending',cost_confirmed=bool(r['price_approved']),cost_minor=r['cost'] if r['price_approved'] else None) for r in c.execute('SELECT * FROM products'+('' if admin else ' WHERE active=1'))]
     def product(self,p):
         pid=p.get('id') or str(uuid.uuid4())
         names=p.get('names',{})
         if not all(isinstance(names.get(k),str) and 1<=len(names[k])<=200 for k in ('ru','ka','hy')): raise BusinessError('TRANSLATIONS_REQUIRED')
         category=p.get('category')
-        if category not in ('pork','lamb','beef','poultry','fish','tandoor','lula','vegetables','salads','pickles','cheese','herbs','sides','bread','sauces','drinks','desserts','supplies','combo','snacks','alcohol','khinkali','khachapuri','soups'): raise BusinessError('INVALID_CATEGORY')
+        if category not in ('pork','lamb','beef','poultry','fish','tandoor','lula','vegetables','salads','pickles','cheese','herbs','sides','bread','sauces','drinks','desserts','supplies','combo','snacks','alcohol','khinkali','khachapuri','soups','hot'): raise BusinessError('INVALID_CATEGORY')
         details=p.get('details',{})
         if not isinstance(details,dict): raise BusinessError('INVALID_DETAILS')
+        if details.get('price_source','').startswith('forel-') and p.get('price')!=((integer(p.get('cost'))*120+9999)//10000)*100:raise BusinessError('INVALID_MARKUP')
         # Stock changes have their own journaled operation.
         with self.db() as c:
             c.execute('BEGIN IMMEDIATE')
-            c.execute('INSERT INTO products(id,names,category,price,cost,grams,active,details) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET names=excluded.names,category=excluded.category,price=excluded.price,cost=excluded.cost,grams=excluded.grams,active=excluded.active,details=excluded.details',(pid,json.dumps(names),category,integer(p.get('price'),1),integer(p.get('cost')),integer(p.get('grams'),1),integer(p.get('active',0),0,1),json.dumps(details)))
+            c.execute('INSERT INTO products(id,names,category,price,cost,grams,active,details) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET names=excluded.names,category=excluded.category,price=excluded.price,cost=excluded.cost,grams=excluded.grams,active=excluded.active,details=excluded.details',(pid,json.dumps(names),category,integer(p.get('price'),1),integer(p.get('cost')),integer(p.get('grams') or 1,1),integer(p.get('active',0),0,1),json.dumps(details)))
+            c.execute('UPDATE products SET price_approved=? WHERE id=?',(0 if details.get('identity_pending') else 1,pid))
             c.execute('INSERT INTO audit(actor,action,entity) VALUES(?,?,?)',('owner','product.save',pid))
         return {'id':pid}
     def receive(self,p):
@@ -64,13 +67,14 @@ class Store:
             if pid in seen: raise BusinessError('DUPLICATE_LINE')
             seen.add(pid); p=c.execute('SELECT * FROM products WHERE id=? AND active=1',(pid,)).fetchone()
             if not p or p['stock']<q: raise BusinessError('OUT_OF_STOCK')
-            lines.append({'id':pid,'quantity':q,'price':p['price'],'cost':p['cost'],'grams':p['grams']})
+            if not p['price_approved']:raise BusinessError('PRICE_UNAPPROVED')
+            lines.append({'id':pid,'quantity':q,'price':p['price'],'names':json.loads(p['names']),'cost':p['cost'],'grams':0 if json.loads(p['details']).get('weight_unknown') else p['grams']})
         return {'lines':lines,'total':sum(l['price']*l['quantity'] for l in lines),'grams':sum(l['grams']*l['quantity'] for l in lines)}
     def feast(self,p):
         # Share the exact hosted planner, rather than maintaining two divergent rulesets.
         import subprocess
         try:
-            completed=subprocess.run(['node',str(Path(__file__).parent/'worker/feast-cli.mjs')],input=json.dumps({'catalog':self.catalog(),'request':dict(p,categories=p.get('categories',['pork','lamb','beef','poultry','lula']),children=p.get('children',0))}),text=True,capture_output=True,timeout=10)
+            completed=subprocess.run(['node',str(Path(__file__).parent/'worker/feast-cli.mjs')],input=json.dumps({'catalog':self.catalog(True),'request':dict(p,categories=p.get('categories',['pork','lamb','beef','poultry','lula']),children=p.get('children',0))}),text=True,capture_output=True,timeout=10)
             result=json.loads(completed.stdout)
         except (OSError,subprocess.TimeoutExpired,ValueError):
             raise BusinessError('FEAST_RUNTIME_UNAVAILABLE') from None

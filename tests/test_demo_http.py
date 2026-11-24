@@ -18,11 +18,11 @@ class DemoHTTPTest(unittest.TestCase):
  def test_settings_links_and_catalogue(self):
   s=self.get('/api/settings');self.assertTrue(s['demo']);self.assertEqual(s['phone'],'+995591244075');self.assertEqual(s['city']['en'],'Akhalkalaki')
   self.assertEqual(s['payment_links'][1]['url'],'https://transfer.tbcbank.ge/?iban=z5odvB987WFKzWTYmygC6R7SJqhOqgpeAne2Tt+pQ1x/afoCC5+Fzsim8Iww0dhX1GI=')
-  products=self.get('/api/catalog')['products'];self.assertEqual(len(products),200)
+  products=self.get('/api/catalog')['products'];self.assertEqual(len(products),248)
   with urllib.request.urlopen(self.base+products[0]['details']['image']) as r:self.assertTrue(r.headers['Content-Type'].startswith('image/'));self.assertGreater(len(r.read()),1000)
  def test_demo_orders_never_persist_or_reserve(self):
   p=self.get('/api/catalog')['products'][0];payload={'items':[{'id':p['id'],'quantity':1}],'confirmed_total':p['price'],'payment_method':'cash'}
   req=urllib.request.Request(self.base+'/api/orders',data=json.dumps(payload).encode(),headers={'Content-Type':'application/json'})
-  with urllib.request.urlopen(req) as r:o=json.load(r)
-  self.assertTrue(o['demo']);self.assertEqual(o['payment'],'not_charged');self.assertEqual(self.store.report()['orders'],0)
+  with self.assertRaises(urllib.error.HTTPError) as caught:urllib.request.urlopen(req)
+  self.assertEqual(caught.exception.code,400);self.assertEqual(json.load(caught.exception)['error'],'PRICE_UNAPPROVED');self.assertEqual(self.store.report()['orders'],0)
   self.assertEqual(next(x for x in self.store.catalog() if x['id']==p['id'])['stock'],100)
