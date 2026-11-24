@@ -64,9 +64,13 @@ class Store:
         lines=[]; seen=set()
         for item in items:
             pid=item.get('id'); q=integer(item.get('quantity'),1,1000)
-            if pid in seen: raise BusinessError('DUPLICATE_LINE')
-            seen.add(pid); p=c.execute('SELECT * FROM products WHERE id=? AND active=1',(pid,)).fetchone()
+            # Canonical aliases preserve old carts and links after duplicate consolidation.
+            p=next((row for row in c.execute('SELECT * FROM products WHERE active=1') if pid in json.loads(row['details']).get('aliases',[])),None)
+            if p is None:p=c.execute('SELECT * FROM products WHERE id=? AND active=1',(pid,)).fetchone()
             if not p or p['stock']<q: raise BusinessError('OUT_OF_STOCK')
+            pid=p['id']
+            if pid in seen: raise BusinessError('DUPLICATE_LINE')
+            seen.add(pid)
             if not p['price_approved']:raise BusinessError('PRICE_UNAPPROVED')
             lines.append({'id':pid,'quantity':q,'price':p['price'],'names':json.loads(p['names']),'cost':p['cost'],'grams':0 if json.loads(p['details']).get('weight_unknown') else p['grams']})
         return {'lines':lines,'total':sum(l['price']*l['quantity'] for l in lines),'grams':sum(l['grams']*l['quantity'] for l in lines)}

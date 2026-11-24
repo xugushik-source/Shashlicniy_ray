@@ -1,0 +1,8 @@
+{
+  "reason": "Use existing dish ID/photo; update price unit instead of creating another card.",
+  "redirects": {
+    "forel-795b5b7f1ee7f058": "demo-1b57980d9bbaa6de",
+    "forel-83f91fe0ec3c6e01": "demo-34dd5651e152b023",
+    "demo-defb9137d70b439c": "demo-1b57980d9bbaa6de"
+  }
+}

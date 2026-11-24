@@ -3757,39 +3757,59 @@
     {
       "id": "demo-1b57980d9bbaa6de",
       "names": {
-        "ru": "Форель на мангале",
-        "ka": "კალმახი მაყალზე",
-        "hy": "Իշխան մանղալի վրա",
-        "en": "Grilled trout"
+        "ru": "Форель на мангале (1 кг)",
+        "ka": "კალმახი მაყალზე (1 კგ)",
+        "hy": "Իշխան մանղալի վրա (1 կգ)",
+        "en": "Charcoal-grilled trout (1 kg)"
       },
       "category": "fish",
       "price": 3800,
-      "grams": 450,
+      "grams": 1000,
       "stock": 100,
       "active": 1,
       "details": {
         "demo": true,
         "image": "/media/749b0bf7db92b17d.jpg",
-        "weight_unknown": false,
+        "weight_unknown": true,
         "source_price_rub": 1199,
         "source_page": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/menu/shashlyk/forel-na-mangale",
         "source_site": "https://xn--80ajqdc4a2cb2ae5a.xn--p1ai/",
         "description": {
-          "ru": "Ищете новое блюдо для отдыха на природе? Попробуйте шашлык из нежной форели, который мы подаём с освежающим салатом, пикантным соусом наршараб и сочными помидорами черри. Идеальный выбор для ценителей изысканных вкусов.\n\nОсновные ингредиенты:\nфорель, соль, черный перец, лимон, \nлистья салата, помидоры черри, \nсоус наршараб\n",
-          "ka": "",
-          "hy": "",
-          "en": ""
+          "ru": "Форель на мангале (1 кг)",
+          "ka": "კალმახი მაყალზე (1 კგ)",
+          "hy": "Իշխան մանղալի վրա (1 կգ)",
+          "en": "Charcoal-grilled trout (1 kg)"
         },
         "translations_pending": false,
         "volume_ml": 0,
         "catalog_group": "fish",
-        "sale_unit": "portion",
+        "sale_unit": "kg",
         "photo_audit": {
           "status": "usable",
           "reason": ""
+        },
+        "price_source": "forel-owner-approved-2026-11-24",
+        "portion_confirmed": false,
+        "recipe_confirmed": false,
+        "stock_confirmed": false,
+        "display_categories": [
+          "fish",
+          "banquet"
+        ],
+        "aliases": [
+          "forel-795b5b7f1ee7f058",
+          "demo-defb9137d70b439c"
+        ],
+        "reference_grams": 450,
+        "original_card_preserved": true,
+        "reference_description": {
+          "ru": "Ищете новое блюдо для отдыха на природе? Попробуйте шашлык из нежной форели, который мы подаём с освежающим салатом, пикантным соусом наршараб и сочными помидорами черри. Идеальный выбор для ценителей изысканных вкусов.\n\nОсновные ингредиенты:\nфорель, соль, черный перец, лимон, \nлистья салата, помидоры черри, \nсоус наршараб\n",
+          "ka": "",
+          "hy": "",
+          "en": ""
         }
       },
-      "pricing_status": "pending"
+      "pricing_status": "approved"
     },
     {
       "id": "demo-bb246154df617636",
@@ -7243,13 +7263,13 @@
     {
       "id": "demo-34dd5651e152b023",
       "names": {
-        "ru": "Куриный",
+        "ru": "Куриный суп",
         "ka": "ქათმის სუპი",
         "hy": "Հավի ապուր",
         "en": "Chicken soup"
       },
-      "category": "poultry",
-      "price": 1300,
+      "category": "soups",
+      "price": 1600,
       "grams": 1,
       "stock": 100,
       "active": 1,
@@ -7261,21 +7281,30 @@
         "source_page": "https://shashlik-mashlik.com/menu/supi/kurinii",
         "source_site": "https://shashlik-mashlik.com/",
         "description": {
-          "ru": "",
-          "ka": "",
-          "hy": "",
-          "en": ""
+          "ru": "Куриный суп",
+          "ka": "ქათმის სუპი",
+          "hy": "Հավի ապուր",
+          "en": "Chicken soup"
         },
         "translations_pending": false,
         "volume_ml": 0,
-        "catalog_group": "grill",
+        "catalog_group": "soups",
         "sale_unit": "portion",
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "price_source": "forel-owner-approved-2026-11-24",
+        "portion_confirmed": false,
+        "recipe_confirmed": false,
+        "stock_confirmed": false,
+        "aliases": [
+          "forel-83f91fe0ec3c6e01"
+        ],
+        "reference_grams": 1,
+        "original_card_preserved": true
       },
-      "pricing_status": "pending"
+      "pricing_status": "approved"
     },
     {
       "id": "demo-cb14874294a66c8f",
@@ -7386,44 +7415,6 @@
         "photo_audit": {
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено; Один файл используется и для другого вида рыбы"
-        },
-        "image_original": "/media/7079c288ea28a5f9.jpg"
-      },
-      "pricing_status": "pending"
-    },
-    {
-      "id": "demo-defb9137d70b439c",
-      "names": {
-        "ru": "Форель на углях",
-        "ka": "კალმახი ნახშირზე",
-        "hy": "Իշխան ածխի վրա",
-        "en": "Charcoal trout"
-      },
-      "category": "fish",
-      "price": 3200,
-      "grams": 1,
-      "stock": 100,
-      "active": 1,
-      "details": {
-        "demo": true,
-        "image": null,
-        "weight_unknown": true,
-        "source_price_rub": "990",
-        "source_page": "https://shashlik-mashlik.com/menu/shashlik/forel_na_uglyakh",
-        "source_site": "https://shashlik-mashlik.com/",
-        "description": {
-          "ru": "",
-          "ka": "",
-          "hy": "",
-          "en": ""
-        },
-        "translations_pending": false,
-        "volume_ml": 0,
-        "catalog_group": "fish",
-        "sale_unit": "portion",
-        "photo_audit": {
-          "status": "required",
-          "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено; На фото филе лосося; для форели не подходит"
         },
         "image_original": "/media/7079c288ea28a5f9.jpg"
       },
@@ -10364,45 +10355,6 @@
       "pricing_status": "approved"
     },
     {
-      "id": "forel-795b5b7f1ee7f058",
-      "names": {
-        "ru": "Форель на мангале (1 кг)",
-        "ka": "კალმახი მაყალზე (1 კგ)",
-        "hy": "Իշխան մանղալի վրա (1 կգ)",
-        "en": "Charcoal-grilled trout (1 kg)"
-      },
-      "category": "fish",
-      "price": 3800,
-      "grams": 1000,
-      "stock": 0,
-      "active": 1,
-      "details": {
-        "catalog_group": "fish",
-        "sale_unit": "kg",
-        "price_source": "forel-owner-approved-2026-11-24",
-        "weight_unknown": true,
-        "portion_confirmed": false,
-        "description": {
-          "ru": "Форель на мангале (1 кг)",
-          "ka": "კალმახი მაყალზე (1 კგ)",
-          "hy": "Իշխան մանղալի վրա (1 կգ)",
-          "en": "Charcoal-grilled trout (1 kg)"
-        },
-        "recipe_confirmed": false,
-        "image": null,
-        "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
-        },
-        "stock_confirmed": false,
-        "display_categories": [
-          "fish",
-          "banquet"
-        ]
-      },
-      "pricing_status": "approved"
-    },
-    {
       "id": "forel-2faf801ffdceb906",
       "names": {
         "ru": "Курица на вертеле (1 кг)",
@@ -11630,41 +11582,6 @@
           "ka": "ჩაქაფული",
           "hy": "Չակապուլի",
           "en": "Chakapuli"
-        },
-        "recipe_confirmed": false,
-        "image": null,
-        "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
-        },
-        "stock_confirmed": false
-      },
-      "pricing_status": "approved"
-    },
-    {
-      "id": "forel-83f91fe0ec3c6e01",
-      "names": {
-        "ru": "Куриный суп",
-        "ka": "ქათმის სუპი",
-        "hy": "Հավի ապուր",
-        "en": "Chicken soup"
-      },
-      "category": "soups",
-      "price": 1600,
-      "grams": 1,
-      "stock": 0,
-      "active": 1,
-      "details": {
-        "catalog_group": "soups",
-        "sale_unit": "portion",
-        "price_source": "forel-owner-approved-2026-11-24",
-        "weight_unknown": true,
-        "portion_confirmed": false,
-        "description": {
-          "ru": "Куриный суп",
-          "ka": "ქათმის სუპი",
-          "hy": "Հավի ապուր",
-          "en": "Chicken soup"
         },
         "recipe_confirmed": false,
         "image": null,
