@@ -8,7 +8,7 @@ class DemoTest(unittest.TestCase):
   self.assertEqual(convert(1010,'3.154',100),3200)
  def test_isolation_and_photo_paths(self):
   with tempfile.TemporaryDirectory() as temp:
-   s=prepare(Path(temp)/'demo.sqlite');products=s.catalog()
+   s=prepare(Path(temp)/'demo.sqlite');products=s.catalog(True)
    self.assertEqual(len(products),244)
    self.assertTrue(all(p['category']!='alcohol' for p in products if 'свин' in p['names']['ru'].lower()))
    self.assertTrue(all(all(p['names'].get(l) for l in ('ru','ka','hy','en')) for p in products))
@@ -20,7 +20,7 @@ class DemoTest(unittest.TestCase):
     elif p['details'].get('image'):self.assertTrue((Path(__file__).parents[1]/'static'/p['details']['image'].lstrip('/')).is_file())
     else:self.assertEqual(p['details']['photo_audit']['status'],'required')
    self.assertEqual(s.report()['orders'],0)
-   prepare(Path(temp)/'demo.sqlite');self.assertEqual(len(s.catalog()),244)
+   prepare(Path(temp)/'demo.sqlite');self.assertEqual(len(s.catalog(True)),244)
  def test_feast_excludes_unknown_weights(self):
   from core import BusinessError
   with tempfile.TemporaryDirectory() as temp:

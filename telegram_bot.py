@@ -24,7 +24,7 @@ class API:
   if not d.get('ok'):raise TelegramError(d.get('error_code','unknown'))
   return d.get('result')
 class Bot:
- def __init__(self,api,products):self.api=api;self.products=products;self.languages={}
+ def __init__(self,api,products):self.api=api;self.products=[p for p in products if p.get('active',1)!=0 and p.get('pricing_status')=='approved' and not p.get('details',{}).get('identity_pending') and p.get('price',0)>0];self.languages={}
  def button(self,text,data):return {'text':text,'callback_data':data}
  def home(self,lang):
   t=TEXT[lang];return [[self.button(t['menu'],'menu')],[self.button(t['contact'],'contact'),self.button(t['language'],'language')]]

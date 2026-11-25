@@ -34,7 +34,7 @@ def run():
                     file=ROOT/'static/media'/name
                     if not file.is_file():return self.send(404,{'error':'NOT_FOUND'})
                     content=file.read_bytes();self.send_response(200);self.send_header('Content-Type','video/mp4' if file.suffix.lower()=='.mp4' else 'image/'+('jpeg' if file.suffix.lower() in ('.jpg','.jpeg') else file.suffix[1:]));self.send_header('Cache-Control','public, max-age=86400');self.send_header('X-Content-Type-Options','nosniff');self.end_headers();self.wfile.write(content);return
-                if path=='/api/catalog': return self.send(200,{'products':[{k:v for k,v in p.items() if k not in ('cost','cost_minor','cost_confirmed')} for p in store.catalog()]})
+                if path=='/api/catalog': return self.send(200,{'products':[{k:v for k,v in p.items() if k not in ('cost','cost_minor','cost_confirmed')} for p in store.catalog() if p["pricing_status"]=="approved" and not p["details"].get("identity_pending") and p["price"]>0]})
                 if path.startswith('/api/admin/'):
                     self.privileged()
                     if path.endswith('/catalog'): return self.send(200,store.catalog(True))

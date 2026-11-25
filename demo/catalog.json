@@ -12,7 +12,7 @@
       "price": 500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/0c263373a926ae29.jpg",
@@ -33,7 +33,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -49,7 +50,7 @@
       "price": 700,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/2bce0f09708b6448.jpg",
@@ -70,7 +71,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -86,7 +88,7 @@
       "price": 1400,
       "grams": 250,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/60093ca690e50f63.jpg",
@@ -107,7 +109,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -123,7 +126,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/f1b8ad3a4336089f.jpg",
@@ -150,7 +153,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -166,7 +170,7 @@
       "price": 14200,
       "grams": 1800,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/0f801d023f591e39.jpg",
@@ -368,7 +372,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -384,7 +389,7 @@
       "price": 22800,
       "grams": 3300,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/4c3ebe495b69b51b.jpg",
@@ -616,7 +621,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -632,7 +638,7 @@
       "price": 22800,
       "grams": 1700,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/13b061db07d3749d.jpg",
@@ -849,7 +855,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -865,7 +872,7 @@
       "price": 21200,
       "grams": 1100,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/aec5c12860f91883.jpg",
@@ -1037,7 +1044,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1053,7 +1061,7 @@
       "price": 3800,
       "grams": 330,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/d2a3732a8e4c7768.jpg",
@@ -1074,7 +1082,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1090,7 +1099,7 @@
       "price": 11400,
       "grams": 1500,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/4af2ac572d9d5d37.jpg",
@@ -1277,7 +1286,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1293,7 +1303,7 @@
       "price": 1200,
       "grams": 120,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/0e5d35a9e2c0298e.jpg",
@@ -1314,7 +1324,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1330,7 +1341,7 @@
       "price": 11400,
       "grams": 1400,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/d38d24f3defa18ae.jpg",
@@ -1504,7 +1515,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1520,7 +1532,7 @@
       "price": 2500,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/b53322da507b0b05.jpg",
@@ -1541,7 +1553,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1557,7 +1570,7 @@
       "price": 11400,
       "grams": 1300,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/65cf529b37f874b8.jpg",
@@ -1744,7 +1757,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1760,7 +1774,7 @@
       "price": 8600,
       "grams": 1300,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/0743d7abaa657f8f.jpg",
@@ -1889,7 +1903,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1905,7 +1920,7 @@
       "price": 3500,
       "grams": 500,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/630b50b0c1a95ed3.jpg",
@@ -1926,7 +1941,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1942,7 +1958,7 @@
       "price": 3500,
       "grams": 310,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/56144c729bbe867b.jpg",
@@ -1969,7 +1985,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -1985,7 +2002,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/d36376e295a295f5.jpg",
@@ -2006,7 +2023,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2022,7 +2040,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/5dc7808987c3a638.jpg",
@@ -2049,7 +2067,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2065,7 +2084,7 @@
       "price": 1500,
       "grams": 250,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/4f67ceec382d31fd.jpg",
@@ -2086,7 +2105,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2102,7 +2122,7 @@
       "price": 1600,
       "grams": 250,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/4c2b5e4eba2fb5b9.jpg",
@@ -2123,7 +2143,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2139,7 +2160,7 @@
       "price": 4400,
       "grams": 450,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/6fc9bd3baef38433.jpg",
@@ -2160,7 +2181,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2176,7 +2198,7 @@
       "price": 1800,
       "grams": 270,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2198,7 +2220,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/b4d9dd7c1004a66e.jpg"
+        "image_original": "/media/b4d9dd7c1004a66e.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2214,7 +2237,7 @@
       "price": 1900,
       "grams": 270,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2236,7 +2259,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/b4d9dd7c1004a66e.jpg"
+        "image_original": "/media/b4d9dd7c1004a66e.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2252,7 +2276,7 @@
       "price": 1600,
       "grams": 240,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2274,7 +2298,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/b4d9dd7c1004a66e.jpg"
+        "image_original": "/media/b4d9dd7c1004a66e.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2290,7 +2315,7 @@
       "price": 1200,
       "grams": 240,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2312,7 +2337,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/b4d9dd7c1004a66e.jpg"
+        "image_original": "/media/b4d9dd7c1004a66e.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2328,7 +2354,7 @@
       "price": 1800,
       "grams": 250,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/1bf12d339e578429.jpg",
@@ -2349,7 +2375,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2365,7 +2392,7 @@
       "price": 5300,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/30e837dda60db65d.jpg",
@@ -2392,7 +2419,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2408,7 +2436,7 @@
       "price": 800,
       "grams": 150,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/be1cae7a4c9b7150.jpg",
@@ -2435,7 +2463,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2498,7 +2527,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/ca8bbcd25207fafc.jpg",
@@ -2525,7 +2554,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2541,7 +2571,7 @@
       "price": 500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2563,7 +2593,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/71b2d249b89c44b5.jpg"
+        "image_original": "/media/71b2d249b89c44b5.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2579,7 +2610,7 @@
       "price": 1200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2601,7 +2632,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/71b2d249b89c44b5.jpg"
+        "image_original": "/media/71b2d249b89c44b5.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2617,7 +2649,7 @@
       "price": 600,
       "grams": 190,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/d3570539bdd7b422.jpg",
@@ -2638,7 +2670,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2654,7 +2687,7 @@
       "price": 2900,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2682,7 +2715,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/866b2dd571f0bcdc.jpg"
+        "image_original": "/media/866b2dd571f0bcdc.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2698,7 +2732,7 @@
       "price": 2500,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2720,7 +2754,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/866b2dd571f0bcdc.jpg"
+        "image_original": "/media/866b2dd571f0bcdc.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2736,7 +2771,7 @@
       "price": 1900,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/f6b7dc20a281e716.jpg",
@@ -2757,7 +2792,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2773,7 +2809,7 @@
       "price": 1900,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/b86cdcee6fb9aadc.jpg",
@@ -2794,7 +2830,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2810,7 +2847,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/0bb8a01a66c6639b.jpg",
@@ -2831,7 +2868,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2847,7 +2885,7 @@
       "price": 1600,
       "grams": 240,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/20e268bd3f86b1b2.jpg",
@@ -2868,7 +2906,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2884,7 +2923,7 @@
       "price": 1200,
       "grams": 300,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/4489edd0c41a287a.jpg",
@@ -2905,7 +2944,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2921,7 +2961,7 @@
       "price": 500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2943,7 +2983,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/b122a1863a6400d1.jpg"
+        "image_original": "/media/b122a1863a6400d1.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2959,7 +3000,7 @@
       "price": 1200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -2981,7 +3022,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/b122a1863a6400d1.jpg"
+        "image_original": "/media/b122a1863a6400d1.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -2997,7 +3039,7 @@
       "price": 1400,
       "grams": 150,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/a9d7542ed77fd642.jpg",
@@ -3018,7 +3060,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3034,7 +3077,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/770392485c8cc28a.jpg",
@@ -3061,7 +3104,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3124,7 +3168,7 @@
       "price": 1200,
       "grams": 120,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/0a52ee79902a9204.jpg",
@@ -3145,7 +3189,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3161,7 +3206,7 @@
       "price": 1200,
       "grams": 120,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/59e70c13a121c368.jpg",
@@ -3182,7 +3227,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3198,7 +3244,7 @@
       "price": 1200,
       "grams": 120,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/f983ce2d443478d5.jpg",
@@ -3219,7 +3265,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3235,7 +3282,7 @@
       "price": 1200,
       "grams": 120,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/7df00b27f5bc6e46.jpg",
@@ -3256,7 +3303,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3272,7 +3320,7 @@
       "price": 1400,
       "grams": 120,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/f564f763e0334b1a.jpg",
@@ -3293,7 +3341,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3309,7 +3358,7 @@
       "price": 17100,
       "grams": 1500,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/e41651d29797316c.jpg",
@@ -3481,7 +3530,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3544,7 +3594,7 @@
       "price": 4800,
       "grams": 280,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/846f686ab6cda3c3.jpg",
@@ -3565,7 +3615,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3581,7 +3632,7 @@
       "price": 4600,
       "grams": 450,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/6bc29d6492b168b2.jpg",
@@ -3602,7 +3653,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3618,7 +3670,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/add5550cec4d4708.jpg",
@@ -3639,7 +3691,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3655,7 +3708,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/8c6f82e53fd16bf7.jpg",
@@ -3676,7 +3729,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3692,7 +3746,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/ac31e0ea8626304c.jpg",
@@ -3713,7 +3767,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3729,7 +3784,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/cacdfd997839a494.jpg",
@@ -3750,7 +3805,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3823,7 +3879,7 @@
       "price": 2100,
       "grams": 510,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/8f50857de508be70.jpg",
@@ -3844,7 +3900,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3860,7 +3917,7 @@
       "price": 2100,
       "grams": 350,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/49d82e2d95384056.jpg",
@@ -3887,7 +3944,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3903,7 +3961,7 @@
       "price": 2100,
       "grams": 350,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -3925,7 +3983,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/a5ae31f735750d73.jpg"
+        "image_original": "/media/a5ae31f735750d73.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3941,7 +4000,7 @@
       "price": 1900,
       "grams": 350,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -3963,7 +4022,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/a5ae31f735750d73.jpg"
+        "image_original": "/media/a5ae31f735750d73.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -3979,7 +4039,7 @@
       "price": 2100,
       "grams": 350,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/fe3ce7d80c8e256a.jpg",
@@ -4000,7 +4060,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4016,7 +4077,7 @@
       "price": 1800,
       "grams": 270,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4038,7 +4099,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/dddac16a70e6390c.jpg"
+        "image_original": "/media/dddac16a70e6390c.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4054,7 +4116,7 @@
       "price": 1900,
       "grams": 270,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4082,7 +4144,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/dddac16a70e6390c.jpg"
+        "image_original": "/media/dddac16a70e6390c.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4098,7 +4161,7 @@
       "price": 1600,
       "grams": 240,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4126,7 +4189,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/dddac16a70e6390c.jpg"
+        "image_original": "/media/dddac16a70e6390c.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4142,7 +4206,7 @@
       "price": 1200,
       "grams": 240,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4164,7 +4228,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/dddac16a70e6390c.jpg"
+        "image_original": "/media/dddac16a70e6390c.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4180,7 +4245,7 @@
       "price": 1800,
       "grams": 250,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/5a993b98fb7c3a26.jpg",
@@ -4201,7 +4266,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4217,7 +4283,7 @@
       "price": 1900,
       "grams": 280,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/23637b2bffc82920.jpg",
@@ -4244,7 +4310,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4260,7 +4327,7 @@
       "price": 2300,
       "grams": 280,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/c4bec14cb01979d3.jpg",
@@ -4281,7 +4348,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4297,7 +4365,7 @@
       "price": 3300,
       "grams": 520,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/1fa55ec0f8775df3.jpg",
@@ -4318,7 +4386,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4334,7 +4403,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/83b0e0fc1c687116.jpg",
@@ -4361,7 +4430,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4377,7 +4447,7 @@
       "price": 1400,
       "grams": 300,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/8b9fa8bf791c314a.jpg",
@@ -4404,7 +4474,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4420,7 +4491,7 @@
       "price": 2100,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/f6b655bda38b6fd0.jpg",
@@ -4441,7 +4512,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4457,7 +4529,7 @@
       "price": 2100,
       "grams": 380,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/fbc88dde84d9441f.jpg",
@@ -4478,7 +4550,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4494,7 +4567,7 @@
       "price": 1900,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/87faa47ee39ab910.jpg",
@@ -4515,7 +4588,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4625,7 +4699,7 @@
       "price": 5200,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4647,7 +4721,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/f1a96a08d79a9e00.jpg"
+        "image_original": "/media/f1a96a08d79a9e00.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4663,7 +4738,7 @@
       "price": 5200,
       "grams": 320,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4685,7 +4760,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/f1a96a08d79a9e00.jpg"
+        "image_original": "/media/f1a96a08d79a9e00.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4701,7 +4777,7 @@
       "price": 200,
       "grams": 30,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/a53d57816fb57cf4.jpg",
@@ -4728,7 +4804,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4744,7 +4821,7 @@
       "price": 400,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4766,7 +4843,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/7008b6c2ca0e57eb.jpg"
+        "image_original": "/media/7008b6c2ca0e57eb.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4782,7 +4860,7 @@
       "price": 1200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4804,7 +4882,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/7008b6c2ca0e57eb.jpg"
+        "image_original": "/media/7008b6c2ca0e57eb.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4820,7 +4899,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/54f6dc5a86bbb426.jpg",
@@ -4841,7 +4920,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4911,7 +4991,7 @@
       "price": 300,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4933,7 +5013,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/a80d9415af717760.jpg"
+        "image_original": "/media/a80d9415af717760.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4949,7 +5030,7 @@
       "price": 300,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -4971,7 +5052,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/a80d9415af717760.jpg"
+        "image_original": "/media/a80d9415af717760.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -4987,7 +5069,7 @@
       "price": 200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -5009,7 +5091,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/a80d9415af717760.jpg"
+        "image_original": "/media/a80d9415af717760.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -5025,7 +5108,7 @@
       "price": 700,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -5047,7 +5130,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/76a1ad20e374f92c.jpg"
+        "image_original": "/media/76a1ad20e374f92c.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -5063,7 +5147,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -5085,7 +5169,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/76a1ad20e374f92c.jpg"
+        "image_original": "/media/76a1ad20e374f92c.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -5101,7 +5186,7 @@
       "price": 2200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/34c4e8a3567227cc.jpg",
@@ -5122,7 +5207,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -5138,7 +5224,7 @@
       "price": 61600,
       "grams": 9450,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -5343,7 +5429,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/30cd32762eb0a7ea.jpg"
+        "image_original": "/media/30cd32762eb0a7ea.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -5359,7 +5446,7 @@
       "price": 11900,
       "grams": 1500,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -5505,7 +5592,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/30cd32762eb0a7ea.jpg"
+        "image_original": "/media/30cd32762eb0a7ea.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -5521,7 +5609,7 @@
       "price": 10700,
       "grams": 1300,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -5652,7 +5740,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/30cd32762eb0a7ea.jpg"
+        "image_original": "/media/30cd32762eb0a7ea.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -5668,7 +5757,7 @@
       "price": 39500,
       "grams": 6250,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -5873,7 +5962,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/30cd32762eb0a7ea.jpg"
+        "image_original": "/media/30cd32762eb0a7ea.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -5889,7 +5979,7 @@
       "price": 14400,
       "grams": 1500,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -6035,7 +6125,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/30cd32762eb0a7ea.jpg"
+        "image_original": "/media/30cd32762eb0a7ea.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6051,7 +6142,7 @@
       "price": 8300,
       "grams": 1100,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/2b75d3fdd8544002.jpg",
@@ -6166,7 +6257,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6182,7 +6274,7 @@
       "price": 1700,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/6811161c4fe326db.jpg",
@@ -6203,7 +6295,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6219,7 +6312,7 @@
       "price": 3000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/01ae93dcd9554f96.jpg",
@@ -6240,7 +6333,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6256,7 +6350,7 @@
       "price": 3200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/580c65b7398afe22.jpg",
@@ -6277,7 +6371,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6340,7 +6435,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/2efe51cb5f58ee11.jpg",
@@ -6361,7 +6456,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6377,7 +6473,7 @@
       "price": 800,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/8ab0cdb47a338f89.jpg",
@@ -6398,7 +6494,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6414,7 +6511,7 @@
       "price": 800,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -6436,7 +6533,8 @@
           "status": "required",
           "reason": "Вместо товара — логотип другого ресторана"
         },
-        "image_original": "/media/215d5aae725e4e26.png"
+        "image_original": "/media/215d5aae725e4e26.png",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6452,7 +6550,7 @@
       "price": 1500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/656455822cd7aa9b.jpg",
@@ -6473,7 +6571,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6489,7 +6588,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/6b2f2d96b628bfca.jpg",
@@ -6510,7 +6609,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6620,7 +6720,7 @@
       "price": 3000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/2e6cc6eb711700f4.jpg",
@@ -6641,7 +6741,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6657,7 +6758,7 @@
       "price": 1000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/b9ef81e0e736631d.jpg",
@@ -6678,7 +6779,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6694,7 +6796,7 @@
       "price": 1500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/1aeaa3cccbe02500.jpg",
@@ -6715,7 +6817,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6731,7 +6834,7 @@
       "price": 2200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/c8c59bb31c6ef6a5.jpg",
@@ -6752,7 +6855,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6768,7 +6872,7 @@
       "price": 900,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -6790,7 +6894,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/98676bd475081221.jpg"
+        "image_original": "/media/98676bd475081221.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6806,7 +6911,7 @@
       "price": 1200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -6828,7 +6933,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/98676bd475081221.jpg"
+        "image_original": "/media/98676bd475081221.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6844,7 +6950,7 @@
       "price": 1000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -6866,7 +6972,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/98676bd475081221.jpg"
+        "image_original": "/media/98676bd475081221.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6882,7 +6989,7 @@
       "price": 1200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/c0f906367d7e70c4.jpg",
@@ -6903,7 +7010,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6919,7 +7027,7 @@
       "price": 900,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/46f120642bfcde56.jpg",
@@ -6940,7 +7048,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6956,7 +7065,7 @@
       "price": 1200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/d25b8000b47c993b.jpg",
@@ -6983,7 +7092,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -6999,7 +7109,7 @@
       "price": 2100,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/c594de3448ae5c5b.jpg",
@@ -7020,7 +7130,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7036,7 +7147,7 @@
       "price": 700,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/1f2b472b3cac9506.jpg",
@@ -7057,7 +7168,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7073,7 +7185,7 @@
       "price": 1000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/ff10836b669d725d.jpg",
@@ -7094,7 +7206,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7110,7 +7223,7 @@
       "price": 1900,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/31110ac94039817a.jpg",
@@ -7131,7 +7244,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7241,7 +7355,7 @@
       "price": 1700,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/b9efc82da55503d8.jpg",
@@ -7262,7 +7376,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7324,7 +7439,7 @@
       "price": 100,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7346,7 +7461,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/7ce10e01d8faa430.jpg"
+        "image_original": "/media/7ce10e01d8faa430.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7362,7 +7478,7 @@
       "price": 200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7384,7 +7500,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/7ce10e01d8faa430.jpg"
+        "image_original": "/media/7ce10e01d8faa430.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7400,7 +7517,7 @@
       "price": 4000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7422,7 +7539,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено; Один файл используется и для другого вида рыбы"
         },
-        "image_original": "/media/7079c288ea28a5f9.jpg"
+        "image_original": "/media/7079c288ea28a5f9.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7438,7 +7556,7 @@
       "price": 2100,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7460,7 +7578,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/bfbca9be560dc3cf.jpg"
+        "image_original": "/media/bfbca9be560dc3cf.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7476,7 +7595,7 @@
       "price": 2400,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7498,7 +7617,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/bfbca9be560dc3cf.jpg"
+        "image_original": "/media/bfbca9be560dc3cf.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7514,7 +7634,7 @@
       "price": 2000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7536,7 +7656,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/bfbca9be560dc3cf.jpg"
+        "image_original": "/media/bfbca9be560dc3cf.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7552,7 +7673,7 @@
       "price": 2100,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7574,7 +7695,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/7541ba51dfe1b093.jpg"
+        "image_original": "/media/7541ba51dfe1b093.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7590,7 +7712,7 @@
       "price": 2000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7612,7 +7734,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/7541ba51dfe1b093.jpg"
+        "image_original": "/media/7541ba51dfe1b093.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7628,7 +7751,7 @@
       "price": 2100,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7650,7 +7773,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/7541ba51dfe1b093.jpg"
+        "image_original": "/media/7541ba51dfe1b093.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7666,7 +7790,7 @@
       "price": 1700,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7688,7 +7812,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/1a5df80cc4f71673.jpg"
+        "image_original": "/media/1a5df80cc4f71673.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7704,7 +7829,7 @@
       "price": 1800,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7726,7 +7851,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/1a5df80cc4f71673.jpg"
+        "image_original": "/media/1a5df80cc4f71673.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7742,7 +7868,7 @@
       "price": 1800,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7764,7 +7890,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/1a5df80cc4f71673.jpg"
+        "image_original": "/media/1a5df80cc4f71673.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7780,7 +7907,7 @@
       "price": 1900,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/7d77aa8e16c8f6cd.jpg",
@@ -7801,7 +7928,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7817,7 +7945,7 @@
       "price": 1900,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/435d541eac309101.jpg",
@@ -7838,7 +7966,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7854,7 +7983,7 @@
       "price": 800,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7876,7 +8005,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/798d125f6e83d5f6.jpg"
+        "image_original": "/media/798d125f6e83d5f6.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -7892,7 +8022,7 @@
       "price": 1800,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -7914,7 +8044,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/798d125f6e83d5f6.jpg"
+        "image_original": "/media/798d125f6e83d5f6.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8118,7 +8249,7 @@
       "price": 1800,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/7cafb60a49074a27.jpg",
@@ -8139,7 +8270,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8203,7 +8335,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -8225,7 +8357,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/8ff9f5ae1bcf5f67.jpg"
+        "image_original": "/media/8ff9f5ae1bcf5f67.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8241,7 +8374,7 @@
       "price": 1500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/5fff8d21122e21f3.jpg",
@@ -8262,7 +8395,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8278,7 +8412,7 @@
       "price": 1500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/b1805f9d30ea065f.jpg",
@@ -8299,7 +8433,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8315,7 +8450,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/79694025f5a993a4.jpg",
@@ -8336,7 +8471,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8403,7 +8539,7 @@
       "price": 2200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/f4e12e87ac1ae183.jpg",
@@ -8424,7 +8560,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8440,7 +8577,7 @@
       "price": 2100,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/c08dd6edb7e275e5.jpg",
@@ -8461,7 +8598,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8477,7 +8615,7 @@
       "price": 3000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/e78eff7d1b7bfe57.jpg",
@@ -8498,7 +8636,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8561,7 +8700,7 @@
       "price": 1200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/2f02b0e2781e6e81.jpg",
@@ -8582,7 +8721,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8598,7 +8738,7 @@
       "price": 1300,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/8c63cb59186397de.jpg",
@@ -8619,7 +8759,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8635,7 +8776,7 @@
       "price": 2000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/87146ce20f71df53.jpg",
@@ -8656,7 +8797,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8672,7 +8814,7 @@
       "price": 1000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/b8b8549e743a1427.jpg",
@@ -8693,7 +8835,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8709,7 +8852,7 @@
       "price": 3100,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -8731,7 +8874,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/309b885484f95d4c.jpg"
+        "image_original": "/media/309b885484f95d4c.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8747,7 +8891,7 @@
       "price": 3200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -8769,7 +8913,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/309b885484f95d4c.jpg"
+        "image_original": "/media/309b885484f95d4c.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8785,7 +8930,7 @@
       "price": 2000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/3a22ae9aeeb6078c.jpg",
@@ -8806,7 +8951,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8822,7 +8968,7 @@
       "price": 3200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/9e5d7076ebbffe1b.jpg",
@@ -8843,7 +8989,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8859,7 +9006,7 @@
       "price": 1500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/40be7e1c57b38eb1.jpg",
@@ -8880,7 +9027,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8896,7 +9044,7 @@
       "price": 2100,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/eb271d0df4593e4a.jpg",
@@ -8917,7 +9065,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8933,7 +9082,7 @@
       "price": 2000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/7c957a6f1c0b40d6.jpg",
@@ -8954,7 +9103,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -8970,7 +9120,7 @@
       "price": 1000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/0cf5bf5e9334b1b9.jpg",
@@ -8991,7 +9141,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9007,7 +9158,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -9029,7 +9180,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/97464f2e1c0b2e24.jpg"
+        "image_original": "/media/97464f2e1c0b2e24.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9045,7 +9197,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -9067,7 +9219,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/97464f2e1c0b2e24.jpg"
+        "image_original": "/media/97464f2e1c0b2e24.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9083,7 +9236,7 @@
       "price": 2500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -9105,7 +9258,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/76f746763c848728.jpg"
+        "image_original": "/media/76f746763c848728.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9121,7 +9275,7 @@
       "price": 3200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -9143,7 +9297,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/76f746763c848728.jpg"
+        "image_original": "/media/76f746763c848728.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9159,7 +9314,7 @@
       "price": 1900,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -9181,7 +9336,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/76f746763c848728.jpg"
+        "image_original": "/media/76f746763c848728.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9197,7 +9353,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/f2f966a0f547d9c7.jpg",
@@ -9218,7 +9374,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9234,7 +9391,7 @@
       "price": 2000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/98ac04368663729b.jpg",
@@ -9255,7 +9412,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9271,7 +9429,7 @@
       "price": 2600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/5bb1d726469cba24.jpg",
@@ -9292,7 +9450,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9308,7 +9467,7 @@
       "price": 2200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/bc181ceeb4589e90.jpg",
@@ -9329,7 +9488,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9345,7 +9505,7 @@
       "price": 1800,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/a03c48072fd873e2.jpg",
@@ -9366,7 +9526,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9382,7 +9543,7 @@
       "price": 2400,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/69adbe9a34b44a2d.jpg",
@@ -9403,7 +9564,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9419,7 +9581,7 @@
       "price": 2400,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": "/media/72f78e514eeba13f.jpg",
@@ -9440,7 +9602,8 @@
         "photo_audit": {
           "status": "usable",
           "reason": ""
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9456,7 +9619,7 @@
       "price": 1600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -9478,7 +9641,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/e82e0d1928a6add0.jpg"
+        "image_original": "/media/e82e0d1928a6add0.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9494,7 +9658,7 @@
       "price": 1700,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "image": null,
@@ -9516,7 +9680,8 @@
           "status": "required",
           "reason": "Одна фотография у разных блюд/вариантов; соответствие конкретному блюду не подтверждено"
         },
-        "image_original": "/media/e82e0d1928a6add0.jpg"
+        "image_original": "/media/e82e0d1928a6add0.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9532,7 +9697,7 @@
       "price": 1500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9564,7 +9729,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/3/%E1%83%97%E1%83%94%E1%83%9A%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_%E1%83%95%E1%83%94%E1%83%9A%E1%83%98_%E1%83%A5%E1%83%98%E1%83%9C%E1%83%AB%E1%83%9B%E1%83%90%E1%83%A0%E1%83%90%E1%83%A3%E1%83%9A%E1%83%98_0.75%E1%83%9A.png"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/3/%E1%83%97%E1%83%94%E1%83%9A%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_%E1%83%95%E1%83%94%E1%83%9A%E1%83%98_%E1%83%A5%E1%83%98%E1%83%9C%E1%83%AB%E1%83%9B%E1%83%90%E1%83%A0%E1%83%90%E1%83%A3%E1%83%9A%E1%83%98_0.75%E1%83%9A.png",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9580,7 +9746,7 @@
       "price": 2200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9612,7 +9778,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/4860117331741.png"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/4860117331741.png",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9628,7 +9795,7 @@
       "price": 1200,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9660,7 +9827,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/4860006701006__%E1%83%9B%E1%83%98%E1%83%9A%E1%83%93%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_-_%E1%83%AC%E1%83%98%E1%83%9C%E1%83%90%E1%83%9C%E1%83%93%E1%83%90%E1%83%9A%E1%83%98.png"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/4860006701006__%E1%83%9B%E1%83%98%E1%83%9A%E1%83%93%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_-_%E1%83%AC%E1%83%98%E1%83%9C%E1%83%90%E1%83%9C%E1%83%93%E1%83%90%E1%83%9A%E1%83%98.png",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9676,7 +9844,7 @@
       "price": 700,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9708,7 +9876,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/5000213101872_v354-6v.png"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/5000213101872_v354-6v.png",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9724,7 +9893,7 @@
       "price": 500,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9756,7 +9925,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/3800022407699.jpg"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/3800022407699.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9772,7 +9942,7 @@
       "price": 600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9804,7 +9974,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/8594404115115.png"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/8594404115115.png",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9820,7 +9991,7 @@
       "price": 1300,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9851,7 +10022,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/3/Wyborowa_0.5L.jpg"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/3/Wyborowa_0.5L.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9867,7 +10039,7 @@
       "price": 1900,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9898,7 +10070,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/4867616022200.jpg"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/4867616022200.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9914,7 +10087,7 @@
       "price": 600,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9944,7 +10117,8 @@
         "photo_audit": {
           "status": "required",
           "reason": "Фотография отсутствует"
-        }
+        },
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -9960,7 +10134,7 @@
       "price": 3400,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -9991,7 +10165,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/6412700021027.png"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/6412700021027.png",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -10007,7 +10182,7 @@
       "price": 4900,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -10038,7 +10213,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/6412709021776.png"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/6412709021776.png",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -10054,7 +10230,7 @@
       "price": 1800,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -10085,7 +10261,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/3/4860053011967.jpg"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/3/4860053011967.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -10101,7 +10278,7 @@
       "price": 9000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -10132,7 +10309,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/VSOP_BLACK_0.7_4860018007905.jpg"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/5/VSOP_BLACK_0.7_4860018007905.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
@@ -10148,7 +10326,7 @@
       "price": 9000,
       "grams": 1,
       "stock": 100,
-      "active": 1,
+      "active": 0,
       "details": {
         "demo": true,
         "demo_alcohol": true,
@@ -10179,7 +10357,8 @@
           "status": "required",
           "reason": "Внешнее изображение: локального файла нет; URL/качество без загрузки не подтверждены"
         },
-        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/104998_Beluga_Noble_Vodka_700ml_40vol__002__4e59-ds.jpg"
+        "image_original": "https://alcorium-store.ge/images/thumbnails/240/240/detailed/6/104998_Beluga_Noble_Vodka_700ml_40vol__002__4e59-ds.jpg",
+        "sales_paused_reason": "unapproved_price"
       },
       "pricing_status": "pending"
     },
