@@ -10334,16 +10334,22 @@
           "en": "Sterlet (1 kg)"
         },
         "recipe_confirmed": false,
-        "image": null,
+        "image": "/media/f2fc49da86e364f5.jpg",
         "photo_audit": {
-          "status": "required",
-          "reason": "Новая позиция: фотография отсутствует"
+          "status": "usable",
+          "reason": "Владелец подтвердил 2026-11-25: на фотографии готовая стерлядь."
         },
         "stock_confirmed": false,
         "display_categories": [
           "fish",
           "banquet"
-        ]
+        ],
+        "photo_source": {
+          "url": "https://bazar.xugushik.workers.dev/media/restaurants/forel/fish/sterlet.jpg",
+          "origin": "owner-provided-bazar",
+          "selection_number": 17,
+          "sha256": "f2fc49da86e364f510617680325f511077e54c63f6309c06f1973c1566629bcb"
+        }
       },
       "pricing_status": "approved"
     },
